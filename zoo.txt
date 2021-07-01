@@ -1,0 +1,6 @@
+Horizon Graphs
+Parallel Coordinates
+Choropleth Maps
+Adjacency diagrams
+Enclosure Diagrams
+Force-Directed Layout
