@@ -1,0 +1,123 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "height": 200,
+  "style": "cell",
+  "data": [
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/fermasia/infovis/gh-pages/test-vega-2.csv",
+      "format": {"type": "csv", "delimiter": ","},
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["Demographic", "Voted_for"],
+          "ops": ["sum"],
+          "fields": ["Percent"],
+          "as": ["sum_Percent"]
+        },
+        {
+          "type": "stack",
+          "groupby": ["Demographic"],
+          "field": "sum_Percent",
+          "sort": {"field": ["Voted_for"], "order": ["descending"]},
+          "as": ["sum_Percent_start", "sum_Percent_end"],
+          "offset": "normalize"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"sum_Percent\"]) && isFinite(+datum[\"sum_Percent\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {"name": "x_step", "value": 20},
+    {
+      "name": "width",
+      "update": "bandspace(domain('x').length, 0.1, 0.05) * x_step"
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "rect",
+      "style": ["bar"],
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "Voted_for"},
+          "ariaRoleDescription": {"value": "bar"},
+          "description": {
+            "signal": "\"Percentage: \" + (format(datum[\"sum_Percent_end\"]-datum[\"sum_Percent_start\"], \"\")) + \"; Demographic: \" + (isValid(datum[\"Demographic\"]) ? datum[\"Demographic\"] : \"\"+datum[\"Demographic\"]) + \"; Voted for:: \" + (isValid(datum[\"Voted_for\"]) ? datum[\"Voted_for\"] : \"\"+datum[\"Voted_for\"])"
+          },
+          "x": {"scale": "x", "field": "Demographic"},
+          "width": {"scale": "x", "band": 1},
+          "y": {"scale": "y", "field": "sum_Percent_end"},
+          "y2": {"scale": "y", "field": "sum_Percent_start"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "domain": {"data": "source_0", "field": "Demographic", "sort": true},
+      "range": {"step": {"signal": "x_step"}},
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": [0, 1],
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "source_0", "field": "Voted_for", "sort": true},
+      "range": ["#799FCB", "#F9665E"]
+    }
+  ],
+  "axes": [
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "Demographic",
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "Percentage",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "legends": [{"title": "Voted for:", "fill": "color", "symbolType": "square"}]
+}
