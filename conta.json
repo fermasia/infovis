@@ -1,0 +1,3983 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 1000,
+  "height": 400,
+  "title": {
+    "text": "Contagiados y Vacunados por día - media móvil últimos 10 días",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {
+      "name": "data-8e26af0705d6363ca7c326113a5bf7a4",
+      "values": [
+        {
+          "Fecha": "2020-02-09",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": null,
+          "conta_roll": null
+        },
+        {
+          "Fecha": "2020-02-10",
+          "Vacunados": 0,
+          "Contagios": 1,
+          "vac_roll": null,
+          "conta_roll": null
+        },
+        {
+          "Fecha": "2020-02-11",
+          "Vacunados": 0,
+          "Contagios": 1,
+          "vac_roll": null,
+          "conta_roll": null
+        },
+        {
+          "Fecha": "2020-02-12",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": null,
+          "conta_roll": null
+        },
+        {
+          "Fecha": "2020-02-13",
+          "Vacunados": 0,
+          "Contagios": 1,
+          "vac_roll": null,
+          "conta_roll": null
+        },
+        {
+          "Fecha": "2020-02-14",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": null,
+          "conta_roll": null
+        },
+        {
+          "Fecha": "2020-02-15",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.42857142857142855
+        },
+        {
+          "Fecha": "2020-02-16",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.42857142857142855
+        },
+        {
+          "Fecha": "2020-02-17",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-02-18",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-02-19",
+          "Vacunados": 0,
+          "Contagios": 1,
+          "vac_roll": 0,
+          "conta_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-02-20",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-02-21",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-02-22",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-02-23",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-02-24",
+          "Vacunados": 0,
+          "Contagios": 1,
+          "vac_roll": 0,
+          "conta_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-02-25",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-02-26",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-02-27",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-02-28",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-02-29",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-01",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-02",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0
+        },
+        {
+          "Fecha": "2020-03-03",
+          "Vacunados": 0,
+          "Contagios": 1,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-04",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-05",
+          "Vacunados": 0,
+          "Contagios": 0,
+          "vac_roll": 0,
+          "conta_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-06",
+          "Vacunados": 0,
+          "Contagios": 7,
+          "vac_roll": 0,
+          "conta_roll": 1.1428571428571428
+        },
+        {
+          "Fecha": "2020-03-07",
+          "Vacunados": 0,
+          "Contagios": 1,
+          "vac_roll": 0,
+          "conta_roll": 1.2857142857142858
+        },
+        {
+          "Fecha": "2020-03-08",
+          "Vacunados": 0,
+          "Contagios": 2,
+          "vac_roll": 0,
+          "conta_roll": 1.5714285714285714
+        },
+        {
+          "Fecha": "2020-03-09",
+          "Vacunados": 0,
+          "Contagios": 6,
+          "vac_roll": 0,
+          "conta_roll": 2.4285714285714284
+        },
+        {
+          "Fecha": "2020-03-10",
+          "Vacunados": 0,
+          "Contagios": 9,
+          "vac_roll": 0,
+          "conta_roll": 3.5714285714285716
+        },
+        {
+          "Fecha": "2020-03-11",
+          "Vacunados": 0,
+          "Contagios": 4,
+          "vac_roll": 0,
+          "conta_roll": 4.142857142857143
+        },
+        {
+          "Fecha": "2020-03-12",
+          "Vacunados": 0,
+          "Contagios": 10,
+          "vac_roll": 0,
+          "conta_roll": 5.571428571428571
+        },
+        {
+          "Fecha": "2020-03-13",
+          "Vacunados": 0,
+          "Contagios": 7,
+          "vac_roll": 0,
+          "conta_roll": 5.571428571428571
+        },
+        {
+          "Fecha": "2020-03-14",
+          "Vacunados": 0,
+          "Contagios": 7,
+          "vac_roll": 0,
+          "conta_roll": 6.428571428571429
+        },
+        {
+          "Fecha": "2020-03-15",
+          "Vacunados": 0,
+          "Contagios": 11,
+          "vac_roll": 0,
+          "conta_roll": 7.714285714285714
+        },
+        {
+          "Fecha": "2020-03-16",
+          "Vacunados": 0,
+          "Contagios": 10,
+          "vac_roll": 0,
+          "conta_roll": 8.285714285714286
+        },
+        {
+          "Fecha": "2020-03-17",
+          "Vacunados": 0,
+          "Contagios": 18,
+          "vac_roll": 0,
+          "conta_roll": 9.571428571428571
+        },
+        {
+          "Fecha": "2020-03-18",
+          "Vacunados": 0,
+          "Contagios": 29,
+          "vac_roll": 0,
+          "conta_roll": 13.142857142857142
+        },
+        {
+          "Fecha": "2020-03-19",
+          "Vacunados": 0,
+          "Contagios": 22,
+          "vac_roll": 0,
+          "conta_roll": 14.857142857142858
+        },
+        {
+          "Fecha": "2020-03-20",
+          "Vacunados": 0,
+          "Contagios": 30,
+          "vac_roll": 0,
+          "conta_roll": 18.142857142857142
+        },
+        {
+          "Fecha": "2020-03-21",
+          "Vacunados": 0,
+          "Contagios": 62,
+          "vac_roll": 0,
+          "conta_roll": 26
+        },
+        {
+          "Fecha": "2020-03-22",
+          "Vacunados": 0,
+          "Contagios": 54,
+          "vac_roll": 0,
+          "conta_roll": 32.142857142857146
+        },
+        {
+          "Fecha": "2020-03-23",
+          "Vacunados": 0,
+          "Contagios": 33,
+          "vac_roll": 0,
+          "conta_roll": 35.42857142857143
+        },
+        {
+          "Fecha": "2020-03-24",
+          "Vacunados": 0,
+          "Contagios": 105,
+          "vac_roll": 0,
+          "conta_roll": 47.857142857142854
+        },
+        {
+          "Fecha": "2020-03-25",
+          "Vacunados": 0,
+          "Contagios": 116,
+          "vac_roll": 0,
+          "conta_roll": 60.285714285714285
+        },
+        {
+          "Fecha": "2020-03-26",
+          "Vacunados": 0,
+          "Contagios": 110,
+          "vac_roll": 0,
+          "conta_roll": 72.85714285714286
+        },
+        {
+          "Fecha": "2020-03-27",
+          "Vacunados": 0,
+          "Contagios": 82,
+          "vac_roll": 0,
+          "conta_roll": 80.28571428571429
+        },
+        {
+          "Fecha": "2020-03-28",
+          "Vacunados": 0,
+          "Contagios": 69,
+          "vac_roll": 0,
+          "conta_roll": 81.28571428571429
+        },
+        {
+          "Fecha": "2020-03-29",
+          "Vacunados": 0,
+          "Contagios": 109,
+          "vac_roll": 0,
+          "conta_roll": 89.14285714285714
+        },
+        {
+          "Fecha": "2020-03-30",
+          "Vacunados": 0,
+          "Contagios": 84,
+          "vac_roll": 0,
+          "conta_roll": 96.42857142857143
+        },
+        {
+          "Fecha": "2020-03-31",
+          "Vacunados": 0,
+          "Contagios": 90,
+          "vac_roll": 0,
+          "conta_roll": 94.28571428571429
+        },
+        {
+          "Fecha": "2020-04-01",
+          "Vacunados": 0,
+          "Contagios": 121,
+          "vac_roll": 0,
+          "conta_roll": 95
+        },
+        {
+          "Fecha": "2020-04-02",
+          "Vacunados": 0,
+          "Contagios": 144,
+          "vac_roll": 0,
+          "conta_roll": 99.85714285714286
+        },
+        {
+          "Fecha": "2020-04-03",
+          "Vacunados": 0,
+          "Contagios": 107,
+          "vac_roll": 0,
+          "conta_roll": 103.42857142857143
+        },
+        {
+          "Fecha": "2020-04-04",
+          "Vacunados": 0,
+          "Contagios": 104,
+          "vac_roll": 0,
+          "conta_roll": 108.42857142857143
+        },
+        {
+          "Fecha": "2020-04-05",
+          "Vacunados": 0,
+          "Contagios": 72,
+          "vac_roll": 0,
+          "conta_roll": 103.14285714285714
+        },
+        {
+          "Fecha": "2020-04-06",
+          "Vacunados": 0,
+          "Contagios": 105,
+          "vac_roll": 0,
+          "conta_roll": 106.14285714285714
+        },
+        {
+          "Fecha": "2020-04-07",
+          "Vacunados": 0,
+          "Contagios": 76,
+          "vac_roll": 0,
+          "conta_roll": 104.14285714285714
+        },
+        {
+          "Fecha": "2020-04-08",
+          "Vacunados": 0,
+          "Contagios": 101,
+          "vac_roll": 0,
+          "conta_roll": 101.28571428571429
+        },
+        {
+          "Fecha": "2020-04-09",
+          "Vacunados": 0,
+          "Contagios": 100,
+          "vac_roll": 0,
+          "conta_roll": 95
+        },
+        {
+          "Fecha": "2020-04-10",
+          "Vacunados": 0,
+          "Contagios": 128,
+          "vac_roll": 0,
+          "conta_roll": 98
+        },
+        {
+          "Fecha": "2020-04-11",
+          "Vacunados": 0,
+          "Contagios": 72,
+          "vac_roll": 0,
+          "conta_roll": 93.42857142857143
+        },
+        {
+          "Fecha": "2020-04-12",
+          "Vacunados": 0,
+          "Contagios": 71,
+          "vac_roll": 0,
+          "conta_roll": 93.28571428571429
+        },
+        {
+          "Fecha": "2020-04-13",
+          "Vacunados": 0,
+          "Contagios": 92,
+          "vac_roll": 0,
+          "conta_roll": 91.42857142857143
+        },
+        {
+          "Fecha": "2020-04-14",
+          "Vacunados": 0,
+          "Contagios": 128,
+          "vac_roll": 0,
+          "conta_roll": 98.85714285714286
+        },
+        {
+          "Fecha": "2020-04-15",
+          "Vacunados": 0,
+          "Contagios": 130,
+          "vac_roll": 0,
+          "conta_roll": 103
+        },
+        {
+          "Fecha": "2020-04-16",
+          "Vacunados": 0,
+          "Contagios": 108,
+          "vac_roll": 0,
+          "conta_roll": 104.14285714285714
+        },
+        {
+          "Fecha": "2020-04-17",
+          "Vacunados": 0,
+          "Contagios": 88,
+          "vac_roll": 0,
+          "conta_roll": 98.42857142857143
+        },
+        {
+          "Fecha": "2020-04-18",
+          "Vacunados": 0,
+          "Contagios": 122,
+          "vac_roll": 0,
+          "conta_roll": 105.57142857142857
+        },
+        {
+          "Fecha": "2020-04-19",
+          "Vacunados": 0,
+          "Contagios": 62,
+          "vac_roll": 0,
+          "conta_roll": 104.28571428571429
+        },
+        {
+          "Fecha": "2020-04-20",
+          "Vacunados": 0,
+          "Contagios": 97,
+          "vac_roll": 0,
+          "conta_roll": 105
+        },
+        {
+          "Fecha": "2020-04-21",
+          "Vacunados": 0,
+          "Contagios": 160,
+          "vac_roll": 0,
+          "conta_roll": 109.57142857142857
+        },
+        {
+          "Fecha": "2020-04-22",
+          "Vacunados": 0,
+          "Contagios": 121,
+          "vac_roll": 0,
+          "conta_roll": 108.28571428571429
+        },
+        {
+          "Fecha": "2020-04-23",
+          "Vacunados": 0,
+          "Contagios": 138,
+          "vac_roll": 0,
+          "conta_roll": 112.57142857142857
+        },
+        {
+          "Fecha": "2020-04-24",
+          "Vacunados": 0,
+          "Contagios": 191,
+          "vac_roll": 0,
+          "conta_roll": 127.28571428571429
+        },
+        {
+          "Fecha": "2020-04-25",
+          "Vacunados": 0,
+          "Contagios": 168,
+          "vac_roll": 0,
+          "conta_roll": 133.85714285714286
+        },
+        {
+          "Fecha": "2020-04-26",
+          "Vacunados": 0,
+          "Contagios": 93,
+          "vac_roll": 0,
+          "conta_roll": 138.28571428571428
+        },
+        {
+          "Fecha": "2020-04-27",
+          "Vacunados": 0,
+          "Contagios": 127,
+          "vac_roll": 0,
+          "conta_roll": 142.57142857142858
+        },
+        {
+          "Fecha": "2020-04-28",
+          "Vacunados": 0,
+          "Contagios": 126,
+          "vac_roll": 0,
+          "conta_roll": 137.71428571428572
+        },
+        {
+          "Fecha": "2020-04-29",
+          "Vacunados": 0,
+          "Contagios": 149,
+          "vac_roll": 0,
+          "conta_roll": 141.71428571428572
+        },
+        {
+          "Fecha": "2020-04-30",
+          "Vacunados": 0,
+          "Contagios": 142,
+          "vac_roll": 0,
+          "conta_roll": 142.28571428571428
+        },
+        {
+          "Fecha": "2020-05-01",
+          "Vacunados": 0,
+          "Contagios": 140,
+          "vac_roll": 0,
+          "conta_roll": 135
+        },
+        {
+          "Fecha": "2020-05-02",
+          "Vacunados": 0,
+          "Contagios": 101,
+          "vac_roll": 0,
+          "conta_roll": 125.42857142857143
+        },
+        {
+          "Fecha": "2020-05-03",
+          "Vacunados": 0,
+          "Contagios": 105,
+          "vac_roll": 0,
+          "conta_roll": 127.14285714285714
+        },
+        {
+          "Fecha": "2020-05-04",
+          "Vacunados": 0,
+          "Contagios": 121,
+          "vac_roll": 0,
+          "conta_roll": 126.28571428571429
+        },
+        {
+          "Fecha": "2020-05-05",
+          "Vacunados": 0,
+          "Contagios": 183,
+          "vac_roll": 0,
+          "conta_roll": 134.42857142857142
+        },
+        {
+          "Fecha": "2020-05-06",
+          "Vacunados": 0,
+          "Contagios": 204,
+          "vac_roll": 0,
+          "conta_roll": 142.28571428571428
+        },
+        {
+          "Fecha": "2020-05-07",
+          "Vacunados": 0,
+          "Contagios": 239,
+          "vac_roll": 0,
+          "conta_roll": 156.14285714285714
+        },
+        {
+          "Fecha": "2020-05-08",
+          "Vacunados": 0,
+          "Contagios": 201,
+          "vac_roll": 0,
+          "conta_roll": 164.85714285714286
+        },
+        {
+          "Fecha": "2020-05-09",
+          "Vacunados": 0,
+          "Contagios": 251,
+          "vac_roll": 0,
+          "conta_roll": 186.28571428571428
+        },
+        {
+          "Fecha": "2020-05-10",
+          "Vacunados": 0,
+          "Contagios": 200,
+          "vac_roll": 0,
+          "conta_roll": 199.85714285714286
+        },
+        {
+          "Fecha": "2020-05-11",
+          "Vacunados": 0,
+          "Contagios": 286,
+          "vac_roll": 0,
+          "conta_roll": 223.42857142857142
+        },
+        {
+          "Fecha": "2020-05-12",
+          "Vacunados": 0,
+          "Contagios": 291,
+          "vac_roll": 0,
+          "conta_roll": 238.85714285714286
+        },
+        {
+          "Fecha": "2020-05-13",
+          "Vacunados": 0,
+          "Contagios": 327,
+          "vac_roll": 0,
+          "conta_roll": 256.42857142857144
+        },
+        {
+          "Fecha": "2020-05-14",
+          "Vacunados": 0,
+          "Contagios": 307,
+          "vac_roll": 0,
+          "conta_roll": 266.14285714285717
+        },
+        {
+          "Fecha": "2020-05-15",
+          "Vacunados": 0,
+          "Contagios": 395,
+          "vac_roll": 0,
+          "conta_roll": 293.85714285714283
+        },
+        {
+          "Fecha": "2020-05-16",
+          "Vacunados": 0,
+          "Contagios": 342,
+          "vac_roll": 0,
+          "conta_roll": 306.85714285714283
+        },
+        {
+          "Fecha": "2020-05-17",
+          "Vacunados": 0,
+          "Contagios": 243,
+          "vac_roll": 0,
+          "conta_roll": 313
+        },
+        {
+          "Fecha": "2020-05-18",
+          "Vacunados": 0,
+          "Contagios": 389,
+          "vac_roll": 0,
+          "conta_roll": 327.7142857142857
+        },
+        {
+          "Fecha": "2020-05-19",
+          "Vacunados": 0,
+          "Contagios": 528,
+          "vac_roll": 0,
+          "conta_roll": 361.57142857142856
+        },
+        {
+          "Fecha": "2020-05-20",
+          "Vacunados": 0,
+          "Contagios": 615,
+          "vac_roll": 0,
+          "conta_roll": 402.7142857142857
+        },
+        {
+          "Fecha": "2020-05-21",
+          "Vacunados": 0,
+          "Contagios": 750,
+          "vac_roll": 0,
+          "conta_roll": 466
+        },
+        {
+          "Fecha": "2020-05-22",
+          "Vacunados": 0,
+          "Contagios": 814,
+          "vac_roll": 0,
+          "conta_roll": 525.8571428571429
+        },
+        {
+          "Fecha": "2020-05-23",
+          "Vacunados": 0,
+          "Contagios": 617,
+          "vac_roll": 0,
+          "conta_roll": 565.1428571428571
+        },
+        {
+          "Fecha": "2020-05-24",
+          "Vacunados": 0,
+          "Contagios": 505,
+          "vac_roll": 0,
+          "conta_roll": 602.5714285714286
+        },
+        {
+          "Fecha": "2020-05-25",
+          "Vacunados": 0,
+          "Contagios": 549,
+          "vac_roll": 0,
+          "conta_roll": 625.4285714285714
+        },
+        {
+          "Fecha": "2020-05-26",
+          "Vacunados": 0,
+          "Contagios": 652,
+          "vac_roll": 0,
+          "conta_roll": 643.1428571428571
+        },
+        {
+          "Fecha": "2020-05-27",
+          "Vacunados": 0,
+          "Contagios": 718,
+          "vac_roll": 0,
+          "conta_roll": 657.8571428571429
+        },
+        {
+          "Fecha": "2020-05-28",
+          "Vacunados": 0,
+          "Contagios": 769,
+          "vac_roll": 0,
+          "conta_roll": 660.5714285714286
+        },
+        {
+          "Fecha": "2020-05-29",
+          "Vacunados": 0,
+          "Contagios": 847,
+          "vac_roll": 0,
+          "conta_roll": 665.2857142857143
+        },
+        {
+          "Fecha": "2020-05-30",
+          "Vacunados": 0,
+          "Contagios": 694,
+          "vac_roll": 0,
+          "conta_roll": 676.2857142857143
+        },
+        {
+          "Fecha": "2020-05-31",
+          "Vacunados": 0,
+          "Contagios": 547,
+          "vac_roll": 0,
+          "conta_roll": 682.2857142857143
+        },
+        {
+          "Fecha": "2020-06-01",
+          "Vacunados": 0,
+          "Contagios": 847,
+          "vac_roll": 0,
+          "conta_roll": 724.8571428571429
+        },
+        {
+          "Fecha": "2020-06-02",
+          "Vacunados": 0,
+          "Contagios": 927,
+          "vac_roll": 0,
+          "conta_roll": 764.1428571428571
+        },
+        {
+          "Fecha": "2020-06-03",
+          "Vacunados": 0,
+          "Contagios": 935,
+          "vac_roll": 0,
+          "conta_roll": 795.1428571428571
+        },
+        {
+          "Fecha": "2020-06-04",
+          "Vacunados": 0,
+          "Contagios": 880,
+          "vac_roll": 0,
+          "conta_roll": 811
+        },
+        {
+          "Fecha": "2020-06-05",
+          "Vacunados": 0,
+          "Contagios": 970,
+          "vac_roll": 0,
+          "conta_roll": 828.5714285714286
+        },
+        {
+          "Fecha": "2020-06-06",
+          "Vacunados": 0,
+          "Contagios": 1108,
+          "vac_roll": 0,
+          "conta_roll": 887.7142857142857
+        },
+        {
+          "Fecha": "2020-06-07",
+          "Vacunados": 0,
+          "Contagios": 574,
+          "vac_roll": 0,
+          "conta_roll": 891.5714285714286
+        },
+        {
+          "Fecha": "2020-06-08",
+          "Vacunados": 0,
+          "Contagios": 1036,
+          "vac_roll": 0,
+          "conta_roll": 918.5714285714286
+        },
+        {
+          "Fecha": "2020-06-09",
+          "Vacunados": 0,
+          "Contagios": 1363,
+          "vac_roll": 0,
+          "conta_roll": 980.8571428571429
+        },
+        {
+          "Fecha": "2020-06-10",
+          "Vacunados": 0,
+          "Contagios": 1351,
+          "vac_roll": 0,
+          "conta_roll": 1040.2857142857142
+        },
+        {
+          "Fecha": "2020-06-11",
+          "Vacunados": 0,
+          "Contagios": 1546,
+          "vac_roll": 0,
+          "conta_roll": 1135.4285714285713
+        },
+        {
+          "Fecha": "2020-06-12",
+          "Vacunados": 0,
+          "Contagios": 1643,
+          "vac_roll": 0,
+          "conta_roll": 1231.5714285714287
+        },
+        {
+          "Fecha": "2020-06-13",
+          "Vacunados": 0,
+          "Contagios": 1497,
+          "vac_roll": 0,
+          "conta_roll": 1287.142857142857
+        },
+        {
+          "Fecha": "2020-06-14",
+          "Vacunados": 0,
+          "Contagios": 1056,
+          "vac_roll": 0,
+          "conta_roll": 1356
+        },
+        {
+          "Fecha": "2020-06-15",
+          "Vacunados": 0,
+          "Contagios": 1289,
+          "vac_roll": 0,
+          "conta_roll": 1392.142857142857
+        },
+        {
+          "Fecha": "2020-06-16",
+          "Vacunados": 0,
+          "Contagios": 1667,
+          "vac_roll": 0,
+          "conta_roll": 1435.5714285714287
+        },
+        {
+          "Fecha": "2020-06-17",
+          "Vacunados": 0,
+          "Contagios": 1936,
+          "vac_roll": 0,
+          "conta_roll": 1519.142857142857
+        },
+        {
+          "Fecha": "2020-06-18",
+          "Vacunados": 0,
+          "Contagios": 2068,
+          "vac_roll": 0,
+          "conta_roll": 1593.7142857142858
+        },
+        {
+          "Fecha": "2020-06-19",
+          "Vacunados": 0,
+          "Contagios": 2098,
+          "vac_roll": 0,
+          "conta_roll": 1658.7142857142858
+        },
+        {
+          "Fecha": "2020-06-20",
+          "Vacunados": 0,
+          "Contagios": 2408,
+          "vac_roll": 0,
+          "conta_roll": 1788.857142857143
+        },
+        {
+          "Fecha": "2020-06-21",
+          "Vacunados": 0,
+          "Contagios": 1469,
+          "vac_roll": 0,
+          "conta_roll": 1847.857142857143
+        },
+        {
+          "Fecha": "2020-06-22",
+          "Vacunados": 0,
+          "Contagios": 2241,
+          "vac_roll": 0,
+          "conta_roll": 1983.857142857143
+        },
+        {
+          "Fecha": "2020-06-23",
+          "Vacunados": 0,
+          "Contagios": 2641,
+          "vac_roll": 0,
+          "conta_roll": 2123
+        },
+        {
+          "Fecha": "2020-06-24",
+          "Vacunados": 0,
+          "Contagios": 2522,
+          "vac_roll": 0,
+          "conta_roll": 2206.714285714286
+        },
+        {
+          "Fecha": "2020-06-25",
+          "Vacunados": 0,
+          "Contagios": 2959,
+          "vac_roll": 0,
+          "conta_roll": 2334
+        },
+        {
+          "Fecha": "2020-06-26",
+          "Vacunados": 0,
+          "Contagios": 3025,
+          "vac_roll": 0,
+          "conta_roll": 2466.4285714285716
+        },
+        {
+          "Fecha": "2020-06-27",
+          "Vacunados": 0,
+          "Contagios": 2345,
+          "vac_roll": 0,
+          "conta_roll": 2457.4285714285716
+        },
+        {
+          "Fecha": "2020-06-28",
+          "Vacunados": 0,
+          "Contagios": 1808,
+          "vac_roll": 0,
+          "conta_roll": 2505.8571428571427
+        },
+        {
+          "Fecha": "2020-06-29",
+          "Vacunados": 0,
+          "Contagios": 2278,
+          "vac_roll": 0,
+          "conta_roll": 2511.1428571428573
+        },
+        {
+          "Fecha": "2020-06-30",
+          "Vacunados": 0,
+          "Contagios": 2830,
+          "vac_roll": 0,
+          "conta_roll": 2538.1428571428573
+        },
+        {
+          "Fecha": "2020-07-01",
+          "Vacunados": 0,
+          "Contagios": 2829,
+          "vac_roll": 0,
+          "conta_roll": 2582
+        },
+        {
+          "Fecha": "2020-07-02",
+          "Vacunados": 0,
+          "Contagios": 2890,
+          "vac_roll": 0,
+          "conta_roll": 2572.1428571428573
+        },
+        {
+          "Fecha": "2020-07-03",
+          "Vacunados": 0,
+          "Contagios": 3402,
+          "vac_roll": 0,
+          "conta_roll": 2626
+        },
+        {
+          "Fecha": "2020-07-04",
+          "Vacunados": 0,
+          "Contagios": 3332,
+          "vac_roll": 0,
+          "conta_roll": 2767
+        },
+        {
+          "Fecha": "2020-07-05",
+          "Vacunados": 0,
+          "Contagios": 1971,
+          "vac_roll": 0,
+          "conta_roll": 2790.285714285714
+        },
+        {
+          "Fecha": "2020-07-06",
+          "Vacunados": 0,
+          "Contagios": 2955,
+          "vac_roll": 0,
+          "conta_roll": 2887
+        },
+        {
+          "Fecha": "2020-07-07",
+          "Vacunados": 0,
+          "Contagios": 3461,
+          "vac_roll": 0,
+          "conta_roll": 2977.1428571428573
+        },
+        {
+          "Fecha": "2020-07-08",
+          "Vacunados": 0,
+          "Contagios": 4150,
+          "vac_roll": 0,
+          "conta_roll": 3165.8571428571427
+        },
+        {
+          "Fecha": "2020-07-09",
+          "Vacunados": 0,
+          "Contagios": 3636,
+          "vac_roll": 0,
+          "conta_roll": 3272.4285714285716
+        },
+        {
+          "Fecha": "2020-07-10",
+          "Vacunados": 0,
+          "Contagios": 3606,
+          "vac_roll": 0,
+          "conta_roll": 3301.5714285714284
+        },
+        {
+          "Fecha": "2020-07-11",
+          "Vacunados": 0,
+          "Contagios": 3330,
+          "vac_roll": 0,
+          "conta_roll": 3301.285714285714
+        },
+        {
+          "Fecha": "2020-07-12",
+          "Vacunados": 0,
+          "Contagios": 2155,
+          "vac_roll": 0,
+          "conta_roll": 3327.5714285714284
+        },
+        {
+          "Fecha": "2020-07-13",
+          "Vacunados": 0,
+          "Contagios": 3606,
+          "vac_roll": 0,
+          "conta_roll": 3420.5714285714284
+        },
+        {
+          "Fecha": "2020-07-14",
+          "Vacunados": 0,
+          "Contagios": 4195,
+          "vac_roll": 0,
+          "conta_roll": 3525.4285714285716
+        },
+        {
+          "Fecha": "2020-07-15",
+          "Vacunados": 0,
+          "Contagios": 4227,
+          "vac_roll": 0,
+          "conta_roll": 3536.4285714285716
+        },
+        {
+          "Fecha": "2020-07-16",
+          "Vacunados": 0,
+          "Contagios": 4572,
+          "vac_roll": 0,
+          "conta_roll": 3670.1428571428573
+        },
+        {
+          "Fecha": "2020-07-17",
+          "Vacunados": 0,
+          "Contagios": 5036,
+          "vac_roll": 0,
+          "conta_roll": 3874.4285714285716
+        },
+        {
+          "Fecha": "2020-07-18",
+          "Vacunados": 0,
+          "Contagios": 4629,
+          "vac_roll": 0,
+          "conta_roll": 4060
+        },
+        {
+          "Fecha": "2020-07-19",
+          "Vacunados": 0,
+          "Contagios": 3072,
+          "vac_roll": 0,
+          "conta_roll": 4191
+        },
+        {
+          "Fecha": "2020-07-20",
+          "Vacunados": 0,
+          "Contagios": 4825,
+          "vac_roll": 0,
+          "conta_roll": 4365.142857142857
+        },
+        {
+          "Fecha": "2020-07-21",
+          "Vacunados": 0,
+          "Contagios": 5741,
+          "vac_roll": 0,
+          "conta_roll": 4586
+        },
+        {
+          "Fecha": "2020-07-22",
+          "Vacunados": 0,
+          "Contagios": 5924,
+          "vac_roll": 0,
+          "conta_roll": 4828.428571428572
+        },
+        {
+          "Fecha": "2020-07-23",
+          "Vacunados": 0,
+          "Contagios": 5980,
+          "vac_roll": 0,
+          "conta_roll": 5029.571428571428
+        },
+        {
+          "Fecha": "2020-07-24",
+          "Vacunados": 0,
+          "Contagios": 6384,
+          "vac_roll": 0,
+          "conta_roll": 5222.142857142857
+        },
+        {
+          "Fecha": "2020-07-25",
+          "Vacunados": 0,
+          "Contagios": 4918,
+          "vac_roll": 0,
+          "conta_roll": 5263.428571428572
+        },
+        {
+          "Fecha": "2020-07-26",
+          "Vacunados": 0,
+          "Contagios": 3624,
+          "vac_roll": 0,
+          "conta_roll": 5342.285714285715
+        },
+        {
+          "Fecha": "2020-07-27",
+          "Vacunados": 0,
+          "Contagios": 5381,
+          "vac_roll": 0,
+          "conta_roll": 5421.714285714285
+        },
+        {
+          "Fecha": "2020-07-28",
+          "Vacunados": 0,
+          "Contagios": 6132,
+          "vac_roll": 0,
+          "conta_roll": 5477.571428571428
+        },
+        {
+          "Fecha": "2020-07-29",
+          "Vacunados": 0,
+          "Contagios": 6486,
+          "vac_roll": 0,
+          "conta_roll": 5557.857142857143
+        },
+        {
+          "Fecha": "2020-07-30",
+          "Vacunados": 0,
+          "Contagios": 6225,
+          "vac_roll": 0,
+          "conta_roll": 5592.857142857143
+        },
+        {
+          "Fecha": "2020-07-31",
+          "Vacunados": 0,
+          "Contagios": 7153,
+          "vac_roll": 0,
+          "conta_roll": 5702.714285714285
+        },
+        {
+          "Fecha": "2020-08-01",
+          "Vacunados": 0,
+          "Contagios": 5298,
+          "vac_roll": 0,
+          "conta_roll": 5757
+        },
+        {
+          "Fecha": "2020-08-02",
+          "Vacunados": 0,
+          "Contagios": 4585,
+          "vac_roll": 0,
+          "conta_roll": 5894.285714285715
+        },
+        {
+          "Fecha": "2020-08-03",
+          "Vacunados": 0,
+          "Contagios": 6418,
+          "vac_roll": 0,
+          "conta_roll": 6042.428571428572
+        },
+        {
+          "Fecha": "2020-08-04",
+          "Vacunados": 0,
+          "Contagios": 7475,
+          "vac_roll": 0,
+          "conta_roll": 6234.285714285715
+        },
+        {
+          "Fecha": "2020-08-05",
+          "Vacunados": 0,
+          "Contagios": 8179,
+          "vac_roll": 0,
+          "conta_roll": 6476.142857142857
+        },
+        {
+          "Fecha": "2020-08-06",
+          "Vacunados": 0,
+          "Contagios": 8032,
+          "vac_roll": 0,
+          "conta_roll": 6734.285714285715
+        },
+        {
+          "Fecha": "2020-08-07",
+          "Vacunados": 0,
+          "Contagios": 8179,
+          "vac_roll": 0,
+          "conta_roll": 6880.857142857143
+        },
+        {
+          "Fecha": "2020-08-08",
+          "Vacunados": 0,
+          "Contagios": 6492,
+          "vac_roll": 0,
+          "conta_roll": 7051.428571428572
+        },
+        {
+          "Fecha": "2020-08-09",
+          "Vacunados": 0,
+          "Contagios": 4477,
+          "vac_roll": 0,
+          "conta_roll": 7036
+        },
+        {
+          "Fecha": "2020-08-10",
+          "Vacunados": 0,
+          "Contagios": 6926,
+          "vac_roll": 0,
+          "conta_roll": 7108.571428571428
+        },
+        {
+          "Fecha": "2020-08-11",
+          "Vacunados": 0,
+          "Contagios": 7366,
+          "vac_roll": 0,
+          "conta_roll": 7093
+        },
+        {
+          "Fecha": "2020-08-12",
+          "Vacunados": 0,
+          "Contagios": 7447,
+          "vac_roll": 0,
+          "conta_roll": 6988.428571428572
+        },
+        {
+          "Fecha": "2020-08-13",
+          "Vacunados": 0,
+          "Contagios": 7372,
+          "vac_roll": 0,
+          "conta_roll": 6894.142857142857
+        },
+        {
+          "Fecha": "2020-08-14",
+          "Vacunados": 0,
+          "Contagios": 7118,
+          "vac_roll": 0,
+          "conta_roll": 6742.571428571428
+        },
+        {
+          "Fecha": "2020-08-15",
+          "Vacunados": 0,
+          "Contagios": 6670,
+          "vac_roll": 0,
+          "conta_roll": 6768
+        },
+        {
+          "Fecha": "2020-08-16",
+          "Vacunados": 0,
+          "Contagios": 3697,
+          "vac_roll": 0,
+          "conta_roll": 6656.571428571428
+        },
+        {
+          "Fecha": "2020-08-17",
+          "Vacunados": 0,
+          "Contagios": 5432,
+          "vac_roll": 0,
+          "conta_roll": 6443.142857142857
+        },
+        {
+          "Fecha": "2020-08-18",
+          "Vacunados": 0,
+          "Contagios": 6648,
+          "vac_roll": 0,
+          "conta_roll": 6340.571428571428
+        },
+        {
+          "Fecha": "2020-08-19",
+          "Vacunados": 0,
+          "Contagios": 8096,
+          "vac_roll": 0,
+          "conta_roll": 6433.285714285715
+        },
+        {
+          "Fecha": "2020-08-20",
+          "Vacunados": 0,
+          "Contagios": 8575,
+          "vac_roll": 0,
+          "conta_roll": 6605.142857142857
+        },
+        {
+          "Fecha": "2020-08-21",
+          "Vacunados": 0,
+          "Contagios": 8276,
+          "vac_roll": 0,
+          "conta_roll": 6770.571428571428
+        },
+        {
+          "Fecha": "2020-08-22",
+          "Vacunados": 0,
+          "Contagios": 7463,
+          "vac_roll": 0,
+          "conta_roll": 6883.857142857143
+        },
+        {
+          "Fecha": "2020-08-23",
+          "Vacunados": 0,
+          "Contagios": 4695,
+          "vac_roll": 0,
+          "conta_roll": 7026.428571428572
+        },
+        {
+          "Fecha": "2020-08-24",
+          "Vacunados": 0,
+          "Contagios": 8332,
+          "vac_roll": 0,
+          "conta_roll": 7440.714285714285
+        },
+        {
+          "Fecha": "2020-08-25",
+          "Vacunados": 0,
+          "Contagios": 9332,
+          "vac_roll": 0,
+          "conta_roll": 7824.142857142857
+        },
+        {
+          "Fecha": "2020-08-26",
+          "Vacunados": 0,
+          "Contagios": 10297,
+          "vac_roll": 0,
+          "conta_roll": 8138.571428571428
+        },
+        {
+          "Fecha": "2020-08-27",
+          "Vacunados": 0,
+          "Contagios": 11051,
+          "vac_roll": 0,
+          "conta_roll": 8492.285714285714
+        },
+        {
+          "Fecha": "2020-08-28",
+          "Vacunados": 0,
+          "Contagios": 10634,
+          "vac_roll": 0,
+          "conta_roll": 8829.142857142857
+        },
+        {
+          "Fecha": "2020-08-29",
+          "Vacunados": 0,
+          "Contagios": 8868,
+          "vac_roll": 0,
+          "conta_roll": 9029.857142857143
+        },
+        {
+          "Fecha": "2020-08-30",
+          "Vacunados": 0,
+          "Contagios": 6635,
+          "vac_roll": 0,
+          "conta_roll": 9307
+        },
+        {
+          "Fecha": "2020-08-31",
+          "Vacunados": 0,
+          "Contagios": 9515,
+          "vac_roll": 0,
+          "conta_roll": 9476
+        },
+        {
+          "Fecha": "2020-09-01",
+          "Vacunados": 0,
+          "Contagios": 11032,
+          "vac_roll": 0,
+          "conta_roll": 9718.857142857143
+        },
+        {
+          "Fecha": "2020-09-02",
+          "Vacunados": 0,
+          "Contagios": 11166,
+          "vac_roll": 0,
+          "conta_roll": 9843
+        },
+        {
+          "Fecha": "2020-09-03",
+          "Vacunados": 0,
+          "Contagios": 11010,
+          "vac_roll": 0,
+          "conta_roll": 9837.142857142857
+        },
+        {
+          "Fecha": "2020-09-04",
+          "Vacunados": 0,
+          "Contagios": 10763,
+          "vac_roll": 0,
+          "conta_roll": 9855.57142857143
+        },
+        {
+          "Fecha": "2020-09-05",
+          "Vacunados": 0,
+          "Contagios": 9347,
+          "vac_roll": 0,
+          "conta_roll": 9924
+        },
+        {
+          "Fecha": "2020-09-06",
+          "Vacunados": 0,
+          "Contagios": 6033,
+          "vac_roll": 0,
+          "conta_roll": 9838
+        },
+        {
+          "Fecha": "2020-09-07",
+          "Vacunados": 0,
+          "Contagios": 9655,
+          "vac_roll": 0,
+          "conta_roll": 9858
+        },
+        {
+          "Fecha": "2020-09-08",
+          "Vacunados": 0,
+          "Contagios": 11835,
+          "vac_roll": 0,
+          "conta_roll": 9972.714285714286
+        },
+        {
+          "Fecha": "2020-09-09",
+          "Vacunados": 0,
+          "Contagios": 12293,
+          "vac_roll": 0,
+          "conta_roll": 10133.714285714286
+        },
+        {
+          "Fecha": "2020-09-10",
+          "Vacunados": 0,
+          "Contagios": 11498,
+          "vac_roll": 0,
+          "conta_roll": 10203.42857142857
+        },
+        {
+          "Fecha": "2020-09-11",
+          "Vacunados": 0,
+          "Contagios": 12350,
+          "vac_roll": 0,
+          "conta_roll": 10430.142857142857
+        },
+        {
+          "Fecha": "2020-09-12",
+          "Vacunados": 0,
+          "Contagios": 10481,
+          "vac_roll": 0,
+          "conta_roll": 10592.142857142857
+        },
+        {
+          "Fecha": "2020-09-13",
+          "Vacunados": 0,
+          "Contagios": 6986,
+          "vac_roll": 0,
+          "conta_roll": 10728.285714285714
+        },
+        {
+          "Fecha": "2020-09-14",
+          "Vacunados": 0,
+          "Contagios": 10146,
+          "vac_roll": 0,
+          "conta_roll": 10798.42857142857
+        },
+        {
+          "Fecha": "2020-09-15",
+          "Vacunados": 0,
+          "Contagios": 10987,
+          "vac_roll": 0,
+          "conta_roll": 10677.285714285714
+        },
+        {
+          "Fecha": "2020-09-16",
+          "Vacunados": 0,
+          "Contagios": 11353,
+          "vac_roll": 0,
+          "conta_roll": 10543
+        },
+        {
+          "Fecha": "2020-09-17",
+          "Vacunados": 0,
+          "Contagios": 11737,
+          "vac_roll": 0,
+          "conta_roll": 10577.142857142857
+        },
+        {
+          "Fecha": "2020-09-18",
+          "Vacunados": 0,
+          "Contagios": 11990,
+          "vac_roll": 0,
+          "conta_roll": 10525.714285714286
+        },
+        {
+          "Fecha": "2020-09-19",
+          "Vacunados": 0,
+          "Contagios": 9662,
+          "vac_roll": 0,
+          "conta_roll": 10408.714285714286
+        },
+        {
+          "Fecha": "2020-09-20",
+          "Vacunados": 0,
+          "Contagios": 5777,
+          "vac_roll": 0,
+          "conta_roll": 10236
+        },
+        {
+          "Fecha": "2020-09-21",
+          "Vacunados": 0,
+          "Contagios": 9672,
+          "vac_roll": 0,
+          "conta_roll": 10168.285714285714
+        },
+        {
+          "Fecha": "2020-09-22",
+          "Vacunados": 0,
+          "Contagios": 10628,
+          "vac_roll": 0,
+          "conta_roll": 10117
+        },
+        {
+          "Fecha": "2020-09-23",
+          "Vacunados": 0,
+          "Contagios": 12236,
+          "vac_roll": 0,
+          "conta_roll": 10243.142857142857
+        },
+        {
+          "Fecha": "2020-09-24",
+          "Vacunados": 0,
+          "Contagios": 12232,
+          "vac_roll": 0,
+          "conta_roll": 10313.857142857143
+        },
+        {
+          "Fecha": "2020-09-25",
+          "Vacunados": 0,
+          "Contagios": 12518,
+          "vac_roll": 0,
+          "conta_roll": 10389.285714285714
+        },
+        {
+          "Fecha": "2020-09-26",
+          "Vacunados": 0,
+          "Contagios": 9937,
+          "vac_roll": 0,
+          "conta_roll": 10428.57142857143
+        },
+        {
+          "Fecha": "2020-09-27",
+          "Vacunados": 0,
+          "Contagios": 6634,
+          "vac_roll": 0,
+          "conta_roll": 10551
+        },
+        {
+          "Fecha": "2020-09-28",
+          "Vacunados": 0,
+          "Contagios": 11686,
+          "vac_roll": 0,
+          "conta_roll": 10838.714285714286
+        },
+        {
+          "Fecha": "2020-09-29",
+          "Vacunados": 0,
+          "Contagios": 14078,
+          "vac_roll": 0,
+          "conta_roll": 11331.57142857143
+        },
+        {
+          "Fecha": "2020-09-30",
+          "Vacunados": 0,
+          "Contagios": 13369,
+          "vac_roll": 0,
+          "conta_roll": 11493.42857142857
+        },
+        {
+          "Fecha": "2020-10-01",
+          "Vacunados": 0,
+          "Contagios": 12970,
+          "vac_roll": 0,
+          "conta_roll": 11598.857142857143
+        },
+        {
+          "Fecha": "2020-10-02",
+          "Vacunados": 0,
+          "Contagios": 13540,
+          "vac_roll": 0,
+          "conta_roll": 11744.857142857143
+        },
+        {
+          "Fecha": "2020-10-03",
+          "Vacunados": 0,
+          "Contagios": 10446,
+          "vac_roll": 0,
+          "conta_roll": 11817.57142857143
+        },
+        {
+          "Fecha": "2020-10-04",
+          "Vacunados": 0,
+          "Contagios": 5876,
+          "vac_roll": 0,
+          "conta_roll": 11709.285714285714
+        },
+        {
+          "Fecha": "2020-10-05",
+          "Vacunados": 0,
+          "Contagios": 11375,
+          "vac_roll": 0,
+          "conta_roll": 11664.857142857143
+        },
+        {
+          "Fecha": "2020-10-06",
+          "Vacunados": 0,
+          "Contagios": 13410,
+          "vac_roll": 0,
+          "conta_roll": 11569.42857142857
+        },
+        {
+          "Fecha": "2020-10-07",
+          "Vacunados": 0,
+          "Contagios": 14568,
+          "vac_roll": 0,
+          "conta_roll": 11740.714285714286
+        },
+        {
+          "Fecha": "2020-10-08",
+          "Vacunados": 0,
+          "Contagios": 14432,
+          "vac_roll": 0,
+          "conta_roll": 11949.57142857143
+        },
+        {
+          "Fecha": "2020-10-09",
+          "Vacunados": 0,
+          "Contagios": 14537,
+          "vac_roll": 0,
+          "conta_roll": 12092
+        },
+        {
+          "Fecha": "2020-10-10",
+          "Vacunados": 0,
+          "Contagios": 11437,
+          "vac_roll": 0,
+          "conta_roll": 12233.57142857143
+        },
+        {
+          "Fecha": "2020-10-11",
+          "Vacunados": 0,
+          "Contagios": 7037,
+          "vac_roll": 0,
+          "conta_roll": 12399.42857142857
+        },
+        {
+          "Fecha": "2020-10-12",
+          "Vacunados": 0,
+          "Contagios": 8162,
+          "vac_roll": 0,
+          "conta_roll": 11940.42857142857
+        },
+        {
+          "Fecha": "2020-10-13",
+          "Vacunados": 0,
+          "Contagios": 13247,
+          "vac_roll": 0,
+          "conta_roll": 11917.142857142857
+        },
+        {
+          "Fecha": "2020-10-14",
+          "Vacunados": 0,
+          "Contagios": 15802,
+          "vac_roll": 0,
+          "conta_roll": 12093.42857142857
+        },
+        {
+          "Fecha": "2020-10-15",
+          "Vacunados": 0,
+          "Contagios": 15812,
+          "vac_roll": 0,
+          "conta_roll": 12290.57142857143
+        },
+        {
+          "Fecha": "2020-10-16",
+          "Vacunados": 0,
+          "Contagios": 16062,
+          "vac_roll": 0,
+          "conta_roll": 12508.42857142857
+        },
+        {
+          "Fecha": "2020-10-17",
+          "Vacunados": 0,
+          "Contagios": 12027,
+          "vac_roll": 0,
+          "conta_roll": 12592.714285714286
+        },
+        {
+          "Fecha": "2020-10-18",
+          "Vacunados": 0,
+          "Contagios": 6224,
+          "vac_roll": 0,
+          "conta_roll": 12476.57142857143
+        },
+        {
+          "Fecha": "2020-10-19",
+          "Vacunados": 0,
+          "Contagios": 13302,
+          "vac_roll": 0,
+          "conta_roll": 13210.857142857143
+        },
+        {
+          "Fecha": "2020-10-20",
+          "Vacunados": 0,
+          "Contagios": 14263,
+          "vac_roll": 0,
+          "conta_roll": 13356
+        },
+        {
+          "Fecha": "2020-10-21",
+          "Vacunados": 0,
+          "Contagios": 14524,
+          "vac_roll": 0,
+          "conta_roll": 13173.42857142857
+        },
+        {
+          "Fecha": "2020-10-22",
+          "Vacunados": 0,
+          "Contagios": 13457,
+          "vac_roll": 0,
+          "conta_roll": 12837
+        },
+        {
+          "Fecha": "2020-10-23",
+          "Vacunados": 0,
+          "Contagios": 13229,
+          "vac_roll": 0,
+          "conta_roll": 12432.285714285714
+        },
+        {
+          "Fecha": "2020-10-24",
+          "Vacunados": 0,
+          "Contagios": 9961,
+          "vac_roll": 0,
+          "conta_roll": 12137.142857142857
+        },
+        {
+          "Fecha": "2020-10-25",
+          "Vacunados": 0,
+          "Contagios": 5709,
+          "vac_roll": 0,
+          "conta_roll": 12063.57142857143
+        },
+        {
+          "Fecha": "2020-10-26",
+          "Vacunados": 0,
+          "Contagios": 11564,
+          "vac_roll": 0,
+          "conta_roll": 11815.285714285714
+        },
+        {
+          "Fecha": "2020-10-27",
+          "Vacunados": 0,
+          "Contagios": 12135,
+          "vac_roll": 0,
+          "conta_roll": 11511.285714285714
+        },
+        {
+          "Fecha": "2020-10-28",
+          "Vacunados": 0,
+          "Contagios": 11799,
+          "vac_roll": 0,
+          "conta_roll": 11122
+        },
+        {
+          "Fecha": "2020-10-29",
+          "Vacunados": 0,
+          "Contagios": 11071,
+          "vac_roll": 0,
+          "conta_roll": 10781.142857142857
+        },
+        {
+          "Fecha": "2020-10-30",
+          "Vacunados": 0,
+          "Contagios": 10973,
+          "vac_roll": 0,
+          "conta_roll": 10458.857142857143
+        },
+        {
+          "Fecha": "2020-10-31",
+          "Vacunados": 0,
+          "Contagios": 7303,
+          "vac_roll": 0,
+          "conta_roll": 10079.142857142857
+        },
+        {
+          "Fecha": "2020-11-01",
+          "Vacunados": 0,
+          "Contagios": 4394,
+          "vac_roll": 0,
+          "conta_roll": 9891.285714285714
+        },
+        {
+          "Fecha": "2020-11-02",
+          "Vacunados": 0,
+          "Contagios": 8839,
+          "vac_roll": 0,
+          "conta_roll": 9502
+        },
+        {
+          "Fecha": "2020-11-03",
+          "Vacunados": 0,
+          "Contagios": 9679,
+          "vac_roll": 0,
+          "conta_roll": 9151.142857142857
+        },
+        {
+          "Fecha": "2020-11-04",
+          "Vacunados": 0,
+          "Contagios": 9742,
+          "vac_roll": 0,
+          "conta_roll": 8857.285714285714
+        },
+        {
+          "Fecha": "2020-11-05",
+          "Vacunados": 0,
+          "Contagios": 10317,
+          "vac_roll": 0,
+          "conta_roll": 8749.57142857143
+        },
+        {
+          "Fecha": "2020-11-06",
+          "Vacunados": 0,
+          "Contagios": 9802,
+          "vac_roll": 0,
+          "conta_roll": 8582.285714285714
+        },
+        {
+          "Fecha": "2020-11-07",
+          "Vacunados": 0,
+          "Contagios": 6707,
+          "vac_roll": 0,
+          "conta_roll": 8497.142857142857
+        },
+        {
+          "Fecha": "2020-11-08",
+          "Vacunados": 0,
+          "Contagios": 3830,
+          "vac_roll": 0,
+          "conta_roll": 8416.57142857143
+        },
+        {
+          "Fecha": "2020-11-09",
+          "Vacunados": 0,
+          "Contagios": 8665,
+          "vac_roll": 0,
+          "conta_roll": 8391.714285714286
+        },
+        {
+          "Fecha": "2020-11-10",
+          "Vacunados": 0,
+          "Contagios": 9822,
+          "vac_roll": 0,
+          "conta_roll": 8412.142857142857
+        },
+        {
+          "Fecha": "2020-11-11",
+          "Vacunados": 0,
+          "Contagios": 9763,
+          "vac_roll": 0,
+          "conta_roll": 8415.142857142857
+        },
+        {
+          "Fecha": "2020-11-12",
+          "Vacunados": 0,
+          "Contagios": 9269,
+          "vac_roll": 0,
+          "conta_roll": 8265.42857142857
+        },
+        {
+          "Fecha": "2020-11-13",
+          "Vacunados": 0,
+          "Contagios": 9163,
+          "vac_roll": 0,
+          "conta_roll": 8174.142857142857
+        },
+        {
+          "Fecha": "2020-11-14",
+          "Vacunados": 0,
+          "Contagios": 6063,
+          "vac_roll": 0,
+          "conta_roll": 8082.142857142857
+        },
+        {
+          "Fecha": "2020-11-15",
+          "Vacunados": 0,
+          "Contagios": 3318,
+          "vac_roll": 0,
+          "conta_roll": 8009
+        },
+        {
+          "Fecha": "2020-11-16",
+          "Vacunados": 0,
+          "Contagios": 8031,
+          "vac_roll": 0,
+          "conta_roll": 7918.428571428572
+        },
+        {
+          "Fecha": "2020-11-17",
+          "Vacunados": 0,
+          "Contagios": 8179,
+          "vac_roll": 0,
+          "conta_roll": 7683.714285714285
+        },
+        {
+          "Fecha": "2020-11-18",
+          "Vacunados": 0,
+          "Contagios": 8328,
+          "vac_roll": 0,
+          "conta_roll": 7478.714285714285
+        },
+        {
+          "Fecha": "2020-11-19",
+          "Vacunados": 0,
+          "Contagios": 7661,
+          "vac_roll": 0,
+          "conta_roll": 7249
+        },
+        {
+          "Fecha": "2020-11-20",
+          "Vacunados": 0,
+          "Contagios": 7469,
+          "vac_roll": 0,
+          "conta_roll": 7007
+        },
+        {
+          "Fecha": "2020-11-21",
+          "Vacunados": 0,
+          "Contagios": 4812,
+          "vac_roll": 0,
+          "conta_roll": 6828.285714285715
+        },
+        {
+          "Fecha": "2020-11-22",
+          "Vacunados": 0,
+          "Contagios": 2803,
+          "vac_roll": 0,
+          "conta_roll": 6754.714285714285
+        },
+        {
+          "Fecha": "2020-11-23",
+          "Vacunados": 0,
+          "Contagios": 3541,
+          "vac_roll": 0,
+          "conta_roll": 6113.285714285715
+        },
+        {
+          "Fecha": "2020-11-24",
+          "Vacunados": 0,
+          "Contagios": 6803,
+          "vac_roll": 0,
+          "conta_roll": 5916.714285714285
+        },
+        {
+          "Fecha": "2020-11-25",
+          "Vacunados": 0,
+          "Contagios": 7057,
+          "vac_roll": 0,
+          "conta_roll": 5735.142857142857
+        },
+        {
+          "Fecha": "2020-11-26",
+          "Vacunados": 0,
+          "Contagios": 6955,
+          "vac_roll": 0,
+          "conta_roll": 5634.285714285715
+        },
+        {
+          "Fecha": "2020-11-27",
+          "Vacunados": 0,
+          "Contagios": 6648,
+          "vac_roll": 0,
+          "conta_roll": 5517
+        },
+        {
+          "Fecha": "2020-11-28",
+          "Vacunados": 0,
+          "Contagios": 4807,
+          "vac_roll": 0,
+          "conta_roll": 5516.285714285715
+        },
+        {
+          "Fecha": "2020-11-29",
+          "Vacunados": 0,
+          "Contagios": 2516,
+          "vac_roll": 0,
+          "conta_roll": 5475.285714285715
+        },
+        {
+          "Fecha": "2020-11-30",
+          "Vacunados": 0,
+          "Contagios": 5722,
+          "vac_roll": 0,
+          "conta_roll": 5786.857142857143
+        },
+        {
+          "Fecha": "2020-12-01",
+          "Vacunados": 0,
+          "Contagios": 6282,
+          "vac_roll": 0,
+          "conta_roll": 5712.428571428572
+        },
+        {
+          "Fecha": "2020-12-02",
+          "Vacunados": 0,
+          "Contagios": 5718,
+          "vac_roll": 0,
+          "conta_roll": 5521.142857142857
+        },
+        {
+          "Fecha": "2020-12-03",
+          "Vacunados": 0,
+          "Contagios": 5581,
+          "vac_roll": 0,
+          "conta_roll": 5324.857142857143
+        },
+        {
+          "Fecha": "2020-12-04",
+          "Vacunados": 0,
+          "Contagios": 5224,
+          "vac_roll": 0,
+          "conta_roll": 5121.428571428572
+        },
+        {
+          "Fecha": "2020-12-05",
+          "Vacunados": 0,
+          "Contagios": 3839,
+          "vac_roll": 0,
+          "conta_roll": 4983.142857142857
+        },
+        {
+          "Fecha": "2020-12-06",
+          "Vacunados": 0,
+          "Contagios": 1929,
+          "vac_roll": 0,
+          "conta_roll": 4899.285714285715
+        },
+        {
+          "Fecha": "2020-12-07",
+          "Vacunados": 0,
+          "Contagios": 3373,
+          "vac_roll": 0,
+          "conta_roll": 4563.714285714285
+        },
+        {
+          "Fecha": "2020-12-08",
+          "Vacunados": 0,
+          "Contagios": 2491,
+          "vac_roll": 0,
+          "conta_roll": 4022.1428571428573
+        },
+        {
+          "Fecha": "2020-12-09",
+          "Vacunados": 0,
+          "Contagios": 5868,
+          "vac_roll": 0,
+          "conta_roll": 4043.5714285714284
+        },
+        {
+          "Fecha": "2020-12-10",
+          "Vacunados": 0,
+          "Contagios": 5903,
+          "vac_roll": 0,
+          "conta_roll": 4089.5714285714284
+        },
+        {
+          "Fecha": "2020-12-11",
+          "Vacunados": 0,
+          "Contagios": 5881,
+          "vac_roll": 0,
+          "conta_roll": 4183.428571428572
+        },
+        {
+          "Fecha": "2020-12-12",
+          "Vacunados": 0,
+          "Contagios": 4220,
+          "vac_roll": 0,
+          "conta_roll": 4237.857142857143
+        },
+        {
+          "Fecha": "2020-12-13",
+          "Vacunados": 0,
+          "Contagios": 2387,
+          "vac_roll": 0,
+          "conta_roll": 4303.285714285715
+        },
+        {
+          "Fecha": "2020-12-14",
+          "Vacunados": 0,
+          "Contagios": 6004,
+          "vac_roll": 0,
+          "conta_roll": 4679.142857142857
+        },
+        {
+          "Fecha": "2020-12-15",
+          "Vacunados": 0,
+          "Contagios": 6355,
+          "vac_roll": 0,
+          "conta_roll": 5231.142857142857
+        },
+        {
+          "Fecha": "2020-12-16",
+          "Vacunados": 0,
+          "Contagios": 6198,
+          "vac_roll": 0,
+          "conta_roll": 5278.285714285715
+        },
+        {
+          "Fecha": "2020-12-17",
+          "Vacunados": 0,
+          "Contagios": 6673,
+          "vac_roll": 0,
+          "conta_roll": 5388.285714285715
+        },
+        {
+          "Fecha": "2020-12-18",
+          "Vacunados": 0,
+          "Contagios": 6435,
+          "vac_roll": 0,
+          "conta_roll": 5467.428571428572
+        },
+        {
+          "Fecha": "2020-12-19",
+          "Vacunados": 0,
+          "Contagios": 5025,
+          "vac_roll": 0,
+          "conta_roll": 5582.428571428572
+        },
+        {
+          "Fecha": "2020-12-20",
+          "Vacunados": 0,
+          "Contagios": 2700,
+          "vac_roll": 0,
+          "conta_roll": 5627.142857142857
+        },
+        {
+          "Fecha": "2020-12-21",
+          "Vacunados": 0,
+          "Contagios": 7363,
+          "vac_roll": 0,
+          "conta_roll": 5821.285714285715
+        },
+        {
+          "Fecha": "2020-12-22",
+          "Vacunados": 0,
+          "Contagios": 8031,
+          "vac_roll": 0,
+          "conta_roll": 6060.714285714285
+        },
+        {
+          "Fecha": "2020-12-23",
+          "Vacunados": 0,
+          "Contagios": 8637,
+          "vac_roll": 0,
+          "conta_roll": 6409.142857142857
+        },
+        {
+          "Fecha": "2020-12-24",
+          "Vacunados": 0,
+          "Contagios": 5091,
+          "vac_roll": 0,
+          "conta_roll": 6183.142857142857
+        },
+        {
+          "Fecha": "2020-12-25",
+          "Vacunados": 0,
+          "Contagios": 1593,
+          "vac_roll": 0,
+          "conta_roll": 5491.428571428572
+        },
+        {
+          "Fecha": "2020-12-26",
+          "Vacunados": 0,
+          "Contagios": 6054,
+          "vac_roll": 0,
+          "conta_roll": 5638.428571428572
+        },
+        {
+          "Fecha": "2020-12-27",
+          "Vacunados": 0,
+          "Contagios": 3824,
+          "vac_roll": 0,
+          "conta_roll": 5799
+        },
+        {
+          "Fecha": "2020-12-28",
+          "Vacunados": 0,
+          "Contagios": 10363,
+          "vac_roll": 0,
+          "conta_roll": 6227.571428571428
+        },
+        {
+          "Fecha": "2020-12-29",
+          "Vacunados": 20448,
+          "Contagios": 11842,
+          "vac_roll": 2921.1428571428573,
+          "conta_roll": 6772
+        },
+        {
+          "Fecha": "2020-12-30",
+          "Vacunados": 20045,
+          "Contagios": 12247,
+          "vac_roll": 5784.714285714285,
+          "conta_roll": 7287.714285714285
+        },
+        {
+          "Fecha": "2020-12-31",
+          "Vacunados": 2806,
+          "Contagios": 8012,
+          "vac_roll": 6185.571428571428,
+          "conta_roll": 7705
+        },
+        {
+          "Fecha": "2021-01-01",
+          "Vacunados": 121,
+          "Contagios": 2368,
+          "vac_roll": 6202.857142857143,
+          "conta_roll": 7815.714285714285
+        },
+        {
+          "Fecha": "2021-01-02",
+          "Vacunados": 3286,
+          "Contagios": 6973,
+          "vac_roll": 6672.285714285715,
+          "conta_roll": 7947
+        },
+        {
+          "Fecha": "2021-01-03",
+          "Vacunados": 437,
+          "Contagios": 4318,
+          "vac_roll": 6734.714285714285,
+          "conta_roll": 8017.571428571428
+        },
+        {
+          "Fecha": "2021-01-04",
+          "Vacunados": 10406,
+          "Contagios": 12309,
+          "vac_roll": 8221.285714285714,
+          "conta_roll": 8295.57142857143
+        },
+        {
+          "Fecha": "2021-01-05",
+          "Vacunados": 10708,
+          "Contagios": 12712,
+          "vac_roll": 6829.857142857143,
+          "conta_roll": 8419.857142857143
+        },
+        {
+          "Fecha": "2021-01-06",
+          "Vacunados": 10097,
+          "Contagios": 13060,
+          "vac_roll": 5408.714285714285,
+          "conta_roll": 8536
+        },
+        {
+          "Fecha": "2021-01-07",
+          "Vacunados": 18191,
+          "Contagios": 12233,
+          "vac_roll": 7606.571428571428,
+          "conta_roll": 9139
+        },
+        {
+          "Fecha": "2021-01-08",
+          "Vacunados": 27832,
+          "Contagios": 12621,
+          "vac_roll": 11565.285714285714,
+          "conta_roll": 10603.714285714286
+        },
+        {
+          "Fecha": "2021-01-09",
+          "Vacunados": 10178,
+          "Contagios": 9108,
+          "vac_roll": 12549.857142857143,
+          "conta_roll": 10908.714285714286
+        },
+        {
+          "Fecha": "2021-01-10",
+          "Vacunados": 1156,
+          "Contagios": 4532,
+          "vac_roll": 12652.57142857143,
+          "conta_roll": 10939.285714285714
+        },
+        {
+          "Fecha": "2021-01-11",
+          "Vacunados": 19762,
+          "Contagios": 11622,
+          "vac_roll": 13989.142857142857,
+          "conta_roll": 10841.142857142857
+        },
+        {
+          "Fecha": "2021-01-12",
+          "Vacunados": 19355,
+          "Contagios": 11223,
+          "vac_roll": 15224.42857142857,
+          "conta_roll": 10628.42857142857
+        },
+        {
+          "Fecha": "2021-01-13",
+          "Vacunados": 16719,
+          "Contagios": 12022,
+          "vac_roll": 16170.42857142857,
+          "conta_roll": 10480.142857142857
+        },
+        {
+          "Fecha": "2021-01-14",
+          "Vacunados": 16601,
+          "Contagios": 10647,
+          "vac_roll": 15943.285714285714,
+          "conta_roll": 10253.57142857143
+        },
+        {
+          "Fecha": "2021-01-15",
+          "Vacunados": 17391,
+          "Contagios": 10223,
+          "vac_roll": 14451.714285714286,
+          "conta_roll": 9911
+        },
+        {
+          "Fecha": "2021-01-16",
+          "Vacunados": 5870,
+          "Contagios": 7803,
+          "vac_roll": 13836.285714285714,
+          "conta_roll": 9724.57142857143
+        },
+        {
+          "Fecha": "2021-01-17",
+          "Vacunados": 1053,
+          "Contagios": 4523,
+          "vac_roll": 13821.57142857143,
+          "conta_roll": 9723.285714285714
+        },
+        {
+          "Fecha": "2021-01-18",
+          "Vacunados": 9799,
+          "Contagios": 10694,
+          "vac_roll": 12398.285714285714,
+          "conta_roll": 9590.714285714286
+        },
+        {
+          "Fecha": "2021-01-19",
+          "Vacunados": 7793,
+          "Contagios": 10680,
+          "vac_roll": 10746.57142857143,
+          "conta_roll": 9513.142857142857
+        },
+        {
+          "Fecha": "2021-01-20",
+          "Vacunados": 5888,
+          "Contagios": 10048,
+          "vac_roll": 9199.285714285714,
+          "conta_roll": 9231.142857142857
+        },
+        {
+          "Fecha": "2021-01-21",
+          "Vacunados": 4763,
+          "Contagios": 9073,
+          "vac_roll": 7508.142857142857,
+          "conta_roll": 9006.285714285714
+        },
+        {
+          "Fecha": "2021-01-22",
+          "Vacunados": 4976,
+          "Contagios": 8881,
+          "vac_roll": 5734.571428571428,
+          "conta_roll": 8814.57142857143
+        },
+        {
+          "Fecha": "2021-01-23",
+          "Vacunados": 1095,
+          "Contagios": 6109,
+          "vac_roll": 5052.428571428572,
+          "conta_roll": 8572.57142857143
+        },
+        {
+          "Fecha": "2021-01-24",
+          "Vacunados": 89,
+          "Contagios": 3336,
+          "vac_roll": 4914.714285714285,
+          "conta_roll": 8403
+        },
+        {
+          "Fecha": "2021-01-25",
+          "Vacunados": 7096,
+          "Contagios": 8683,
+          "vac_roll": 4528.571428571428,
+          "conta_roll": 8115.714285714285
+        },
+        {
+          "Fecha": "2021-01-26",
+          "Vacunados": 5225,
+          "Contagios": 9199,
+          "vac_roll": 4161.714285714285,
+          "conta_roll": 7904.142857142857
+        },
+        {
+          "Fecha": "2021-01-27",
+          "Vacunados": 4077,
+          "Contagios": 8760,
+          "vac_roll": 3903,
+          "conta_roll": 7720.142857142857
+        },
+        {
+          "Fecha": "2021-01-28",
+          "Vacunados": 1423,
+          "Contagios": 8223,
+          "vac_roll": 3425.8571428571427,
+          "conta_roll": 7598.714285714285
+        },
+        {
+          "Fecha": "2021-01-29",
+          "Vacunados": 1455,
+          "Contagios": 7753,
+          "vac_roll": 2922.8571428571427,
+          "conta_roll": 7437.571428571428
+        },
+        {
+          "Fecha": "2021-01-30",
+          "Vacunados": 202,
+          "Contagios": 5826,
+          "vac_roll": 2795.285714285714,
+          "conta_roll": 7397.142857142857
+        },
+        {
+          "Fecha": "2021-01-31",
+          "Vacunados": 8,
+          "Contagios": 3596,
+          "vac_roll": 2783.714285714286,
+          "conta_roll": 7434.285714285715
+        },
+        {
+          "Fecha": "2021-02-01",
+          "Vacunados": 2256,
+          "Contagios": 7972,
+          "vac_roll": 2092.285714285714,
+          "conta_roll": 7332.714285714285
+        },
+        {
+          "Fecha": "2021-02-02",
+          "Vacunados": 5590,
+          "Contagios": 8227,
+          "vac_roll": 2144.4285714285716,
+          "conta_roll": 7193.857142857143
+        },
+        {
+          "Fecha": "2021-02-03",
+          "Vacunados": 10343,
+          "Contagios": 7841,
+          "vac_roll": 3039.5714285714284,
+          "conta_roll": 7062.571428571428
+        },
+        {
+          "Fecha": "2021-02-04",
+          "Vacunados": 10265,
+          "Contagios": 7284,
+          "vac_roll": 4302.714285714285,
+          "conta_roll": 6928.428571428572
+        },
+        {
+          "Fecha": "2021-02-05",
+          "Vacunados": 13732,
+          "Contagios": 6840,
+          "vac_roll": 6056.571428571428,
+          "conta_roll": 6798
+        },
+        {
+          "Fecha": "2021-02-06",
+          "Vacunados": 3038,
+          "Contagios": 4728,
+          "vac_roll": 6461.714285714285,
+          "conta_roll": 6641.142857142857
+        },
+        {
+          "Fecha": "2021-02-07",
+          "Vacunados": 567,
+          "Contagios": 2620,
+          "vac_roll": 6541.571428571428,
+          "conta_roll": 6501.714285714285
+        },
+        {
+          "Fecha": "2021-02-08",
+          "Vacunados": 16390,
+          "Contagios": 6552,
+          "vac_roll": 8560.714285714286,
+          "conta_roll": 6298.857142857143
+        },
+        {
+          "Fecha": "2021-02-09",
+          "Vacunados": 14223,
+          "Contagios": 7014,
+          "vac_roll": 9794,
+          "conta_roll": 6125.571428571428
+        },
+        {
+          "Fecha": "2021-02-10",
+          "Vacunados": 10934,
+          "Contagios": 6346,
+          "vac_roll": 9878.42857142857,
+          "conta_roll": 5912
+        },
+        {
+          "Fecha": "2021-02-11",
+          "Vacunados": 4635,
+          "Contagios": 6357,
+          "vac_roll": 9074.142857142857,
+          "conta_roll": 5779.571428571428
+        },
+        {
+          "Fecha": "2021-02-12",
+          "Vacunados": 4182,
+          "Contagios": 6551,
+          "vac_roll": 7709.857142857143,
+          "conta_roll": 5738.285714285715
+        },
+        {
+          "Fecha": "2021-02-13",
+          "Vacunados": 335,
+          "Contagios": 4483,
+          "vac_roll": 7323.714285714285,
+          "conta_roll": 5703.285714285715
+        },
+        {
+          "Fecha": "2021-02-14",
+          "Vacunados": 18,
+          "Contagios": 2432,
+          "vac_roll": 7245.285714285715,
+          "conta_roll": 5676.428571428572
+        },
+        {
+          "Fecha": "2021-02-15",
+          "Vacunados": 1071,
+          "Contagios": 3541,
+          "vac_roll": 5056.857142857143,
+          "conta_roll": 5246.285714285715
+        },
+        {
+          "Fecha": "2021-02-16",
+          "Vacunados": 983,
+          "Contagios": 3195,
+          "vac_roll": 3165.4285714285716,
+          "conta_roll": 4700.714285714285
+        },
+        {
+          "Fecha": "2021-02-17",
+          "Vacunados": 19337,
+          "Contagios": 6867,
+          "vac_roll": 4365.857142857143,
+          "conta_roll": 4775.142857142857
+        },
+        {
+          "Fecha": "2021-02-18",
+          "Vacunados": 51684,
+          "Contagios": 7059,
+          "vac_roll": 11087.142857142857,
+          "conta_roll": 4875.428571428572
+        },
+        {
+          "Fecha": "2021-02-19",
+          "Vacunados": 60020,
+          "Contagios": 6753,
+          "vac_roll": 19064,
+          "conta_roll": 4904.285714285715
+        },
+        {
+          "Fecha": "2021-02-20",
+          "Vacunados": 30976,
+          "Contagios": 4516,
+          "vac_roll": 23441.285714285714,
+          "conta_roll": 4909
+        },
+        {
+          "Fecha": "2021-02-21",
+          "Vacunados": 20119,
+          "Contagios": 2722,
+          "vac_roll": 26312.85714285714,
+          "conta_roll": 4950.428571428572
+        },
+        {
+          "Fecha": "2021-02-22",
+          "Vacunados": 65521,
+          "Contagios": 6661,
+          "vac_roll": 35520,
+          "conta_roll": 5396.142857142857
+        },
+        {
+          "Fecha": "2021-02-23",
+          "Vacunados": 82383,
+          "Contagios": 6410,
+          "vac_roll": 47148.57142857143,
+          "conta_roll": 5855.428571428572
+        },
+        {
+          "Fecha": "2021-02-24",
+          "Vacunados": 86740,
+          "Contagios": 6421,
+          "vac_roll": 56777.57142857143,
+          "conta_roll": 5791.714285714285
+        },
+        {
+          "Fecha": "2021-02-25",
+          "Vacunados": 67437,
+          "Contagios": 6365,
+          "vac_roll": 59028,
+          "conta_roll": 5692.571428571428
+        },
+        {
+          "Fecha": "2021-02-26",
+          "Vacunados": 70179,
+          "Contagios": 6009,
+          "vac_roll": 60479.28571428572,
+          "conta_roll": 5586.285714285715
+        },
+        {
+          "Fecha": "2021-02-27",
+          "Vacunados": 15723,
+          "Contagios": 4187,
+          "vac_roll": 58300.28571428572,
+          "conta_roll": 5539.285714285715
+        },
+        {
+          "Fecha": "2021-02-28",
+          "Vacunados": 5758,
+          "Contagios": 2373,
+          "vac_roll": 56248.71428571428,
+          "conta_roll": 5489.428571428572
+        },
+        {
+          "Fecha": "2021-03-01",
+          "Vacunados": 66927,
+          "Contagios": 6749,
+          "vac_roll": 56449.57142857143,
+          "conta_roll": 5502
+        },
+        {
+          "Fecha": "2021-03-02",
+          "Vacunados": 67949,
+          "Contagios": 6635,
+          "vac_roll": 54387.57142857143,
+          "conta_roll": 5534.142857142857
+        },
+        {
+          "Fecha": "2021-03-03",
+          "Vacunados": 63761,
+          "Contagios": 6755,
+          "vac_roll": 51104.857142857145,
+          "conta_roll": 5581.857142857143
+        },
+        {
+          "Fecha": "2021-03-04",
+          "Vacunados": 97999,
+          "Contagios": 6450,
+          "vac_roll": 55470.857142857145,
+          "conta_roll": 5594
+        },
+        {
+          "Fecha": "2021-03-05",
+          "Vacunados": 98417,
+          "Contagios": 6640,
+          "vac_roll": 59504.857142857145,
+          "conta_roll": 5684.142857142857
+        },
+        {
+          "Fecha": "2021-03-06",
+          "Vacunados": 51055,
+          "Contagios": 4452,
+          "vac_roll": 64552.28571428572,
+          "conta_roll": 5722
+        },
+        {
+          "Fecha": "2021-03-07",
+          "Vacunados": 11686,
+          "Contagios": 2551,
+          "vac_roll": 65399.142857142855,
+          "conta_roll": 5747.428571428572
+        },
+        {
+          "Fecha": "2021-03-08",
+          "Vacunados": 99642,
+          "Contagios": 6507,
+          "vac_roll": 70072.71428571429,
+          "conta_roll": 5712.857142857143
+        },
+        {
+          "Fecha": "2021-03-09",
+          "Vacunados": 112947,
+          "Contagios": 6793,
+          "vac_roll": 76501,
+          "conta_roll": 5735.428571428572
+        },
+        {
+          "Fecha": "2021-03-10",
+          "Vacunados": 156841,
+          "Contagios": 7327,
+          "vac_roll": 89798.14285714286,
+          "conta_roll": 5817.142857142857
+        },
+        {
+          "Fecha": "2021-03-11",
+          "Vacunados": 152856,
+          "Contagios": 7254,
+          "vac_roll": 97634.85714285714,
+          "conta_roll": 5932
+        },
+        {
+          "Fecha": "2021-03-12",
+          "Vacunados": 117376,
+          "Contagios": 7202,
+          "vac_roll": 100343.28571428571,
+          "conta_roll": 6012.285714285715
+        },
+        {
+          "Fecha": "2021-03-13",
+          "Vacunados": 18928,
+          "Contagios": 4904,
+          "vac_roll": 95753.71428571429,
+          "conta_roll": 6076.857142857143
+        },
+        {
+          "Fecha": "2021-03-14",
+          "Vacunados": 7896,
+          "Contagios": 2875,
+          "vac_roll": 95212.28571428571,
+          "conta_roll": 6123.142857142857
+        },
+        {
+          "Fecha": "2021-03-15",
+          "Vacunados": 108092,
+          "Contagios": 7363,
+          "vac_roll": 96419.42857142857,
+          "conta_roll": 6245.428571428572
+        },
+        {
+          "Fecha": "2021-03-16",
+          "Vacunados": 111103,
+          "Contagios": 7744,
+          "vac_roll": 96156,
+          "conta_roll": 6381.285714285715
+        },
+        {
+          "Fecha": "2021-03-17",
+          "Vacunados": 120603,
+          "Contagios": 7528,
+          "vac_roll": 90979.14285714286,
+          "conta_roll": 6410
+        },
+        {
+          "Fecha": "2021-03-18",
+          "Vacunados": 94967,
+          "Contagios": 7271,
+          "vac_roll": 82709.28571428571,
+          "conta_roll": 6412.428571428572
+        },
+        {
+          "Fecha": "2021-03-19",
+          "Vacunados": 89449,
+          "Contagios": 7657,
+          "vac_roll": 78719.71428571429,
+          "conta_roll": 6477.428571428572
+        },
+        {
+          "Fecha": "2021-03-20",
+          "Vacunados": 37895,
+          "Contagios": 5478,
+          "vac_roll": 81429.28571428571,
+          "conta_roll": 6559.428571428572
+        },
+        {
+          "Fecha": "2021-03-21",
+          "Vacunados": 18247,
+          "Contagios": 2999,
+          "vac_roll": 82908,
+          "conta_roll": 6577.142857142857
+        },
+        {
+          "Fecha": "2021-03-22",
+          "Vacunados": 69659,
+          "Contagios": 9096,
+          "vac_roll": 77417.57142857143,
+          "conta_roll": 6824.714285714285
+        },
+        {
+          "Fecha": "2021-03-23",
+          "Vacunados": 93187,
+          "Contagios": 9815,
+          "vac_roll": 74858.14285714286,
+          "conta_roll": 7120.571428571428
+        },
+        {
+          "Fecha": "2021-03-24",
+          "Vacunados": 35932,
+          "Contagios": 6639,
+          "vac_roll": 62762.28571428572,
+          "conta_roll": 6993.571428571428
+        },
+        {
+          "Fecha": "2021-03-25",
+          "Vacunados": 87184,
+          "Contagios": 10687,
+          "vac_roll": 61650.42857142857,
+          "conta_roll": 7481.571428571428
+        },
+        {
+          "Fecha": "2021-03-26",
+          "Vacunados": 82547,
+          "Contagios": 12096,
+          "vac_roll": 60664.42857142857,
+          "conta_roll": 8115.714285714285
+        },
+        {
+          "Fecha": "2021-03-27",
+          "Vacunados": 51643,
+          "Contagios": 9020,
+          "vac_roll": 62628.42857142857,
+          "conta_roll": 8621.714285714286
+        },
+        {
+          "Fecha": "2021-03-28",
+          "Vacunados": 20571,
+          "Contagios": 5528,
+          "vac_roll": 62960.42857142857,
+          "conta_roll": 8983
+        },
+        {
+          "Fecha": "2021-03-29",
+          "Vacunados": 114491,
+          "Contagios": 13700,
+          "vac_roll": 69365,
+          "conta_roll": 9640.714285714286
+        },
+        {
+          "Fecha": "2021-03-30",
+          "Vacunados": 156245,
+          "Contagios": 14863,
+          "vac_roll": 78373.28571428571,
+          "conta_roll": 10361.857142857143
+        },
+        {
+          "Fecha": "2021-03-31",
+          "Vacunados": 168379,
+          "Contagios": 15824,
+          "vac_roll": 97294.28571428571,
+          "conta_roll": 11674
+        },
+        {
+          "Fecha": "2021-04-01",
+          "Vacunados": 114294,
+          "Contagios": 13592,
+          "vac_roll": 101167.14285714286,
+          "conta_roll": 12089
+        },
+        {
+          "Fecha": "2021-04-02",
+          "Vacunados": 66786,
+          "Contagios": 10547,
+          "vac_roll": 98915.57142857143,
+          "conta_roll": 11867.714285714286
+        },
+        {
+          "Fecha": "2021-04-03",
+          "Vacunados": 73566,
+          "Contagios": 12214,
+          "vac_roll": 102047.42857142857,
+          "conta_roll": 12324
+        },
+        {
+          "Fecha": "2021-04-04",
+          "Vacunados": 48063,
+          "Contagios": 8582,
+          "vac_roll": 105974.85714285714,
+          "conta_roll": 12760.285714285714
+        },
+        {
+          "Fecha": "2021-04-05",
+          "Vacunados": 154992,
+          "Contagios": 21482,
+          "vac_roll": 111760.71428571429,
+          "conta_roll": 13872
+        },
+        {
+          "Fecha": "2021-04-06",
+          "Vacunados": 184516,
+          "Contagios": 22883,
+          "vac_roll": 115799.42857142857,
+          "conta_roll": 15017.714285714286
+        },
+        {
+          "Fecha": "2021-04-07",
+          "Vacunados": 230693,
+          "Contagios": 24223,
+          "vac_roll": 124701.42857142857,
+          "conta_roll": 16217.57142857143
+        },
+        {
+          "Fecha": "2021-04-08",
+          "Vacunados": 229383,
+          "Contagios": 23839,
+          "vac_roll": 141142.7142857143,
+          "conta_roll": 17681.428571428572
+        },
+        {
+          "Fecha": "2021-04-09",
+          "Vacunados": 226771,
+          "Contagios": 23423,
+          "vac_roll": 163997.7142857143,
+          "conta_roll": 19520.85714285714
+        },
+        {
+          "Fecha": "2021-04-10",
+          "Vacunados": 86987,
+          "Contagios": 16860,
+          "vac_roll": 165915,
+          "conta_roll": 20184.571428571428
+        },
+        {
+          "Fecha": "2021-04-11",
+          "Vacunados": 46581,
+          "Contagios": 10839,
+          "vac_roll": 165703.2857142857,
+          "conta_roll": 20507
+        },
+        {
+          "Fecha": "2021-04-12",
+          "Vacunados": 171025,
+          "Contagios": 24449,
+          "vac_roll": 167993.7142857143,
+          "conta_roll": 20930.85714285714
+        },
+        {
+          "Fecha": "2021-04-13",
+          "Vacunados": 160401,
+          "Contagios": 24856,
+          "vac_roll": 164548.7142857143,
+          "conta_roll": 21212.714285714286
+        },
+        {
+          "Fecha": "2021-04-14",
+          "Vacunados": 155606,
+          "Contagios": 24618,
+          "vac_roll": 153822,
+          "conta_roll": 21269.14285714286
+        },
+        {
+          "Fecha": "2021-04-15",
+          "Vacunados": 128626,
+          "Contagios": 23841,
+          "vac_roll": 139428.14285714287,
+          "conta_roll": 21269.428571428572
+        },
+        {
+          "Fecha": "2021-04-16",
+          "Vacunados": 114445,
+          "Contagios": 24953,
+          "vac_roll": 123381.57142857143,
+          "conta_roll": 21488
+        },
+        {
+          "Fecha": "2021-04-17",
+          "Vacunados": 39966,
+          "Contagios": 16806,
+          "vac_roll": 116664.28571428571,
+          "conta_roll": 21480.285714285714
+        },
+        {
+          "Fecha": "2021-04-18",
+          "Vacunados": 19644,
+          "Contagios": 11653,
+          "vac_roll": 112816.14285714286,
+          "conta_roll": 21596.571428571428
+        },
+        {
+          "Fecha": "2021-04-19",
+          "Vacunados": 75383,
+          "Contagios": 26209,
+          "vac_roll": 99153,
+          "conta_roll": 21848
+        },
+        {
+          "Fecha": "2021-04-20",
+          "Vacunados": 105606,
+          "Contagios": 26512,
+          "vac_roll": 91325.14285714286,
+          "conta_roll": 22084.571428571428
+        },
+        {
+          "Fecha": "2021-04-21",
+          "Vacunados": 157243,
+          "Contagios": 24961,
+          "vac_roll": 91559,
+          "conta_roll": 22133.571428571428
+        },
+        {
+          "Fecha": "2021-04-22",
+          "Vacunados": 163107,
+          "Contagios": 23554,
+          "vac_roll": 96484.85714285714,
+          "conta_roll": 22092.571428571428
+        },
+        {
+          "Fecha": "2021-04-23",
+          "Vacunados": 180798,
+          "Contagios": 23523,
+          "vac_roll": 105963.85714285714,
+          "conta_roll": 21888.285714285714
+        },
+        {
+          "Fecha": "2021-04-24",
+          "Vacunados": 90389,
+          "Contagios": 16565,
+          "vac_roll": 113167.14285714286,
+          "conta_roll": 21853.85714285714
+        },
+        {
+          "Fecha": "2021-04-25",
+          "Vacunados": 48924,
+          "Contagios": 9278,
+          "vac_roll": 117350,
+          "conta_roll": 21514.571428571428
+        },
+        {
+          "Fecha": "2021-04-26",
+          "Vacunados": 164749,
+          "Contagios": 23665,
+          "vac_roll": 130116.57142857143,
+          "conta_roll": 21151.14285714286
+        },
+        {
+          "Fecha": "2021-04-27",
+          "Vacunados": 147157,
+          "Contagios": 22319,
+          "vac_roll": 136052.42857142858,
+          "conta_roll": 20552.14285714286
+        },
+        {
+          "Fecha": "2021-04-28",
+          "Vacunados": 133887,
+          "Contagios": 21574,
+          "vac_roll": 132715.85714285713,
+          "conta_roll": 20068.285714285714
+        },
+        {
+          "Fecha": "2021-04-29",
+          "Vacunados": 121443,
+          "Contagios": 21252,
+          "vac_roll": 126763.85714285714,
+          "conta_roll": 19739.428571428572
+        },
+        {
+          "Fecha": "2021-04-30",
+          "Vacunados": 81254,
+          "Contagios": 20984,
+          "vac_roll": 112543.28571428571,
+          "conta_roll": 19376.714285714286
+        },
+        {
+          "Fecha": "2021-05-01",
+          "Vacunados": 16591,
+          "Contagios": 12543,
+          "vac_roll": 102000.71428571429,
+          "conta_roll": 18802.14285714286
+        },
+        {
+          "Fecha": "2021-05-02",
+          "Vacunados": 25999,
+          "Contagios": 8426,
+          "vac_roll": 98725.71428571429,
+          "conta_roll": 18680.428571428572
+        },
+        {
+          "Fecha": "2021-05-03",
+          "Vacunados": 96429,
+          "Contagios": 24066,
+          "vac_roll": 88965.71428571429,
+          "conta_roll": 18737.714285714286
+        },
+        {
+          "Fecha": "2021-05-04",
+          "Vacunados": 135010,
+          "Contagios": 23277,
+          "vac_roll": 87230.42857142857,
+          "conta_roll": 18874.571428571428
+        },
+        {
+          "Fecha": "2021-05-05",
+          "Vacunados": 162086,
+          "Contagios": 23066,
+          "vac_roll": 91258.85714285714,
+          "conta_roll": 19087.714285714286
+        },
+        {
+          "Fecha": "2021-05-06",
+          "Vacunados": 136760,
+          "Contagios": 20422,
+          "vac_roll": 93447,
+          "conta_roll": 18969.14285714286
+        },
+        {
+          "Fecha": "2021-05-07",
+          "Vacunados": 107648,
+          "Contagios": 20775,
+          "vac_roll": 97217.57142857143,
+          "conta_roll": 18939.285714285714
+        },
+        {
+          "Fecha": "2021-05-08",
+          "Vacunados": 31974,
+          "Contagios": 14581,
+          "vac_roll": 99415.14285714286,
+          "conta_roll": 19230.428571428572
+        },
+        {
+          "Fecha": "2021-05-09",
+          "Vacunados": 15427,
+          "Contagios": 8881,
+          "vac_roll": 97904.85714285714,
+          "conta_roll": 19295.428571428572
+        },
+        {
+          "Fecha": "2021-05-10",
+          "Vacunados": 76313,
+          "Contagios": 24947,
+          "vac_roll": 95031.14285714286,
+          "conta_roll": 19421.285714285714
+        },
+        {
+          "Fecha": "2021-05-11",
+          "Vacunados": 74763,
+          "Contagios": 25543,
+          "vac_roll": 86424.42857142857,
+          "conta_roll": 19745
+        },
+        {
+          "Fecha": "2021-05-12",
+          "Vacunados": 51495,
+          "Contagios": 24756,
+          "vac_roll": 70625.71428571429,
+          "conta_roll": 19986.428571428572
+        },
+        {
+          "Fecha": "2021-05-13",
+          "Vacunados": 36873,
+          "Contagios": 25657,
+          "vac_roll": 56356.142857142855,
+          "conta_roll": 20734.285714285714
+        },
+        {
+          "Fecha": "2021-05-14",
+          "Vacunados": 39720,
+          "Contagios": 26993,
+          "vac_roll": 46652.142857142855,
+          "conta_roll": 21622.571428571428
+        },
+        {
+          "Fecha": "2021-05-15",
+          "Vacunados": 44033,
+          "Contagios": 19108,
+          "vac_roll": 48374.857142857145,
+          "conta_roll": 22269.285714285714
+        },
+        {
+          "Fecha": "2021-05-16",
+          "Vacunados": 23970,
+          "Contagios": 11969,
+          "vac_roll": 49595.28571428572,
+          "conta_roll": 22710.428571428572
+        },
+        {
+          "Fecha": "2021-05-17",
+          "Vacunados": 88863,
+          "Contagios": 34158,
+          "vac_roll": 51388.142857142855,
+          "conta_roll": 24026.285714285714
+        },
+        {
+          "Fecha": "2021-05-18",
+          "Vacunados": 152496,
+          "Contagios": 37888,
+          "vac_roll": 62492.857142857145,
+          "conta_roll": 25789.85714285714
+        },
+        {
+          "Fecha": "2021-05-19",
+          "Vacunados": 129574,
+          "Contagios": 33005,
+          "vac_roll": 73647,
+          "conta_roll": 26968.285714285714
+        },
+        {
+          "Fecha": "2021-05-20",
+          "Vacunados": 138305,
+          "Contagios": 33464,
+          "vac_roll": 88137.28571428571,
+          "conta_roll": 28083.571428571428
+        },
+        {
+          "Fecha": "2021-05-21",
+          "Vacunados": 90238,
+          "Contagios": 34001,
+          "vac_roll": 95354.14285714286,
+          "conta_roll": 29084.714285714286
+        },
+        {
+          "Fecha": "2021-05-22",
+          "Vacunados": 55998,
+          "Contagios": 23596,
+          "vac_roll": 97063.42857142857,
+          "conta_roll": 29725.85714285714
+        },
+        {
+          "Fecha": "2021-05-23",
+          "Vacunados": 22196,
+          "Contagios": 13884,
+          "vac_roll": 96810,
+          "conta_roll": 29999.428571428572
+        },
+        {
+          "Fecha": "2021-05-24",
+          "Vacunados": 67548,
+          "Contagios": 27903,
+          "vac_roll": 93765,
+          "conta_roll": 29105.85714285714
+        },
+        {
+          "Fecha": "2021-05-25",
+          "Vacunados": 36322,
+          "Contagios": 23199,
+          "vac_roll": 77168.71428571429,
+          "conta_roll": 27007.428571428572
+        },
+        {
+          "Fecha": "2021-05-26",
+          "Vacunados": 87501,
+          "Contagios": 37989,
+          "vac_roll": 71158.28571428571,
+          "conta_roll": 27719.428571428572
+        },
+        {
+          "Fecha": "2021-05-27",
+          "Vacunados": 86288,
+          "Contagios": 36519,
+          "vac_roll": 63727.28571428572,
+          "conta_roll": 28155.85714285714
+        },
+        {
+          "Fecha": "2021-05-28",
+          "Vacunados": 122191,
+          "Contagios": 35610,
+          "vac_roll": 68292,
+          "conta_roll": 28385.714285714286
+        },
+        {
+          "Fecha": "2021-05-29",
+          "Vacunados": 163471,
+          "Contagios": 23399,
+          "vac_roll": 83645.28571428571,
+          "conta_roll": 28357.571428571428
+        },
+        {
+          "Fecha": "2021-05-30",
+          "Vacunados": 110684,
+          "Contagios": 13412,
+          "vac_roll": 96286.42857142857,
+          "conta_roll": 28290.14285714286
+        },
+        {
+          "Fecha": "2021-05-31",
+          "Vacunados": 233039,
+          "Contagios": 33664,
+          "vac_roll": 119928,
+          "conta_roll": 29113.14285714286
+        },
+        {
+          "Fecha": "2021-06-01",
+          "Vacunados": 258801,
+          "Contagios": 31992,
+          "vac_roll": 151710.7142857143,
+          "conta_roll": 30369.285714285714
+        },
+        {
+          "Fecha": "2021-06-02",
+          "Vacunados": 253959,
+          "Contagios": 29473,
+          "vac_roll": 175490.42857142858,
+          "conta_roll": 29152.714285714286
+        },
+        {
+          "Fecha": "2021-06-03",
+          "Vacunados": 310358,
+          "Contagios": 28475,
+          "vac_roll": 207500.42857142858,
+          "conta_roll": 28003.571428571428
+        },
+        {
+          "Fecha": "2021-06-04",
+          "Vacunados": 357243,
+          "Contagios": 27439,
+          "vac_roll": 241079.2857142857,
+          "conta_roll": 26836.285714285714
+        },
+        {
+          "Fecha": "2021-06-05",
+          "Vacunados": 301941,
+          "Contagios": 17659,
+          "vac_roll": 260860.7142857143,
+          "conta_roll": 26016.285714285714
+        },
+        {
+          "Fecha": "2021-06-06",
+          "Vacunados": 201661,
+          "Contagios": 10697,
+          "vac_roll": 273857.4285714286,
+          "conta_roll": 25628.428571428572
+        },
+        {
+          "Fecha": "2021-06-07",
+          "Vacunados": 300172,
+          "Contagios": 28311,
+          "vac_roll": 283447.85714285716,
+          "conta_roll": 24863.714285714286
+        },
+        {
+          "Fecha": "2021-06-08",
+          "Vacunados": 329827,
+          "Contagios": 26627,
+          "vac_roll": 293594.4285714286,
+          "conta_roll": 24097.285714285714
+        },
+        {
+          "Fecha": "2021-06-09",
+          "Vacunados": 344329,
+          "Contagios": 25230,
+          "vac_roll": 306504.4285714286,
+          "conta_roll": 23491.14285714286
+        },
+        {
+          "Fecha": "2021-06-10",
+          "Vacunados": 310420,
+          "Contagios": 23807,
+          "vac_roll": 306513.28571428574,
+          "conta_roll": 22824.285714285714
+        },
+        {
+          "Fecha": "2021-06-11",
+          "Vacunados": 315591,
+          "Contagios": 23688,
+          "vac_roll": 300563,
+          "conta_roll": 22288.428571428572
+        },
+        {
+          "Fecha": "2021-06-12",
+          "Vacunados": 102604,
+          "Contagios": 14898,
+          "vac_roll": 272086.28571428574,
+          "conta_roll": 21894
+        },
+        {
+          "Fecha": "2021-06-13",
+          "Vacunados": 37884,
+          "Contagios": 9307,
+          "vac_roll": 248689.57142857142,
+          "conta_roll": 21695.428571428572
+        },
+        {
+          "Fecha": "2021-06-14",
+          "Vacunados": 150523,
+          "Contagios": 26042,
+          "vac_roll": 227311.14285714287,
+          "conta_roll": 21371.285714285714
+        },
+        {
+          "Fecha": "2021-06-15",
+          "Vacunados": 169603,
+          "Contagios": 22409,
+          "vac_roll": 204422,
+          "conta_roll": 20768.714285714286
+        },
+        {
+          "Fecha": "2021-06-16",
+          "Vacunados": 209764,
+          "Contagios": 20196,
+          "vac_roll": 185198.42857142858,
+          "conta_roll": 20049.571428571428
+        },
+        {
+          "Fecha": "2021-06-17",
+          "Vacunados": 243612,
+          "Contagios": 18180,
+          "vac_roll": 175654.42857142858,
+          "conta_roll": 19245.714285714286
+        },
+        {
+          "Fecha": "2021-06-18",
+          "Vacunados": 348315,
+          "Contagios": 18140,
+          "vac_roll": 180329.2857142857,
+          "conta_roll": 18453.14285714286
+        },
+        {
+          "Fecha": "2021-06-19",
+          "Vacunados": 207755,
+          "Contagios": 12490,
+          "vac_roll": 195350.85714285713,
+          "conta_roll": 18109.14285714286
+        },
+        {
+          "Fecha": "2021-06-20",
+          "Vacunados": 94481,
+          "Contagios": 6415,
+          "vac_roll": 203436.14285714287,
+          "conta_roll": 17696
+        },
+        {
+          "Fecha": "2021-06-21",
+          "Vacunados": 143089,
+          "Contagios": 11763,
+          "vac_roll": 202374.14285714287,
+          "conta_roll": 15656.142857142857
+        },
+        {
+          "Fecha": "2021-06-22",
+          "Vacunados": 244761,
+          "Contagios": 22164,
+          "vac_roll": 213111,
+          "conta_roll": 15621.142857142857
+        },
+        {
+          "Fecha": "2021-06-23",
+          "Vacunados": 229096,
+          "Contagios": 21356,
+          "vac_roll": 215872.7142857143,
+          "conta_roll": 15786.857142857143
+        },
+        {
+          "Fecha": "2021-06-24",
+          "Vacunados": 264923,
+          "Contagios": 20923,
+          "vac_roll": 218917.14285714287,
+          "conta_roll": 16178.714285714286
+        },
+        {
+          "Fecha": "2021-06-25",
+          "Vacunados": 298740,
+          "Contagios": 21693,
+          "vac_roll": 211835,
+          "conta_roll": 16686.285714285714
+        },
+        {
+          "Fecha": "2021-06-26",
+          "Vacunados": 232037,
+          "Contagios": 14386,
+          "vac_roll": 215303.85714285713,
+          "conta_roll": 16957.14285714286
+        },
+        {
+          "Fecha": "2021-06-27",
+          "Vacunados": 152256,
+          "Contagios": 7858,
+          "vac_roll": 223557.42857142858,
+          "conta_roll": 17163.285714285714
+        },
+        {
+          "Fecha": "2021-06-28",
+          "Vacunados": 311826,
+          "Contagios": 19966,
+          "vac_roll": 247662.7142857143,
+          "conta_roll": 18335.14285714286
+        },
+        {
+          "Fecha": "2021-06-29",
+          "Vacunados": 317611,
+          "Contagios": 18533,
+          "vac_roll": 258069.85714285713,
+          "conta_roll": 17816.428571428572
+        },
+        {
+          "Fecha": "2021-06-30",
+          "Vacunados": 329662,
+          "Contagios": 17720,
+          "vac_roll": 272436.4285714286,
+          "conta_roll": 17297
+        },
+        {
+          "Fecha": "2021-07-01",
+          "Vacunados": 301330,
+          "Contagios": 17535,
+          "vac_roll": 277637.4285714286,
+          "conta_roll": 16813
+        },
+        {
+          "Fecha": "2021-07-02",
+          "Vacunados": 321268,
+          "Contagios": 17279,
+          "vac_roll": 280855.71428571426,
+          "conta_roll": 16182.42857142857
+        },
+        {
+          "Fecha": "2021-07-03",
+          "Vacunados": 248437,
+          "Contagios": 11808,
+          "vac_roll": 283198.5714285714,
+          "conta_roll": 15814.142857142857
+        },
+        {
+          "Fecha": "2021-07-04",
+          "Vacunados": 172569,
+          "Contagios": 6996,
+          "vac_roll": 286100.4285714286,
+          "conta_roll": 15691
+        },
+        {
+          "Fecha": "2021-07-05",
+          "Vacunados": 228677,
+          "Contagios": 19877,
+          "vac_roll": 274222,
+          "conta_roll": 15678.285714285714
+        },
+        {
+          "Fecha": "2021-07-06",
+          "Vacunados": 263775,
+          "Contagios": 17884,
+          "vac_roll": 266531.14285714284,
+          "conta_roll": 15585.57142857143
+        },
+        {
+          "Fecha": "2021-07-07",
+          "Vacunados": 278469,
+          "Contagios": 17040,
+          "vac_roll": 259217.85714285713,
+          "conta_roll": 15488.42857142857
+        },
+        {
+          "Fecha": "2021-07-08",
+          "Vacunados": 357022,
+          "Contagios": 17745,
+          "vac_roll": 267173.85714285716,
+          "conta_roll": 15518.42857142857
+        },
+        {
+          "Fecha": "2021-07-09",
+          "Vacunados": 246069,
+          "Contagios": 10778,
+          "vac_roll": 256431.14285714287,
+          "conta_roll": 14589.714285714286
+        },
+        {
+          "Fecha": "2021-07-10",
+          "Vacunados": 293515,
+          "Contagios": 11833,
+          "vac_roll": 262870.85714285716,
+          "conta_roll": 14593.285714285714
+        },
+        {
+          "Fecha": "2021-07-11",
+          "Vacunados": 153785,
+          "Contagios": 6687,
+          "vac_roll": 260187.42857142858,
+          "conta_roll": 14549.142857142857
+        },
+        {
+          "Fecha": "2021-07-12",
+          "Vacunados": 342531,
+          "Contagios": 17975,
+          "vac_roll": 276452.28571428574,
+          "conta_roll": 14277.42857142857
+        },
+        {
+          "Fecha": "2021-07-13",
+          "Vacunados": 351524,
+          "Contagios": 16955,
+          "vac_roll": 288987.85714285716,
+          "conta_roll": 14144.714285714286
+        },
+        {
+          "Fecha": "2021-07-14",
+          "Vacunados": 346743,
+          "Contagios": 15702,
+          "vac_roll": 298741.28571428574,
+          "conta_roll": 13953.57142857143
+        },
+        {
+          "Fecha": "2021-07-15",
+          "Vacunados": 324580,
+          "Contagios": 14837,
+          "vac_roll": 294106.71428571426,
+          "conta_roll": 13538.142857142857
+        },
+        {
+          "Fecha": "2021-07-16",
+          "Vacunados": 331520,
+          "Contagios": 14536,
+          "vac_roll": 306314,
+          "conta_roll": 14075
+        },
+        {
+          "Fecha": "2021-07-17",
+          "Vacunados": 216258,
+          "Contagios": 9190,
+          "vac_roll": 295277.28571428574,
+          "conta_roll": 13697.42857142857
+        },
+        {
+          "Fecha": "2021-07-18",
+          "Vacunados": 126993,
+          "Contagios": 5180,
+          "vac_roll": 291449.85714285716,
+          "conta_roll": 13482.142857142857
+        },
+        {
+          "Fecha": "2021-07-19",
+          "Vacunados": 315099,
+          "Contagios": 14218,
+          "vac_roll": 287531,
+          "conta_roll": 12945.42857142857
+        },
+        {
+          "Fecha": "2021-07-20",
+          "Vacunados": 216477,
+          "Contagios": 13047,
+          "vac_roll": 268238.5714285714,
+          "conta_roll": 12387.142857142857
+        },
+        {
+          "Fecha": "2021-07-21",
+          "Vacunados": 299261,
+          "Contagios": 12123,
+          "vac_roll": 261455.42857142858,
+          "conta_roll": 11875.857142857143
+        },
+        {
+          "Fecha": "2021-07-22",
+          "Vacunados": 290864,
+          "Contagios": 11957,
+          "vac_roll": 256638.85714285713,
+          "conta_roll": 11464.42857142857
+        },
+        {
+          "Fecha": "2021-07-23",
+          "Vacunados": 281235,
+          "Contagios": 12564,
+          "vac_roll": 249455.2857142857,
+          "conta_roll": 11182.714285714286
+        },
+        {
+          "Fecha": "2021-07-24",
+          "Vacunados": 171520,
+          "Contagios": 8175,
+          "vac_roll": 243064.14285714287,
+          "conta_roll": 11037.714285714286
+        },
+        {
+          "Fecha": "2021-07-25",
+          "Vacunados": 119150,
+          "Contagios": 4365,
+          "vac_roll": 241943.7142857143,
+          "conta_roll": 10921.285714285714
+        },
+        {
+          "Fecha": "2021-07-26",
+          "Vacunados": 197463,
+          "Contagios": 4494,
+          "vac_roll": 225138.57142857142,
+          "conta_roll": 9532.142857142857
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-8e26af0705d6363ca7c326113a5bf7a4",
+      "transform": [
+        {"type": "formula", "expr": "toDate(datum[\"Fecha\"])", "as": "Fecha"},
+        {"type": "formula", "expr": "'Contagiados'", "as": "Contagiados"},
+        {"type": "formula", "expr": "'Vacunas'", "as": "Vacunas"}
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "impute",
+          "field": "conta_roll",
+          "groupby": ["Contagiados"],
+          "key": "Fecha",
+          "method": "value",
+          "value": 0
+        },
+        {
+          "type": "stack",
+          "groupby": ["Fecha"],
+          "field": "conta_roll",
+          "sort": {"field": ["Contagiados"], "order": ["descending"]},
+          "as": ["conta_roll_start", "conta_roll_end"],
+          "offset": "zero"
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "impute",
+          "field": "vac_roll",
+          "groupby": ["Vacunas"],
+          "key": "Fecha",
+          "method": "value",
+          "value": 0
+        },
+        {
+          "type": "stack",
+          "groupby": ["Fecha"],
+          "field": "vac_roll",
+          "sort": {"field": ["Vacunas"], "order": ["descending"]},
+          "as": ["vac_roll_start", "vac_roll_end"],
+          "offset": "zero"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_pathgroup",
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "faceted_path_layer_0_main",
+          "data": "data_1",
+          "groupby": ["Contagiados"]
+        }
+      },
+      "encode": {
+        "update": {
+          "width": {"field": {"group": "width"}},
+          "height": {"field": {"group": "height"}}
+        }
+      },
+      "marks": [
+        {
+          "name": "layer_0_marks",
+          "type": "area",
+          "style": ["area"],
+          "sort": {"field": "datum[\"Fecha\"]"},
+          "from": {"data": "faceted_path_layer_0_main"},
+          "encode": {
+            "update": {
+              "opacity": {"value": 0.45},
+              "orient": {"value": "vertical"},
+              "fill": {"scale": "color", "field": "Contagiados"},
+              "tooltip": {
+                "signal": "{\"Fecha\": timeFormat(datum[\"Fecha\"], '%b %d, %Y'), \"Contagios\": format(datum[\"Contagios\"], \"\"), \"Vacunados\": format(datum[\"Vacunados\"], \"\")}"
+              },
+              "x": {"scale": "x", "field": "Fecha"},
+              "y": {"scale": "layer_0_y", "field": "conta_roll_end"},
+              "y2": {"scale": "layer_0_y", "field": "conta_roll_start"},
+              "defined": {
+                "signal": "isValid(datum[\"Fecha\"]) && isFinite(+datum[\"Fecha\"]) && isValid(datum[\"conta_roll\"]) && isFinite(+datum[\"conta_roll\"])"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "layer_1_pathgroup",
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "faceted_path_layer_1_main",
+          "data": "data_2",
+          "groupby": ["Vacunas"]
+        }
+      },
+      "encode": {
+        "update": {
+          "width": {"field": {"group": "width"}},
+          "height": {"field": {"group": "height"}}
+        }
+      },
+      "marks": [
+        {
+          "name": "layer_1_marks",
+          "type": "area",
+          "style": ["area"],
+          "sort": {"field": "datum[\"Fecha\"]"},
+          "from": {"data": "faceted_path_layer_1_main"},
+          "encode": {
+            "update": {
+              "opacity": {"value": 0.45},
+              "orient": {"value": "vertical"},
+              "fill": {"scale": "color", "field": "Vacunas"},
+              "tooltip": {
+                "signal": "{\"Fecha\": timeFormat(datum[\"Fecha\"], '%b %d, %Y'), \"Contagios\": format(datum[\"Contagios\"], \"\"), \"Vacunados\": format(datum[\"Vacunados\"], \"\")}"
+              },
+              "x": {"scale": "x", "field": "Fecha"},
+              "y": {"scale": "layer_1_y", "field": "vac_roll_end"},
+              "y2": {"scale": "layer_1_y", "field": "vac_roll_start"},
+              "defined": {
+                "signal": "isValid(datum[\"Fecha\"]) && isFinite(+datum[\"Fecha\"]) && isValid(datum[\"vac_roll\"]) && isFinite(+datum[\"vac_roll\"])"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {
+        "fields": [
+          {"data": "data_1", "field": "Fecha"},
+          {"data": "data_2", "field": "Fecha"}
+        ]
+      },
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["Contagiados", "Vacunas"],
+      "range": ["#ff742e", "#026b83"]
+    },
+    {
+      "name": "layer_0_y",
+      "type": "linear",
+      "domain": [0, 50000],
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "layer_1_y",
+      "type": "linear",
+      "domain": {
+        "data": "data_2",
+        "fields": ["vac_roll_start", "vac_roll_end"]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "layer_0_y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "layer_0_y",
+      "orient": "left",
+      "grid": false,
+      "title": "Contagiados por día",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "layer_1_y",
+      "orient": "right",
+      "grid": false,
+      "title": "Vacunas por día",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "symbolType": "circle",
+      "encode": {"symbols": {"update": {"opacity": {"value": 0.45}}}}
+    }
+  ]
+}
