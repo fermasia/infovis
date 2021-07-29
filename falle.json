@@ -1,0 +1,3983 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 1000,
+  "height": 400,
+  "title": {
+    "text": "Fallecidos y Vacunados por día - media móvil últimos 7 días",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {
+      "name": "data-b6e6c156eb462f375d1f4d09bbaa5409",
+      "values": [
+        {
+          "Fecha": "2020-02-09",
+          "Vacunados": 0,
+          "Fallecidos": 1,
+          "vac_roll": null,
+          "falle_roll": null
+        },
+        {
+          "Fecha": "2020-02-10",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": null,
+          "falle_roll": null
+        },
+        {
+          "Fecha": "2020-02-11",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": null,
+          "falle_roll": null
+        },
+        {
+          "Fecha": "2020-02-12",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": null,
+          "falle_roll": null
+        },
+        {
+          "Fecha": "2020-02-13",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": null,
+          "falle_roll": null
+        },
+        {
+          "Fecha": "2020-02-14",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": null,
+          "falle_roll": null
+        },
+        {
+          "Fecha": "2020-02-15",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-02-16",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-17",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-18",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-19",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-20",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-21",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-22",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-23",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-24",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-25",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-26",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-27",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-28",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-02-29",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-03-01",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-03-02",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-03-03",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-03-04",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-03-05",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-03-06",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0
+        },
+        {
+          "Fecha": "2020-03-07",
+          "Vacunados": 0,
+          "Fallecidos": 1,
+          "vac_roll": 0,
+          "falle_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-08",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-09",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-10",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-11",
+          "Vacunados": 0,
+          "Fallecidos": 1,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-12",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-13",
+          "Vacunados": 0,
+          "Fallecidos": 1,
+          "vac_roll": 0,
+          "falle_roll": 0.42857142857142855
+        },
+        {
+          "Fecha": "2020-03-14",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-15",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-16",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-17",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-18",
+          "Vacunados": 0,
+          "Fallecidos": 1,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-19",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-20",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.14285714285714285
+        },
+        {
+          "Fecha": "2020-03-21",
+          "Vacunados": 0,
+          "Fallecidos": 1,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-22",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-23",
+          "Vacunados": 0,
+          "Fallecidos": 0,
+          "vac_roll": 0,
+          "falle_roll": 0.2857142857142857
+        },
+        {
+          "Fecha": "2020-03-24",
+          "Vacunados": 0,
+          "Fallecidos": 3,
+          "vac_roll": 0,
+          "falle_roll": 0.7142857142857143
+        },
+        {
+          "Fecha": "2020-03-25",
+          "Vacunados": 0,
+          "Fallecidos": 4,
+          "vac_roll": 0,
+          "falle_roll": 1.1428571428571428
+        },
+        {
+          "Fecha": "2020-03-26",
+          "Vacunados": 0,
+          "Fallecidos": 4,
+          "vac_roll": 0,
+          "falle_roll": 1.7142857142857142
+        },
+        {
+          "Fecha": "2020-03-27",
+          "Vacunados": 0,
+          "Fallecidos": 2,
+          "vac_roll": 0,
+          "falle_roll": 2
+        },
+        {
+          "Fecha": "2020-03-28",
+          "Vacunados": 0,
+          "Fallecidos": 2,
+          "vac_roll": 0,
+          "falle_roll": 2.142857142857143
+        },
+        {
+          "Fecha": "2020-03-29",
+          "Vacunados": 0,
+          "Fallecidos": 3,
+          "vac_roll": 0,
+          "falle_roll": 2.5714285714285716
+        },
+        {
+          "Fecha": "2020-03-30",
+          "Vacunados": 0,
+          "Fallecidos": 3,
+          "vac_roll": 0,
+          "falle_roll": 3
+        },
+        {
+          "Fecha": "2020-03-31",
+          "Vacunados": 0,
+          "Fallecidos": 3,
+          "vac_roll": 0,
+          "falle_roll": 3
+        },
+        {
+          "Fecha": "2020-04-01",
+          "Vacunados": 0,
+          "Fallecidos": 7,
+          "vac_roll": 0,
+          "falle_roll": 3.4285714285714284
+        },
+        {
+          "Fecha": "2020-04-02",
+          "Vacunados": 0,
+          "Fallecidos": 5,
+          "vac_roll": 0,
+          "falle_roll": 3.5714285714285716
+        },
+        {
+          "Fecha": "2020-04-03",
+          "Vacunados": 0,
+          "Fallecidos": 3,
+          "vac_roll": 0,
+          "falle_roll": 3.7142857142857144
+        },
+        {
+          "Fecha": "2020-04-04",
+          "Vacunados": 0,
+          "Fallecidos": 3,
+          "vac_roll": 0,
+          "falle_roll": 3.857142857142857
+        },
+        {
+          "Fecha": "2020-04-05",
+          "Vacunados": 0,
+          "Fallecidos": 9,
+          "vac_roll": 0,
+          "falle_roll": 4.714285714285714
+        },
+        {
+          "Fecha": "2020-04-06",
+          "Vacunados": 0,
+          "Fallecidos": 7,
+          "vac_roll": 0,
+          "falle_roll": 5.285714285714286
+        },
+        {
+          "Fecha": "2020-04-07",
+          "Vacunados": 0,
+          "Fallecidos": 6,
+          "vac_roll": 0,
+          "falle_roll": 5.714285714285714
+        },
+        {
+          "Fecha": "2020-04-08",
+          "Vacunados": 0,
+          "Fallecidos": 11,
+          "vac_roll": 0,
+          "falle_roll": 6.285714285714286
+        },
+        {
+          "Fecha": "2020-04-09",
+          "Vacunados": 0,
+          "Fallecidos": 8,
+          "vac_roll": 0,
+          "falle_roll": 6.714285714285714
+        },
+        {
+          "Fecha": "2020-04-10",
+          "Vacunados": 0,
+          "Fallecidos": 5,
+          "vac_roll": 0,
+          "falle_roll": 7
+        },
+        {
+          "Fecha": "2020-04-11",
+          "Vacunados": 0,
+          "Fallecidos": 5,
+          "vac_roll": 0,
+          "falle_roll": 7.285714285714286
+        },
+        {
+          "Fecha": "2020-04-12",
+          "Vacunados": 0,
+          "Fallecidos": 5,
+          "vac_roll": 0,
+          "falle_roll": 6.714285714285714
+        },
+        {
+          "Fecha": "2020-04-13",
+          "Vacunados": 0,
+          "Fallecidos": 7,
+          "vac_roll": 0,
+          "falle_roll": 6.714285714285714
+        },
+        {
+          "Fecha": "2020-04-14",
+          "Vacunados": 0,
+          "Fallecidos": 9,
+          "vac_roll": 0,
+          "falle_roll": 7.142857142857143
+        },
+        {
+          "Fecha": "2020-04-15",
+          "Vacunados": 0,
+          "Fallecidos": 8,
+          "vac_roll": 0,
+          "falle_roll": 6.714285714285714
+        },
+        {
+          "Fecha": "2020-04-16",
+          "Vacunados": 0,
+          "Fallecidos": 8,
+          "vac_roll": 0,
+          "falle_roll": 6.714285714285714
+        },
+        {
+          "Fecha": "2020-04-17",
+          "Vacunados": 0,
+          "Fallecidos": 6,
+          "vac_roll": 0,
+          "falle_roll": 6.857142857142857
+        },
+        {
+          "Fecha": "2020-04-18",
+          "Vacunados": 0,
+          "Fallecidos": 4,
+          "vac_roll": 0,
+          "falle_roll": 6.714285714285714
+        },
+        {
+          "Fecha": "2020-04-19",
+          "Vacunados": 0,
+          "Fallecidos": 9,
+          "vac_roll": 0,
+          "falle_roll": 7.285714285714286
+        },
+        {
+          "Fecha": "2020-04-20",
+          "Vacunados": 0,
+          "Fallecidos": 7,
+          "vac_roll": 0,
+          "falle_roll": 7.285714285714286
+        },
+        {
+          "Fecha": "2020-04-21",
+          "Vacunados": 0,
+          "Fallecidos": 10,
+          "vac_roll": 0,
+          "falle_roll": 7.428571428571429
+        },
+        {
+          "Fecha": "2020-04-22",
+          "Vacunados": 0,
+          "Fallecidos": 11,
+          "vac_roll": 0,
+          "falle_roll": 7.857142857142857
+        },
+        {
+          "Fecha": "2020-04-23",
+          "Vacunados": 0,
+          "Fallecidos": 10,
+          "vac_roll": 0,
+          "falle_roll": 8.142857142857142
+        },
+        {
+          "Fecha": "2020-04-24",
+          "Vacunados": 0,
+          "Fallecidos": 13,
+          "vac_roll": 0,
+          "falle_roll": 9.142857142857142
+        },
+        {
+          "Fecha": "2020-04-25",
+          "Vacunados": 0,
+          "Fallecidos": 12,
+          "vac_roll": 0,
+          "falle_roll": 10.285714285714286
+        },
+        {
+          "Fecha": "2020-04-26",
+          "Vacunados": 0,
+          "Fallecidos": 6,
+          "vac_roll": 0,
+          "falle_roll": 9.857142857142858
+        },
+        {
+          "Fecha": "2020-04-27",
+          "Vacunados": 0,
+          "Fallecidos": 13,
+          "vac_roll": 0,
+          "falle_roll": 10.714285714285714
+        },
+        {
+          "Fecha": "2020-04-28",
+          "Vacunados": 0,
+          "Fallecidos": 12,
+          "vac_roll": 0,
+          "falle_roll": 11
+        },
+        {
+          "Fecha": "2020-04-29",
+          "Vacunados": 0,
+          "Fallecidos": 10,
+          "vac_roll": 0,
+          "falle_roll": 10.857142857142858
+        },
+        {
+          "Fecha": "2020-04-30",
+          "Vacunados": 0,
+          "Fallecidos": 9,
+          "vac_roll": 0,
+          "falle_roll": 10.714285714285714
+        },
+        {
+          "Fecha": "2020-05-01",
+          "Vacunados": 0,
+          "Fallecidos": 20,
+          "vac_roll": 0,
+          "falle_roll": 11.714285714285714
+        },
+        {
+          "Fecha": "2020-05-02",
+          "Vacunados": 0,
+          "Fallecidos": 11,
+          "vac_roll": 0,
+          "falle_roll": 11.571428571428571
+        },
+        {
+          "Fecha": "2020-05-03",
+          "Vacunados": 0,
+          "Fallecidos": 9,
+          "vac_roll": 0,
+          "falle_roll": 12
+        },
+        {
+          "Fecha": "2020-05-04",
+          "Vacunados": 0,
+          "Fallecidos": 7,
+          "vac_roll": 0,
+          "falle_roll": 11.142857142857142
+        },
+        {
+          "Fecha": "2020-05-05",
+          "Vacunados": 0,
+          "Fallecidos": 6,
+          "vac_roll": 0,
+          "falle_roll": 10.285714285714286
+        },
+        {
+          "Fecha": "2020-05-06",
+          "Vacunados": 0,
+          "Fallecidos": 9,
+          "vac_roll": 0,
+          "falle_roll": 10.142857142857142
+        },
+        {
+          "Fecha": "2020-05-07",
+          "Vacunados": 0,
+          "Fallecidos": 11,
+          "vac_roll": 0,
+          "falle_roll": 10.428571428571429
+        },
+        {
+          "Fecha": "2020-05-08",
+          "Vacunados": 0,
+          "Fallecidos": 8,
+          "vac_roll": 0,
+          "falle_roll": 8.714285714285714
+        },
+        {
+          "Fecha": "2020-05-09",
+          "Vacunados": 0,
+          "Fallecidos": 10,
+          "vac_roll": 0,
+          "falle_roll": 8.571428571428571
+        },
+        {
+          "Fecha": "2020-05-10",
+          "Vacunados": 0,
+          "Fallecidos": 12,
+          "vac_roll": 0,
+          "falle_roll": 9
+        },
+        {
+          "Fecha": "2020-05-11",
+          "Vacunados": 0,
+          "Fallecidos": 15,
+          "vac_roll": 0,
+          "falle_roll": 10.142857142857142
+        },
+        {
+          "Fecha": "2020-05-12",
+          "Vacunados": 0,
+          "Fallecidos": 5,
+          "vac_roll": 0,
+          "falle_roll": 10
+        },
+        {
+          "Fecha": "2020-05-13",
+          "Vacunados": 0,
+          "Fallecidos": 13,
+          "vac_roll": 0,
+          "falle_roll": 10.571428571428571
+        },
+        {
+          "Fecha": "2020-05-14",
+          "Vacunados": 0,
+          "Fallecidos": 13,
+          "vac_roll": 0,
+          "falle_roll": 10.857142857142858
+        },
+        {
+          "Fecha": "2020-05-15",
+          "Vacunados": 0,
+          "Fallecidos": 17,
+          "vac_roll": 0,
+          "falle_roll": 12.142857142857142
+        },
+        {
+          "Fecha": "2020-05-16",
+          "Vacunados": 0,
+          "Fallecidos": 10,
+          "vac_roll": 0,
+          "falle_roll": 12.142857142857142
+        },
+        {
+          "Fecha": "2020-05-17",
+          "Vacunados": 0,
+          "Fallecidos": 13,
+          "vac_roll": 0,
+          "falle_roll": 12.285714285714286
+        },
+        {
+          "Fecha": "2020-05-18",
+          "Vacunados": 0,
+          "Fallecidos": 16,
+          "vac_roll": 0,
+          "falle_roll": 12.428571428571429
+        },
+        {
+          "Fecha": "2020-05-19",
+          "Vacunados": 0,
+          "Fallecidos": 12,
+          "vac_roll": 0,
+          "falle_roll": 13.428571428571429
+        },
+        {
+          "Fecha": "2020-05-20",
+          "Vacunados": 0,
+          "Fallecidos": 15,
+          "vac_roll": 0,
+          "falle_roll": 13.714285714285714
+        },
+        {
+          "Fecha": "2020-05-21",
+          "Vacunados": 0,
+          "Fallecidos": 17,
+          "vac_roll": 0,
+          "falle_roll": 14.285714285714286
+        },
+        {
+          "Fecha": "2020-05-22",
+          "Vacunados": 0,
+          "Fallecidos": 17,
+          "vac_roll": 0,
+          "falle_roll": 14.285714285714286
+        },
+        {
+          "Fecha": "2020-05-23",
+          "Vacunados": 0,
+          "Fallecidos": 12,
+          "vac_roll": 0,
+          "falle_roll": 14.571428571428571
+        },
+        {
+          "Fecha": "2020-05-24",
+          "Vacunados": 0,
+          "Fallecidos": 15,
+          "vac_roll": 0,
+          "falle_roll": 14.857142857142858
+        },
+        {
+          "Fecha": "2020-05-25",
+          "Vacunados": 0,
+          "Fallecidos": 15,
+          "vac_roll": 0,
+          "falle_roll": 14.714285714285714
+        },
+        {
+          "Fecha": "2020-05-26",
+          "Vacunados": 0,
+          "Fallecidos": 14,
+          "vac_roll": 0,
+          "falle_roll": 15
+        },
+        {
+          "Fecha": "2020-05-27",
+          "Vacunados": 0,
+          "Fallecidos": 17,
+          "vac_roll": 0,
+          "falle_roll": 15.285714285714286
+        },
+        {
+          "Fecha": "2020-05-28",
+          "Vacunados": 0,
+          "Fallecidos": 19,
+          "vac_roll": 0,
+          "falle_roll": 15.571428571428571
+        },
+        {
+          "Fecha": "2020-05-29",
+          "Vacunados": 0,
+          "Fallecidos": 24,
+          "vac_roll": 0,
+          "falle_roll": 16.571428571428573
+        },
+        {
+          "Fecha": "2020-05-30",
+          "Vacunados": 0,
+          "Fallecidos": 19,
+          "vac_roll": 0,
+          "falle_roll": 17.571428571428573
+        },
+        {
+          "Fecha": "2020-05-31",
+          "Vacunados": 0,
+          "Fallecidos": 16,
+          "vac_roll": 0,
+          "falle_roll": 17.714285714285715
+        },
+        {
+          "Fecha": "2020-06-01",
+          "Vacunados": 0,
+          "Fallecidos": 29,
+          "vac_roll": 0,
+          "falle_roll": 19.714285714285715
+        },
+        {
+          "Fecha": "2020-06-02",
+          "Vacunados": 0,
+          "Fallecidos": 20,
+          "vac_roll": 0,
+          "falle_roll": 20.571428571428573
+        },
+        {
+          "Fecha": "2020-06-03",
+          "Vacunados": 0,
+          "Fallecidos": 33,
+          "vac_roll": 0,
+          "falle_roll": 22.857142857142858
+        },
+        {
+          "Fecha": "2020-06-04",
+          "Vacunados": 0,
+          "Fallecidos": 31,
+          "vac_roll": 0,
+          "falle_roll": 24.571428571428573
+        },
+        {
+          "Fecha": "2020-06-05",
+          "Vacunados": 0,
+          "Fallecidos": 28,
+          "vac_roll": 0,
+          "falle_roll": 25.142857142857142
+        },
+        {
+          "Fecha": "2020-06-06",
+          "Vacunados": 0,
+          "Fallecidos": 39,
+          "vac_roll": 0,
+          "falle_roll": 28
+        },
+        {
+          "Fecha": "2020-06-07",
+          "Vacunados": 0,
+          "Fallecidos": 31,
+          "vac_roll": 0,
+          "falle_roll": 30.142857142857142
+        },
+        {
+          "Fecha": "2020-06-08",
+          "Vacunados": 0,
+          "Fallecidos": 46,
+          "vac_roll": 0,
+          "falle_roll": 32.57142857142857
+        },
+        {
+          "Fecha": "2020-06-09",
+          "Vacunados": 0,
+          "Fallecidos": 21,
+          "vac_roll": 0,
+          "falle_roll": 32.714285714285715
+        },
+        {
+          "Fecha": "2020-06-10",
+          "Vacunados": 0,
+          "Fallecidos": 37,
+          "vac_roll": 0,
+          "falle_roll": 33.285714285714285
+        },
+        {
+          "Fecha": "2020-06-11",
+          "Vacunados": 0,
+          "Fallecidos": 32,
+          "vac_roll": 0,
+          "falle_roll": 33.42857142857143
+        },
+        {
+          "Fecha": "2020-06-12",
+          "Vacunados": 0,
+          "Fallecidos": 36,
+          "vac_roll": 0,
+          "falle_roll": 34.57142857142857
+        },
+        {
+          "Fecha": "2020-06-13",
+          "Vacunados": 0,
+          "Fallecidos": 27,
+          "vac_roll": 0,
+          "falle_roll": 32.857142857142854
+        },
+        {
+          "Fecha": "2020-06-14",
+          "Vacunados": 0,
+          "Fallecidos": 52,
+          "vac_roll": 0,
+          "falle_roll": 35.857142857142854
+        },
+        {
+          "Fecha": "2020-06-15",
+          "Vacunados": 0,
+          "Fallecidos": 45,
+          "vac_roll": 0,
+          "falle_roll": 35.714285714285715
+        },
+        {
+          "Fecha": "2020-06-16",
+          "Vacunados": 0,
+          "Fallecidos": 45,
+          "vac_roll": 0,
+          "falle_roll": 39.142857142857146
+        },
+        {
+          "Fecha": "2020-06-17",
+          "Vacunados": 0,
+          "Fallecidos": 56,
+          "vac_roll": 0,
+          "falle_roll": 41.857142857142854
+        },
+        {
+          "Fecha": "2020-06-18",
+          "Vacunados": 0,
+          "Fallecidos": 48,
+          "vac_roll": 0,
+          "falle_roll": 44.142857142857146
+        },
+        {
+          "Fecha": "2020-06-19",
+          "Vacunados": 0,
+          "Fallecidos": 48,
+          "vac_roll": 0,
+          "falle_roll": 45.857142857142854
+        },
+        {
+          "Fecha": "2020-06-20",
+          "Vacunados": 0,
+          "Fallecidos": 40,
+          "vac_roll": 0,
+          "falle_roll": 47.714285714285715
+        },
+        {
+          "Fecha": "2020-06-21",
+          "Vacunados": 0,
+          "Fallecidos": 60,
+          "vac_roll": 0,
+          "falle_roll": 48.857142857142854
+        },
+        {
+          "Fecha": "2020-06-22",
+          "Vacunados": 0,
+          "Fallecidos": 56,
+          "vac_roll": 0,
+          "falle_roll": 50.42857142857143
+        },
+        {
+          "Fecha": "2020-06-23",
+          "Vacunados": 0,
+          "Fallecidos": 64,
+          "vac_roll": 0,
+          "falle_roll": 53.142857142857146
+        },
+        {
+          "Fecha": "2020-06-24",
+          "Vacunados": 0,
+          "Fallecidos": 53,
+          "vac_roll": 0,
+          "falle_roll": 52.714285714285715
+        },
+        {
+          "Fecha": "2020-06-25",
+          "Vacunados": 0,
+          "Fallecidos": 59,
+          "vac_roll": 0,
+          "falle_roll": 54.285714285714285
+        },
+        {
+          "Fecha": "2020-06-26",
+          "Vacunados": 0,
+          "Fallecidos": 71,
+          "vac_roll": 0,
+          "falle_roll": 57.57142857142857
+        },
+        {
+          "Fecha": "2020-06-27",
+          "Vacunados": 0,
+          "Fallecidos": 78,
+          "vac_roll": 0,
+          "falle_roll": 63
+        },
+        {
+          "Fecha": "2020-06-28",
+          "Vacunados": 0,
+          "Fallecidos": 67,
+          "vac_roll": 0,
+          "falle_roll": 64
+        },
+        {
+          "Fecha": "2020-06-29",
+          "Vacunados": 0,
+          "Fallecidos": 53,
+          "vac_roll": 0,
+          "falle_roll": 63.57142857142857
+        },
+        {
+          "Fecha": "2020-06-30",
+          "Vacunados": 0,
+          "Fallecidos": 76,
+          "vac_roll": 0,
+          "falle_roll": 65.28571428571429
+        },
+        {
+          "Fecha": "2020-07-01",
+          "Vacunados": 0,
+          "Fallecidos": 98,
+          "vac_roll": 0,
+          "falle_roll": 71.71428571428571
+        },
+        {
+          "Fecha": "2020-07-02",
+          "Vacunados": 0,
+          "Fallecidos": 93,
+          "vac_roll": 0,
+          "falle_roll": 76.57142857142857
+        },
+        {
+          "Fecha": "2020-07-03",
+          "Vacunados": 0,
+          "Fallecidos": 82,
+          "vac_roll": 0,
+          "falle_roll": 78.14285714285714
+        },
+        {
+          "Fecha": "2020-07-04",
+          "Vacunados": 0,
+          "Fallecidos": 96,
+          "vac_roll": 0,
+          "falle_roll": 80.71428571428571
+        },
+        {
+          "Fecha": "2020-07-05",
+          "Vacunados": 0,
+          "Fallecidos": 119,
+          "vac_roll": 0,
+          "falle_roll": 88.14285714285714
+        },
+        {
+          "Fecha": "2020-07-06",
+          "Vacunados": 0,
+          "Fallecidos": 80,
+          "vac_roll": 0,
+          "falle_roll": 92
+        },
+        {
+          "Fecha": "2020-07-07",
+          "Vacunados": 0,
+          "Fallecidos": 105,
+          "vac_roll": 0,
+          "falle_roll": 96.14285714285714
+        },
+        {
+          "Fecha": "2020-07-08",
+          "Vacunados": 0,
+          "Fallecidos": 137,
+          "vac_roll": 0,
+          "falle_roll": 101.71428571428571
+        },
+        {
+          "Fecha": "2020-07-09",
+          "Vacunados": 0,
+          "Fallecidos": 108,
+          "vac_roll": 0,
+          "falle_roll": 103.85714285714286
+        },
+        {
+          "Fecha": "2020-07-10",
+          "Vacunados": 0,
+          "Fallecidos": 138,
+          "vac_roll": 0,
+          "falle_roll": 111.85714285714286
+        },
+        {
+          "Fecha": "2020-07-11",
+          "Vacunados": 0,
+          "Fallecidos": 130,
+          "vac_roll": 0,
+          "falle_roll": 116.71428571428571
+        },
+        {
+          "Fecha": "2020-07-12",
+          "Vacunados": 0,
+          "Fallecidos": 116,
+          "vac_roll": 0,
+          "falle_roll": 116.28571428571429
+        },
+        {
+          "Fecha": "2020-07-13",
+          "Vacunados": 0,
+          "Fallecidos": 132,
+          "vac_roll": 0,
+          "falle_roll": 123.71428571428571
+        },
+        {
+          "Fecha": "2020-07-14",
+          "Vacunados": 0,
+          "Fallecidos": 160,
+          "vac_roll": 0,
+          "falle_roll": 131.57142857142858
+        },
+        {
+          "Fecha": "2020-07-15",
+          "Vacunados": 0,
+          "Fallecidos": 158,
+          "vac_roll": 0,
+          "falle_roll": 134.57142857142858
+        },
+        {
+          "Fecha": "2020-07-16",
+          "Vacunados": 0,
+          "Fallecidos": 141,
+          "vac_roll": 0,
+          "falle_roll": 139.28571428571428
+        },
+        {
+          "Fecha": "2020-07-17",
+          "Vacunados": 0,
+          "Fallecidos": 152,
+          "vac_roll": 0,
+          "falle_roll": 141.28571428571428
+        },
+        {
+          "Fecha": "2020-07-18",
+          "Vacunados": 0,
+          "Fallecidos": 162,
+          "vac_roll": 0,
+          "falle_roll": 145.85714285714286
+        },
+        {
+          "Fecha": "2020-07-19",
+          "Vacunados": 0,
+          "Fallecidos": 163,
+          "vac_roll": 0,
+          "falle_roll": 152.57142857142858
+        },
+        {
+          "Fecha": "2020-07-20",
+          "Vacunados": 0,
+          "Fallecidos": 160,
+          "vac_roll": 0,
+          "falle_roll": 156.57142857142858
+        },
+        {
+          "Fecha": "2020-07-21",
+          "Vacunados": 0,
+          "Fallecidos": 177,
+          "vac_roll": 0,
+          "falle_roll": 159
+        },
+        {
+          "Fecha": "2020-07-22",
+          "Vacunados": 0,
+          "Fallecidos": 174,
+          "vac_roll": 0,
+          "falle_roll": 161.28571428571428
+        },
+        {
+          "Fecha": "2020-07-23",
+          "Vacunados": 0,
+          "Fallecidos": 141,
+          "vac_roll": 0,
+          "falle_roll": 161.28571428571428
+        },
+        {
+          "Fecha": "2020-07-24",
+          "Vacunados": 0,
+          "Fallecidos": 171,
+          "vac_roll": 0,
+          "falle_roll": 164
+        },
+        {
+          "Fecha": "2020-07-25",
+          "Vacunados": 0,
+          "Fallecidos": 142,
+          "vac_roll": 0,
+          "falle_roll": 161.14285714285714
+        },
+        {
+          "Fecha": "2020-07-26",
+          "Vacunados": 0,
+          "Fallecidos": 167,
+          "vac_roll": 0,
+          "falle_roll": 161.71428571428572
+        },
+        {
+          "Fecha": "2020-07-27",
+          "Vacunados": 0,
+          "Fallecidos": 200,
+          "vac_roll": 0,
+          "falle_roll": 167.42857142857142
+        },
+        {
+          "Fecha": "2020-07-28",
+          "Vacunados": 0,
+          "Fallecidos": 190,
+          "vac_roll": 0,
+          "falle_roll": 169.28571428571428
+        },
+        {
+          "Fecha": "2020-07-29",
+          "Vacunados": 0,
+          "Fallecidos": 207,
+          "vac_roll": 0,
+          "falle_roll": 174
+        },
+        {
+          "Fecha": "2020-07-30",
+          "Vacunados": 0,
+          "Fallecidos": 195,
+          "vac_roll": 0,
+          "falle_roll": 181.71428571428572
+        },
+        {
+          "Fecha": "2020-07-31",
+          "Vacunados": 0,
+          "Fallecidos": 185,
+          "vac_roll": 0,
+          "falle_roll": 183.71428571428572
+        },
+        {
+          "Fecha": "2020-08-01",
+          "Vacunados": 0,
+          "Fallecidos": 172,
+          "vac_roll": 0,
+          "falle_roll": 188
+        },
+        {
+          "Fecha": "2020-08-02",
+          "Vacunados": 0,
+          "Fallecidos": 235,
+          "vac_roll": 0,
+          "falle_roll": 197.71428571428572
+        },
+        {
+          "Fecha": "2020-08-03",
+          "Vacunados": 0,
+          "Fallecidos": 206,
+          "vac_roll": 0,
+          "falle_roll": 198.57142857142858
+        },
+        {
+          "Fecha": "2020-08-04",
+          "Vacunados": 0,
+          "Fallecidos": 203,
+          "vac_roll": 0,
+          "falle_roll": 200.42857142857142
+        },
+        {
+          "Fecha": "2020-08-05",
+          "Vacunados": 0,
+          "Fallecidos": 225,
+          "vac_roll": 0,
+          "falle_roll": 203
+        },
+        {
+          "Fecha": "2020-08-06",
+          "Vacunados": 0,
+          "Fallecidos": 238,
+          "vac_roll": 0,
+          "falle_roll": 209.14285714285714
+        },
+        {
+          "Fecha": "2020-08-07",
+          "Vacunados": 0,
+          "Fallecidos": 208,
+          "vac_roll": 0,
+          "falle_roll": 212.42857142857142
+        },
+        {
+          "Fecha": "2020-08-08",
+          "Vacunados": 0,
+          "Fallecidos": 208,
+          "vac_roll": 0,
+          "falle_roll": 217.57142857142858
+        },
+        {
+          "Fecha": "2020-08-09",
+          "Vacunados": 0,
+          "Fallecidos": 213,
+          "vac_roll": 0,
+          "falle_roll": 214.42857142857142
+        },
+        {
+          "Fecha": "2020-08-10",
+          "Vacunados": 0,
+          "Fallecidos": 220,
+          "vac_roll": 0,
+          "falle_roll": 216.42857142857142
+        },
+        {
+          "Fecha": "2020-08-11",
+          "Vacunados": 0,
+          "Fallecidos": 177,
+          "vac_roll": 0,
+          "falle_roll": 212.71428571428572
+        },
+        {
+          "Fecha": "2020-08-12",
+          "Vacunados": 0,
+          "Fallecidos": 217,
+          "vac_roll": 0,
+          "falle_roll": 211.57142857142858
+        },
+        {
+          "Fecha": "2020-08-13",
+          "Vacunados": 0,
+          "Fallecidos": 223,
+          "vac_roll": 0,
+          "falle_roll": 209.42857142857142
+        },
+        {
+          "Fecha": "2020-08-14",
+          "Vacunados": 0,
+          "Fallecidos": 231,
+          "vac_roll": 0,
+          "falle_roll": 212.71428571428572
+        },
+        {
+          "Fecha": "2020-08-15",
+          "Vacunados": 0,
+          "Fallecidos": 214,
+          "vac_roll": 0,
+          "falle_roll": 213.57142857142858
+        },
+        {
+          "Fecha": "2020-08-16",
+          "Vacunados": 0,
+          "Fallecidos": 222,
+          "vac_roll": 0,
+          "falle_roll": 214.85714285714286
+        },
+        {
+          "Fecha": "2020-08-17",
+          "Vacunados": 0,
+          "Fallecidos": 236,
+          "vac_roll": 0,
+          "falle_roll": 217.14285714285714
+        },
+        {
+          "Fecha": "2020-08-18",
+          "Vacunados": 0,
+          "Fallecidos": 265,
+          "vac_roll": 0,
+          "falle_roll": 229.71428571428572
+        },
+        {
+          "Fecha": "2020-08-19",
+          "Vacunados": 0,
+          "Fallecidos": 236,
+          "vac_roll": 0,
+          "falle_roll": 232.42857142857142
+        },
+        {
+          "Fecha": "2020-08-20",
+          "Vacunados": 0,
+          "Fallecidos": 227,
+          "vac_roll": 0,
+          "falle_roll": 233
+        },
+        {
+          "Fecha": "2020-08-21",
+          "Vacunados": 0,
+          "Fallecidos": 220,
+          "vac_roll": 0,
+          "falle_roll": 231.42857142857142
+        },
+        {
+          "Fecha": "2020-08-22",
+          "Vacunados": 0,
+          "Fallecidos": 249,
+          "vac_roll": 0,
+          "falle_roll": 236.42857142857142
+        },
+        {
+          "Fecha": "2020-08-23",
+          "Vacunados": 0,
+          "Fallecidos": 214,
+          "vac_roll": 0,
+          "falle_roll": 235.28571428571428
+        },
+        {
+          "Fecha": "2020-08-24",
+          "Vacunados": 0,
+          "Fallecidos": 298,
+          "vac_roll": 0,
+          "falle_roll": 244.14285714285714
+        },
+        {
+          "Fecha": "2020-08-25",
+          "Vacunados": 0,
+          "Fallecidos": 260,
+          "vac_roll": 0,
+          "falle_roll": 243.42857142857142
+        },
+        {
+          "Fecha": "2020-08-26",
+          "Vacunados": 0,
+          "Fallecidos": 240,
+          "vac_roll": 0,
+          "falle_roll": 244
+        },
+        {
+          "Fecha": "2020-08-27",
+          "Vacunados": 0,
+          "Fallecidos": 260,
+          "vac_roll": 0,
+          "falle_roll": 248.71428571428572
+        },
+        {
+          "Fecha": "2020-08-28",
+          "Vacunados": 0,
+          "Fallecidos": 261,
+          "vac_roll": 0,
+          "falle_roll": 254.57142857142858
+        },
+        {
+          "Fecha": "2020-08-29",
+          "Vacunados": 0,
+          "Fallecidos": 275,
+          "vac_roll": 0,
+          "falle_roll": 258.2857142857143
+        },
+        {
+          "Fecha": "2020-08-30",
+          "Vacunados": 0,
+          "Fallecidos": 271,
+          "vac_roll": 0,
+          "falle_roll": 266.42857142857144
+        },
+        {
+          "Fecha": "2020-08-31",
+          "Vacunados": 0,
+          "Fallecidos": 302,
+          "vac_roll": 0,
+          "falle_roll": 267
+        },
+        {
+          "Fecha": "2020-09-01",
+          "Vacunados": 0,
+          "Fallecidos": 308,
+          "vac_roll": 0,
+          "falle_roll": 273.85714285714283
+        },
+        {
+          "Fecha": "2020-09-02",
+          "Vacunados": 0,
+          "Fallecidos": 295,
+          "vac_roll": 0,
+          "falle_roll": 281.7142857142857
+        },
+        {
+          "Fecha": "2020-09-03",
+          "Vacunados": 0,
+          "Fallecidos": 324,
+          "vac_roll": 0,
+          "falle_roll": 290.85714285714283
+        },
+        {
+          "Fecha": "2020-09-04",
+          "Vacunados": 0,
+          "Fallecidos": 330,
+          "vac_roll": 0,
+          "falle_roll": 300.7142857142857
+        },
+        {
+          "Fecha": "2020-09-05",
+          "Vacunados": 0,
+          "Fallecidos": 307,
+          "vac_roll": 0,
+          "falle_roll": 305.2857142857143
+        },
+        {
+          "Fecha": "2020-09-06",
+          "Vacunados": 0,
+          "Fallecidos": 316,
+          "vac_roll": 0,
+          "falle_roll": 311.7142857142857
+        },
+        {
+          "Fecha": "2020-09-07",
+          "Vacunados": 0,
+          "Fallecidos": 347,
+          "vac_roll": 0,
+          "falle_roll": 318.14285714285717
+        },
+        {
+          "Fecha": "2020-09-08",
+          "Vacunados": 0,
+          "Fallecidos": 316,
+          "vac_roll": 0,
+          "falle_roll": 319.2857142857143
+        },
+        {
+          "Fecha": "2020-09-09",
+          "Vacunados": 0,
+          "Fallecidos": 356,
+          "vac_roll": 0,
+          "falle_roll": 328
+        },
+        {
+          "Fecha": "2020-09-10",
+          "Vacunados": 0,
+          "Fallecidos": 316,
+          "vac_roll": 0,
+          "falle_roll": 326.85714285714283
+        },
+        {
+          "Fecha": "2020-09-11",
+          "Vacunados": 0,
+          "Fallecidos": 331,
+          "vac_roll": 0,
+          "falle_roll": 327
+        },
+        {
+          "Fecha": "2020-09-12",
+          "Vacunados": 0,
+          "Fallecidos": 278,
+          "vac_roll": 0,
+          "falle_roll": 322.85714285714283
+        },
+        {
+          "Fecha": "2020-09-13",
+          "Vacunados": 0,
+          "Fallecidos": 329,
+          "vac_roll": 0,
+          "falle_roll": 324.7142857142857
+        },
+        {
+          "Fecha": "2020-09-14",
+          "Vacunados": 0,
+          "Fallecidos": 351,
+          "vac_roll": 0,
+          "falle_roll": 325.2857142857143
+        },
+        {
+          "Fecha": "2020-09-15",
+          "Vacunados": 0,
+          "Fallecidos": 354,
+          "vac_roll": 0,
+          "falle_roll": 330.7142857142857
+        },
+        {
+          "Fecha": "2020-09-16",
+          "Vacunados": 0,
+          "Fallecidos": 345,
+          "vac_roll": 0,
+          "falle_roll": 329.14285714285717
+        },
+        {
+          "Fecha": "2020-09-17",
+          "Vacunados": 0,
+          "Fallecidos": 369,
+          "vac_roll": 0,
+          "falle_roll": 336.7142857142857
+        },
+        {
+          "Fecha": "2020-09-18",
+          "Vacunados": 0,
+          "Fallecidos": 353,
+          "vac_roll": 0,
+          "falle_roll": 339.85714285714283
+        },
+        {
+          "Fecha": "2020-09-19",
+          "Vacunados": 0,
+          "Fallecidos": 333,
+          "vac_roll": 0,
+          "falle_roll": 347.7142857142857
+        },
+        {
+          "Fecha": "2020-09-20",
+          "Vacunados": 0,
+          "Fallecidos": 309,
+          "vac_roll": 0,
+          "falle_roll": 344.85714285714283
+        },
+        {
+          "Fecha": "2020-09-21",
+          "Vacunados": 0,
+          "Fallecidos": 361,
+          "vac_roll": 0,
+          "falle_roll": 346.2857142857143
+        },
+        {
+          "Fecha": "2020-09-22",
+          "Vacunados": 0,
+          "Fallecidos": 338,
+          "vac_roll": 0,
+          "falle_roll": 344
+        },
+        {
+          "Fecha": "2020-09-23",
+          "Vacunados": 0,
+          "Fallecidos": 369,
+          "vac_roll": 0,
+          "falle_roll": 347.42857142857144
+        },
+        {
+          "Fecha": "2020-09-24",
+          "Vacunados": 0,
+          "Fallecidos": 356,
+          "vac_roll": 0,
+          "falle_roll": 345.57142857142856
+        },
+        {
+          "Fecha": "2020-09-25",
+          "Vacunados": 0,
+          "Fallecidos": 395,
+          "vac_roll": 0,
+          "falle_roll": 351.57142857142856
+        },
+        {
+          "Fecha": "2020-09-26",
+          "Vacunados": 0,
+          "Fallecidos": 379,
+          "vac_roll": 0,
+          "falle_roll": 358.14285714285717
+        },
+        {
+          "Fecha": "2020-09-27",
+          "Vacunados": 0,
+          "Fallecidos": 335,
+          "vac_roll": 0,
+          "falle_roll": 361.85714285714283
+        },
+        {
+          "Fecha": "2020-09-28",
+          "Vacunados": 0,
+          "Fallecidos": 356,
+          "vac_roll": 0,
+          "falle_roll": 361.14285714285717
+        },
+        {
+          "Fecha": "2020-09-29",
+          "Vacunados": 0,
+          "Fallecidos": 325,
+          "vac_roll": 0,
+          "falle_roll": 359.2857142857143
+        },
+        {
+          "Fecha": "2020-09-30",
+          "Vacunados": 0,
+          "Fallecidos": 387,
+          "vac_roll": 0,
+          "falle_roll": 361.85714285714283
+        },
+        {
+          "Fecha": "2020-10-01",
+          "Vacunados": 0,
+          "Fallecidos": 394,
+          "vac_roll": 0,
+          "falle_roll": 367.2857142857143
+        },
+        {
+          "Fecha": "2020-10-02",
+          "Vacunados": 0,
+          "Fallecidos": 366,
+          "vac_roll": 0,
+          "falle_roll": 363.14285714285717
+        },
+        {
+          "Fecha": "2020-10-03",
+          "Vacunados": 0,
+          "Fallecidos": 316,
+          "vac_roll": 0,
+          "falle_roll": 354.14285714285717
+        },
+        {
+          "Fecha": "2020-10-04",
+          "Vacunados": 0,
+          "Fallecidos": 374,
+          "vac_roll": 0,
+          "falle_roll": 359.7142857142857
+        },
+        {
+          "Fecha": "2020-10-05",
+          "Vacunados": 0,
+          "Fallecidos": 371,
+          "vac_roll": 0,
+          "falle_roll": 361.85714285714283
+        },
+        {
+          "Fecha": "2020-10-06",
+          "Vacunados": 0,
+          "Fallecidos": 357,
+          "vac_roll": 0,
+          "falle_roll": 366.42857142857144
+        },
+        {
+          "Fecha": "2020-10-07",
+          "Vacunados": 0,
+          "Fallecidos": 378,
+          "vac_roll": 0,
+          "falle_roll": 365.14285714285717
+        },
+        {
+          "Fecha": "2020-10-08",
+          "Vacunados": 0,
+          "Fallecidos": 406,
+          "vac_roll": 0,
+          "falle_roll": 366.85714285714283
+        },
+        {
+          "Fecha": "2020-10-09",
+          "Vacunados": 0,
+          "Fallecidos": 420,
+          "vac_roll": 0,
+          "falle_roll": 374.57142857142856
+        },
+        {
+          "Fecha": "2020-10-10",
+          "Vacunados": 0,
+          "Fallecidos": 352,
+          "vac_roll": 0,
+          "falle_roll": 379.7142857142857
+        },
+        {
+          "Fecha": "2020-10-11",
+          "Vacunados": 0,
+          "Fallecidos": 311,
+          "vac_roll": 0,
+          "falle_roll": 370.7142857142857
+        },
+        {
+          "Fecha": "2020-10-12",
+          "Vacunados": 0,
+          "Fallecidos": 321,
+          "vac_roll": 0,
+          "falle_roll": 363.57142857142856
+        },
+        {
+          "Fecha": "2020-10-13",
+          "Vacunados": 0,
+          "Fallecidos": 391,
+          "vac_roll": 0,
+          "falle_roll": 368.42857142857144
+        },
+        {
+          "Fecha": "2020-10-14",
+          "Vacunados": 0,
+          "Fallecidos": 392,
+          "vac_roll": 0,
+          "falle_roll": 370.42857142857144
+        },
+        {
+          "Fecha": "2020-10-15",
+          "Vacunados": 0,
+          "Fallecidos": 352,
+          "vac_roll": 0,
+          "falle_roll": 362.7142857142857
+        },
+        {
+          "Fecha": "2020-10-16",
+          "Vacunados": 0,
+          "Fallecidos": 334,
+          "vac_roll": 0,
+          "falle_roll": 350.42857142857144
+        },
+        {
+          "Fecha": "2020-10-17",
+          "Vacunados": 0,
+          "Fallecidos": 313,
+          "vac_roll": 0,
+          "falle_roll": 344.85714285714283
+        },
+        {
+          "Fecha": "2020-10-18",
+          "Vacunados": 0,
+          "Fallecidos": 384,
+          "vac_roll": 0,
+          "falle_roll": 355.2857142857143
+        },
+        {
+          "Fecha": "2020-10-19",
+          "Vacunados": 0,
+          "Fallecidos": 389,
+          "vac_roll": 0,
+          "falle_roll": 365
+        },
+        {
+          "Fecha": "2020-10-20",
+          "Vacunados": 0,
+          "Fallecidos": 374,
+          "vac_roll": 0,
+          "falle_roll": 362.57142857142856
+        },
+        {
+          "Fecha": "2020-10-21",
+          "Vacunados": 0,
+          "Fallecidos": 357,
+          "vac_roll": 0,
+          "falle_roll": 357.57142857142856
+        },
+        {
+          "Fecha": "2020-10-22",
+          "Vacunados": 0,
+          "Fallecidos": 341,
+          "vac_roll": 0,
+          "falle_roll": 356
+        },
+        {
+          "Fecha": "2020-10-23",
+          "Vacunados": 0,
+          "Fallecidos": 352,
+          "vac_roll": 0,
+          "falle_roll": 358.57142857142856
+        },
+        {
+          "Fecha": "2020-10-24",
+          "Vacunados": 0,
+          "Fallecidos": 355,
+          "vac_roll": 0,
+          "falle_roll": 364.57142857142856
+        },
+        {
+          "Fecha": "2020-10-25",
+          "Vacunados": 0,
+          "Fallecidos": 328,
+          "vac_roll": 0,
+          "falle_roll": 356.57142857142856
+        },
+        {
+          "Fecha": "2020-10-26",
+          "Vacunados": 0,
+          "Fallecidos": 326,
+          "vac_roll": 0,
+          "falle_roll": 347.57142857142856
+        },
+        {
+          "Fecha": "2020-10-27",
+          "Vacunados": 0,
+          "Fallecidos": 347,
+          "vac_roll": 0,
+          "falle_roll": 343.7142857142857
+        },
+        {
+          "Fecha": "2020-10-28",
+          "Vacunados": 0,
+          "Fallecidos": 323,
+          "vac_roll": 0,
+          "falle_roll": 338.85714285714283
+        },
+        {
+          "Fecha": "2020-10-29",
+          "Vacunados": 0,
+          "Fallecidos": 306,
+          "vac_roll": 0,
+          "falle_roll": 333.85714285714283
+        },
+        {
+          "Fecha": "2020-10-30",
+          "Vacunados": 0,
+          "Fallecidos": 306,
+          "vac_roll": 0,
+          "falle_roll": 327.2857142857143
+        },
+        {
+          "Fecha": "2020-10-31",
+          "Vacunados": 0,
+          "Fallecidos": 316,
+          "vac_roll": 0,
+          "falle_roll": 321.7142857142857
+        },
+        {
+          "Fecha": "2020-11-01",
+          "Vacunados": 0,
+          "Fallecidos": 316,
+          "vac_roll": 0,
+          "falle_roll": 320
+        },
+        {
+          "Fecha": "2020-11-02",
+          "Vacunados": 0,
+          "Fallecidos": 333,
+          "vac_roll": 0,
+          "falle_roll": 321
+        },
+        {
+          "Fecha": "2020-11-03",
+          "Vacunados": 0,
+          "Fallecidos": 317,
+          "vac_roll": 0,
+          "falle_roll": 316.7142857142857
+        },
+        {
+          "Fecha": "2020-11-04",
+          "Vacunados": 0,
+          "Fallecidos": 292,
+          "vac_roll": 0,
+          "falle_roll": 312.2857142857143
+        },
+        {
+          "Fecha": "2020-11-05",
+          "Vacunados": 0,
+          "Fallecidos": 307,
+          "vac_roll": 0,
+          "falle_roll": 312.42857142857144
+        },
+        {
+          "Fecha": "2020-11-06",
+          "Vacunados": 0,
+          "Fallecidos": 288,
+          "vac_roll": 0,
+          "falle_roll": 309.85714285714283
+        },
+        {
+          "Fecha": "2020-11-07",
+          "Vacunados": 0,
+          "Fallecidos": 264,
+          "vac_roll": 0,
+          "falle_roll": 302.42857142857144
+        },
+        {
+          "Fecha": "2020-11-08",
+          "Vacunados": 0,
+          "Fallecidos": 265,
+          "vac_roll": 0,
+          "falle_roll": 295.14285714285717
+        },
+        {
+          "Fecha": "2020-11-09",
+          "Vacunados": 0,
+          "Fallecidos": 282,
+          "vac_roll": 0,
+          "falle_roll": 287.85714285714283
+        },
+        {
+          "Fecha": "2020-11-10",
+          "Vacunados": 0,
+          "Fallecidos": 279,
+          "vac_roll": 0,
+          "falle_roll": 282.42857142857144
+        },
+        {
+          "Fecha": "2020-11-11",
+          "Vacunados": 0,
+          "Fallecidos": 255,
+          "vac_roll": 0,
+          "falle_roll": 277.14285714285717
+        },
+        {
+          "Fecha": "2020-11-12",
+          "Vacunados": 0,
+          "Fallecidos": 237,
+          "vac_roll": 0,
+          "falle_roll": 267.14285714285717
+        },
+        {
+          "Fecha": "2020-11-13",
+          "Vacunados": 0,
+          "Fallecidos": 233,
+          "vac_roll": 0,
+          "falle_roll": 259.2857142857143
+        },
+        {
+          "Fecha": "2020-11-14",
+          "Vacunados": 0,
+          "Fallecidos": 227,
+          "vac_roll": 0,
+          "falle_roll": 254
+        },
+        {
+          "Fecha": "2020-11-15",
+          "Vacunados": 0,
+          "Fallecidos": 216,
+          "vac_roll": 0,
+          "falle_roll": 247
+        },
+        {
+          "Fecha": "2020-11-16",
+          "Vacunados": 0,
+          "Fallecidos": 239,
+          "vac_roll": 0,
+          "falle_roll": 240.85714285714286
+        },
+        {
+          "Fecha": "2020-11-17",
+          "Vacunados": 0,
+          "Fallecidos": 249,
+          "vac_roll": 0,
+          "falle_roll": 236.57142857142858
+        },
+        {
+          "Fecha": "2020-11-18",
+          "Vacunados": 0,
+          "Fallecidos": 240,
+          "vac_roll": 0,
+          "falle_roll": 234.42857142857142
+        },
+        {
+          "Fecha": "2020-11-19",
+          "Vacunados": 0,
+          "Fallecidos": 220,
+          "vac_roll": 0,
+          "falle_roll": 232
+        },
+        {
+          "Fecha": "2020-11-20",
+          "Vacunados": 0,
+          "Fallecidos": 214,
+          "vac_roll": 0,
+          "falle_roll": 229.28571428571428
+        },
+        {
+          "Fecha": "2020-11-21",
+          "Vacunados": 0,
+          "Fallecidos": 205,
+          "vac_roll": 0,
+          "falle_roll": 226.14285714285714
+        },
+        {
+          "Fecha": "2020-11-22",
+          "Vacunados": 0,
+          "Fallecidos": 165,
+          "vac_roll": 0,
+          "falle_roll": 218.85714285714286
+        },
+        {
+          "Fecha": "2020-11-23",
+          "Vacunados": 0,
+          "Fallecidos": 203,
+          "vac_roll": 0,
+          "falle_roll": 213.71428571428572
+        },
+        {
+          "Fecha": "2020-11-24",
+          "Vacunados": 0,
+          "Fallecidos": 220,
+          "vac_roll": 0,
+          "falle_roll": 209.57142857142858
+        },
+        {
+          "Fecha": "2020-11-25",
+          "Vacunados": 0,
+          "Fallecidos": 185,
+          "vac_roll": 0,
+          "falle_roll": 201.71428571428572
+        },
+        {
+          "Fecha": "2020-11-26",
+          "Vacunados": 0,
+          "Fallecidos": 202,
+          "vac_roll": 0,
+          "falle_roll": 199.14285714285714
+        },
+        {
+          "Fecha": "2020-11-27",
+          "Vacunados": 0,
+          "Fallecidos": 176,
+          "vac_roll": 0,
+          "falle_roll": 193.71428571428572
+        },
+        {
+          "Fecha": "2020-11-28",
+          "Vacunados": 0,
+          "Fallecidos": 173,
+          "vac_roll": 0,
+          "falle_roll": 189.14285714285714
+        },
+        {
+          "Fecha": "2020-11-29",
+          "Vacunados": 0,
+          "Fallecidos": 144,
+          "vac_roll": 0,
+          "falle_roll": 186.14285714285714
+        },
+        {
+          "Fecha": "2020-11-30",
+          "Vacunados": 0,
+          "Fallecidos": 164,
+          "vac_roll": 0,
+          "falle_roll": 180.57142857142858
+        },
+        {
+          "Fecha": "2020-12-01",
+          "Vacunados": 0,
+          "Fallecidos": 144,
+          "vac_roll": 0,
+          "falle_roll": 169.71428571428572
+        },
+        {
+          "Fecha": "2020-12-02",
+          "Vacunados": 0,
+          "Fallecidos": 172,
+          "vac_roll": 0,
+          "falle_roll": 167.85714285714286
+        },
+        {
+          "Fecha": "2020-12-03",
+          "Vacunados": 0,
+          "Fallecidos": 155,
+          "vac_roll": 0,
+          "falle_roll": 161.14285714285714
+        },
+        {
+          "Fecha": "2020-12-04",
+          "Vacunados": 0,
+          "Fallecidos": 149,
+          "vac_roll": 0,
+          "falle_roll": 157.28571428571428
+        },
+        {
+          "Fecha": "2020-12-05",
+          "Vacunados": 0,
+          "Fallecidos": 117,
+          "vac_roll": 0,
+          "falle_roll": 149.28571428571428
+        },
+        {
+          "Fecha": "2020-12-06",
+          "Vacunados": 0,
+          "Fallecidos": 149,
+          "vac_roll": 0,
+          "falle_roll": 150
+        },
+        {
+          "Fecha": "2020-12-07",
+          "Vacunados": 0,
+          "Fallecidos": 130,
+          "vac_roll": 0,
+          "falle_roll": 145.14285714285714
+        },
+        {
+          "Fecha": "2020-12-08",
+          "Vacunados": 0,
+          "Fallecidos": 161,
+          "vac_roll": 0,
+          "falle_roll": 147.57142857142858
+        },
+        {
+          "Fecha": "2020-12-09",
+          "Vacunados": 0,
+          "Fallecidos": 135,
+          "vac_roll": 0,
+          "falle_roll": 142.28571428571428
+        },
+        {
+          "Fecha": "2020-12-10",
+          "Vacunados": 0,
+          "Fallecidos": 150,
+          "vac_roll": 0,
+          "falle_roll": 141.57142857142858
+        },
+        {
+          "Fecha": "2020-12-11",
+          "Vacunados": 0,
+          "Fallecidos": 140,
+          "vac_roll": 0,
+          "falle_roll": 140.28571428571428
+        },
+        {
+          "Fecha": "2020-12-12",
+          "Vacunados": 0,
+          "Fallecidos": 138,
+          "vac_roll": 0,
+          "falle_roll": 143.28571428571428
+        },
+        {
+          "Fecha": "2020-12-13",
+          "Vacunados": 0,
+          "Fallecidos": 111,
+          "vac_roll": 0,
+          "falle_roll": 137.85714285714286
+        },
+        {
+          "Fecha": "2020-12-14",
+          "Vacunados": 0,
+          "Fallecidos": 139,
+          "vac_roll": 0,
+          "falle_roll": 139.14285714285714
+        },
+        {
+          "Fecha": "2020-12-15",
+          "Vacunados": 0,
+          "Fallecidos": 121,
+          "vac_roll": 0,
+          "falle_roll": 133.42857142857142
+        },
+        {
+          "Fecha": "2020-12-16",
+          "Vacunados": 0,
+          "Fallecidos": 116,
+          "vac_roll": 0,
+          "falle_roll": 130.71428571428572
+        },
+        {
+          "Fecha": "2020-12-17",
+          "Vacunados": 0,
+          "Fallecidos": 119,
+          "vac_roll": 0,
+          "falle_roll": 126.28571428571429
+        },
+        {
+          "Fecha": "2020-12-18",
+          "Vacunados": 0,
+          "Fallecidos": 133,
+          "vac_roll": 0,
+          "falle_roll": 125.28571428571429
+        },
+        {
+          "Fecha": "2020-12-19",
+          "Vacunados": 0,
+          "Fallecidos": 119,
+          "vac_roll": 0,
+          "falle_roll": 122.57142857142857
+        },
+        {
+          "Fecha": "2020-12-20",
+          "Vacunados": 0,
+          "Fallecidos": 116,
+          "vac_roll": 0,
+          "falle_roll": 123.28571428571429
+        },
+        {
+          "Fecha": "2020-12-21",
+          "Vacunados": 0,
+          "Fallecidos": 107,
+          "vac_roll": 0,
+          "falle_roll": 118.71428571428571
+        },
+        {
+          "Fecha": "2020-12-22",
+          "Vacunados": 0,
+          "Fallecidos": 144,
+          "vac_roll": 0,
+          "falle_roll": 122
+        },
+        {
+          "Fecha": "2020-12-23",
+          "Vacunados": 0,
+          "Fallecidos": 123,
+          "vac_roll": 0,
+          "falle_roll": 123
+        },
+        {
+          "Fecha": "2020-12-24",
+          "Vacunados": 0,
+          "Fallecidos": 130,
+          "vac_roll": 0,
+          "falle_roll": 124.57142857142857
+        },
+        {
+          "Fecha": "2020-12-25",
+          "Vacunados": 0,
+          "Fallecidos": 106,
+          "vac_roll": 0,
+          "falle_roll": 120.71428571428571
+        },
+        {
+          "Fecha": "2020-12-26",
+          "Vacunados": 0,
+          "Fallecidos": 131,
+          "vac_roll": 0,
+          "falle_roll": 122.42857142857143
+        },
+        {
+          "Fecha": "2020-12-27",
+          "Vacunados": 0,
+          "Fallecidos": 136,
+          "vac_roll": 0,
+          "falle_roll": 125.28571428571429
+        },
+        {
+          "Fecha": "2020-12-28",
+          "Vacunados": 0,
+          "Fallecidos": 136,
+          "vac_roll": 0,
+          "falle_roll": 129.42857142857142
+        },
+        {
+          "Fecha": "2020-12-29",
+          "Vacunados": 20448,
+          "Fallecidos": 122,
+          "vac_roll": 2921.1428571428573,
+          "falle_roll": 126.28571428571429
+        },
+        {
+          "Fecha": "2020-12-30",
+          "Vacunados": 20045,
+          "Fallecidos": 127,
+          "vac_roll": 5784.714285714285,
+          "falle_roll": 126.85714285714286
+        },
+        {
+          "Fecha": "2020-12-31",
+          "Vacunados": 2806,
+          "Fallecidos": 124,
+          "vac_roll": 6185.571428571428,
+          "falle_roll": 126
+        },
+        {
+          "Fecha": "2021-01-01",
+          "Vacunados": 121,
+          "Fallecidos": 138,
+          "vac_roll": 6202.857142857143,
+          "falle_roll": 130.57142857142858
+        },
+        {
+          "Fecha": "2021-01-02",
+          "Vacunados": 3286,
+          "Fallecidos": 165,
+          "vac_roll": 6672.285714285715,
+          "falle_roll": 135.42857142857142
+        },
+        {
+          "Fecha": "2021-01-03",
+          "Vacunados": 437,
+          "Fallecidos": 154,
+          "vac_roll": 6734.714285714285,
+          "falle_roll": 138
+        },
+        {
+          "Fecha": "2021-01-04",
+          "Vacunados": 10406,
+          "Fallecidos": 157,
+          "vac_roll": 8221.285714285714,
+          "falle_roll": 141
+        },
+        {
+          "Fecha": "2021-01-05",
+          "Vacunados": 10708,
+          "Fallecidos": 159,
+          "vac_roll": 6829.857142857143,
+          "falle_roll": 146.28571428571428
+        },
+        {
+          "Fecha": "2021-01-06",
+          "Vacunados": 10097,
+          "Fallecidos": 131,
+          "vac_roll": 5408.714285714285,
+          "falle_roll": 146.85714285714286
+        },
+        {
+          "Fecha": "2021-01-07",
+          "Vacunados": 18191,
+          "Fallecidos": 159,
+          "vac_roll": 7606.571428571428,
+          "falle_roll": 151.85714285714286
+        },
+        {
+          "Fecha": "2021-01-08",
+          "Vacunados": 27832,
+          "Fallecidos": 162,
+          "vac_roll": 11565.285714285714,
+          "falle_roll": 155.28571428571428
+        },
+        {
+          "Fecha": "2021-01-09",
+          "Vacunados": 10178,
+          "Fallecidos": 156,
+          "vac_roll": 12549.857142857143,
+          "falle_roll": 154
+        },
+        {
+          "Fecha": "2021-01-10",
+          "Vacunados": 1156,
+          "Fallecidos": 162,
+          "vac_roll": 12652.57142857143,
+          "falle_roll": 155.14285714285714
+        },
+        {
+          "Fecha": "2021-01-11",
+          "Vacunados": 19762,
+          "Fallecidos": 170,
+          "vac_roll": 13989.142857142857,
+          "falle_roll": 157
+        },
+        {
+          "Fecha": "2021-01-12",
+          "Vacunados": 19355,
+          "Fallecidos": 168,
+          "vac_roll": 15224.42857142857,
+          "falle_roll": 158.28571428571428
+        },
+        {
+          "Fecha": "2021-01-13",
+          "Vacunados": 16719,
+          "Fallecidos": 153,
+          "vac_roll": 16170.42857142857,
+          "falle_roll": 161.42857142857142
+        },
+        {
+          "Fecha": "2021-01-14",
+          "Vacunados": 16601,
+          "Fallecidos": 146,
+          "vac_roll": 15943.285714285714,
+          "falle_roll": 159.57142857142858
+        },
+        {
+          "Fecha": "2021-01-15",
+          "Vacunados": 17391,
+          "Fallecidos": 190,
+          "vac_roll": 14451.714285714286,
+          "falle_roll": 163.57142857142858
+        },
+        {
+          "Fecha": "2021-01-16",
+          "Vacunados": 5870,
+          "Fallecidos": 171,
+          "vac_roll": 13836.285714285714,
+          "falle_roll": 165.71428571428572
+        },
+        {
+          "Fecha": "2021-01-17",
+          "Vacunados": 1053,
+          "Fallecidos": 179,
+          "vac_roll": 13821.57142857143,
+          "falle_roll": 168.14285714285714
+        },
+        {
+          "Fecha": "2021-01-18",
+          "Vacunados": 9799,
+          "Fallecidos": 181,
+          "vac_roll": 12398.285714285714,
+          "falle_roll": 169.71428571428572
+        },
+        {
+          "Fecha": "2021-01-19",
+          "Vacunados": 7793,
+          "Fallecidos": 169,
+          "vac_roll": 10746.57142857143,
+          "falle_roll": 169.85714285714286
+        },
+        {
+          "Fecha": "2021-01-20",
+          "Vacunados": 5888,
+          "Fallecidos": 193,
+          "vac_roll": 9199.285714285714,
+          "falle_roll": 175.57142857142858
+        },
+        {
+          "Fecha": "2021-01-21",
+          "Vacunados": 4763,
+          "Fallecidos": 214,
+          "vac_roll": 7508.142857142857,
+          "falle_roll": 185.28571428571428
+        },
+        {
+          "Fecha": "2021-01-22",
+          "Vacunados": 4976,
+          "Fallecidos": 183,
+          "vac_roll": 5734.571428571428,
+          "falle_roll": 184.28571428571428
+        },
+        {
+          "Fecha": "2021-01-23",
+          "Vacunados": 1095,
+          "Fallecidos": 174,
+          "vac_roll": 5052.428571428572,
+          "falle_roll": 184.71428571428572
+        },
+        {
+          "Fecha": "2021-01-24",
+          "Vacunados": 89,
+          "Fallecidos": 192,
+          "vac_roll": 4914.714285714285,
+          "falle_roll": 186.57142857142858
+        },
+        {
+          "Fecha": "2021-01-25",
+          "Vacunados": 7096,
+          "Fallecidos": 183,
+          "vac_roll": 4528.571428571428,
+          "falle_roll": 186.85714285714286
+        },
+        {
+          "Fecha": "2021-01-26",
+          "Vacunados": 5225,
+          "Fallecidos": 188,
+          "vac_roll": 4161.714285714285,
+          "falle_roll": 189.57142857142858
+        },
+        {
+          "Fecha": "2021-01-27",
+          "Vacunados": 4077,
+          "Fallecidos": 186,
+          "vac_roll": 3903,
+          "falle_roll": 188.57142857142858
+        },
+        {
+          "Fecha": "2021-01-28",
+          "Vacunados": 1423,
+          "Fallecidos": 168,
+          "vac_roll": 3425.8571428571427,
+          "falle_roll": 182
+        },
+        {
+          "Fecha": "2021-01-29",
+          "Vacunados": 1455,
+          "Fallecidos": 151,
+          "vac_roll": 2922.8571428571427,
+          "falle_roll": 177.42857142857142
+        },
+        {
+          "Fecha": "2021-01-30",
+          "Vacunados": 202,
+          "Fallecidos": 165,
+          "vac_roll": 2795.285714285714,
+          "falle_roll": 176.14285714285714
+        },
+        {
+          "Fecha": "2021-01-31",
+          "Vacunados": 8,
+          "Fallecidos": 147,
+          "vac_roll": 2783.714285714286,
+          "falle_roll": 169.71428571428572
+        },
+        {
+          "Fecha": "2021-02-01",
+          "Vacunados": 2256,
+          "Fallecidos": 159,
+          "vac_roll": 2092.285714285714,
+          "falle_roll": 166.28571428571428
+        },
+        {
+          "Fecha": "2021-02-02",
+          "Vacunados": 5590,
+          "Fallecidos": 157,
+          "vac_roll": 2144.4285714285716,
+          "falle_roll": 161.85714285714286
+        },
+        {
+          "Fecha": "2021-02-03",
+          "Vacunados": 10343,
+          "Fallecidos": 154,
+          "vac_roll": 3039.5714285714284,
+          "falle_roll": 157.28571428571428
+        },
+        {
+          "Fecha": "2021-02-04",
+          "Vacunados": 10265,
+          "Fallecidos": 165,
+          "vac_roll": 4302.714285714285,
+          "falle_roll": 156.85714285714286
+        },
+        {
+          "Fecha": "2021-02-05",
+          "Vacunados": 13732,
+          "Fallecidos": 164,
+          "vac_roll": 6056.571428571428,
+          "falle_roll": 158.71428571428572
+        },
+        {
+          "Fecha": "2021-02-06",
+          "Vacunados": 3038,
+          "Fallecidos": 146,
+          "vac_roll": 6461.714285714285,
+          "falle_roll": 156
+        },
+        {
+          "Fecha": "2021-02-07",
+          "Vacunados": 567,
+          "Fallecidos": 157,
+          "vac_roll": 6541.571428571428,
+          "falle_roll": 157.42857142857142
+        },
+        {
+          "Fecha": "2021-02-08",
+          "Vacunados": 16390,
+          "Fallecidos": 118,
+          "vac_roll": 8560.714285714286,
+          "falle_roll": 151.57142857142858
+        },
+        {
+          "Fecha": "2021-02-09",
+          "Vacunados": 14223,
+          "Fallecidos": 136,
+          "vac_roll": 9794,
+          "falle_roll": 148.57142857142858
+        },
+        {
+          "Fecha": "2021-02-10",
+          "Vacunados": 10934,
+          "Fallecidos": 153,
+          "vac_roll": 9878.42857142857,
+          "falle_roll": 148.42857142857142
+        },
+        {
+          "Fecha": "2021-02-11",
+          "Vacunados": 4635,
+          "Fallecidos": 121,
+          "vac_roll": 9074.142857142857,
+          "falle_roll": 142.14285714285714
+        },
+        {
+          "Fecha": "2021-02-12",
+          "Vacunados": 4182,
+          "Fallecidos": 122,
+          "vac_roll": 7709.857142857143,
+          "falle_roll": 136.14285714285714
+        },
+        {
+          "Fecha": "2021-02-13",
+          "Vacunados": 335,
+          "Fallecidos": 146,
+          "vac_roll": 7323.714285714285,
+          "falle_roll": 136.14285714285714
+        },
+        {
+          "Fecha": "2021-02-14",
+          "Vacunados": 18,
+          "Fallecidos": 121,
+          "vac_roll": 7245.285714285715,
+          "falle_roll": 131
+        },
+        {
+          "Fecha": "2021-02-15",
+          "Vacunados": 1071,
+          "Fallecidos": 140,
+          "vac_roll": 5056.857142857143,
+          "falle_roll": 134.14285714285714
+        },
+        {
+          "Fecha": "2021-02-16",
+          "Vacunados": 983,
+          "Fallecidos": 102,
+          "vac_roll": 3165.4285714285716,
+          "falle_roll": 129.28571428571428
+        },
+        {
+          "Fecha": "2021-02-17",
+          "Vacunados": 19337,
+          "Fallecidos": 127,
+          "vac_roll": 4365.857142857143,
+          "falle_roll": 125.57142857142857
+        },
+        {
+          "Fecha": "2021-02-18",
+          "Vacunados": 51684,
+          "Fallecidos": 143,
+          "vac_roll": 11087.142857142857,
+          "falle_roll": 128.71428571428572
+        },
+        {
+          "Fecha": "2021-02-19",
+          "Vacunados": 60020,
+          "Fallecidos": 132,
+          "vac_roll": 19064,
+          "falle_roll": 130.14285714285714
+        },
+        {
+          "Fecha": "2021-02-20",
+          "Vacunados": 30976,
+          "Fallecidos": 112,
+          "vac_roll": 23441.285714285714,
+          "falle_roll": 125.28571428571429
+        },
+        {
+          "Fecha": "2021-02-21",
+          "Vacunados": 20119,
+          "Fallecidos": 129,
+          "vac_roll": 26312.85714285714,
+          "falle_roll": 126.42857142857143
+        },
+        {
+          "Fecha": "2021-02-22",
+          "Vacunados": 65521,
+          "Fallecidos": 135,
+          "vac_roll": 35520,
+          "falle_roll": 125.71428571428571
+        },
+        {
+          "Fecha": "2021-02-23",
+          "Vacunados": 82383,
+          "Fallecidos": 128,
+          "vac_roll": 47148.57142857143,
+          "falle_roll": 129.42857142857142
+        },
+        {
+          "Fecha": "2021-02-24",
+          "Vacunados": 86740,
+          "Fallecidos": 117,
+          "vac_roll": 56777.57142857143,
+          "falle_roll": 128
+        },
+        {
+          "Fecha": "2021-02-25",
+          "Vacunados": 67437,
+          "Fallecidos": 127,
+          "vac_roll": 59028,
+          "falle_roll": 125.71428571428571
+        },
+        {
+          "Fecha": "2021-02-26",
+          "Vacunados": 70179,
+          "Fallecidos": 105,
+          "vac_roll": 60479.28571428572,
+          "falle_roll": 121.85714285714286
+        },
+        {
+          "Fecha": "2021-02-27",
+          "Vacunados": 15723,
+          "Fallecidos": 115,
+          "vac_roll": 58300.28571428572,
+          "falle_roll": 122.28571428571429
+        },
+        {
+          "Fecha": "2021-02-28",
+          "Vacunados": 5758,
+          "Fallecidos": 113,
+          "vac_roll": 56248.71428571428,
+          "falle_roll": 120
+        },
+        {
+          "Fecha": "2021-03-01",
+          "Vacunados": 66927,
+          "Fallecidos": 117,
+          "vac_roll": 56449.57142857143,
+          "falle_roll": 117.42857142857143
+        },
+        {
+          "Fecha": "2021-03-02",
+          "Vacunados": 67949,
+          "Fallecidos": 139,
+          "vac_roll": 54387.57142857143,
+          "falle_roll": 119
+        },
+        {
+          "Fecha": "2021-03-03",
+          "Vacunados": 63761,
+          "Fallecidos": 121,
+          "vac_roll": 51104.857142857145,
+          "falle_roll": 119.57142857142857
+        },
+        {
+          "Fecha": "2021-03-04",
+          "Vacunados": 97999,
+          "Fallecidos": 110,
+          "vac_roll": 55470.857142857145,
+          "falle_roll": 117.14285714285714
+        },
+        {
+          "Fecha": "2021-03-05",
+          "Vacunados": 98417,
+          "Fallecidos": 133,
+          "vac_roll": 59504.857142857145,
+          "falle_roll": 121.14285714285714
+        },
+        {
+          "Fecha": "2021-03-06",
+          "Vacunados": 51055,
+          "Fallecidos": 92,
+          "vac_roll": 64552.28571428572,
+          "falle_roll": 117.85714285714286
+        },
+        {
+          "Fecha": "2021-03-07",
+          "Vacunados": 11686,
+          "Fallecidos": 104,
+          "vac_roll": 65399.142857142855,
+          "falle_roll": 116.57142857142857
+        },
+        {
+          "Fecha": "2021-03-08",
+          "Vacunados": 99642,
+          "Fallecidos": 117,
+          "vac_roll": 70072.71428571429,
+          "falle_roll": 116.57142857142857
+        },
+        {
+          "Fecha": "2021-03-09",
+          "Vacunados": 112947,
+          "Fallecidos": 135,
+          "vac_roll": 76501,
+          "falle_roll": 116
+        },
+        {
+          "Fecha": "2021-03-10",
+          "Vacunados": 156841,
+          "Fallecidos": 123,
+          "vac_roll": 89798.14285714286,
+          "falle_roll": 116.28571428571429
+        },
+        {
+          "Fecha": "2021-03-11",
+          "Vacunados": 152856,
+          "Fallecidos": 121,
+          "vac_roll": 97634.85714285714,
+          "falle_roll": 117.85714285714286
+        },
+        {
+          "Fecha": "2021-03-12",
+          "Vacunados": 117376,
+          "Fallecidos": 139,
+          "vac_roll": 100343.28571428571,
+          "falle_roll": 118.71428571428571
+        },
+        {
+          "Fecha": "2021-03-13",
+          "Vacunados": 18928,
+          "Fallecidos": 113,
+          "vac_roll": 95753.71428571429,
+          "falle_roll": 121.71428571428571
+        },
+        {
+          "Fecha": "2021-03-14",
+          "Vacunados": 7896,
+          "Fallecidos": 108,
+          "vac_roll": 95212.28571428571,
+          "falle_roll": 122.28571428571429
+        },
+        {
+          "Fecha": "2021-03-15",
+          "Vacunados": 108092,
+          "Fallecidos": 128,
+          "vac_roll": 96419.42857142857,
+          "falle_roll": 123.85714285714286
+        },
+        {
+          "Fecha": "2021-03-16",
+          "Vacunados": 111103,
+          "Fallecidos": 102,
+          "vac_roll": 96156,
+          "falle_roll": 119.14285714285714
+        },
+        {
+          "Fecha": "2021-03-17",
+          "Vacunados": 120603,
+          "Fallecidos": 118,
+          "vac_roll": 90979.14285714286,
+          "falle_roll": 118.42857142857143
+        },
+        {
+          "Fecha": "2021-03-18",
+          "Vacunados": 94967,
+          "Fallecidos": 112,
+          "vac_roll": 82709.28571428571,
+          "falle_roll": 117.14285714285714
+        },
+        {
+          "Fecha": "2021-03-19",
+          "Vacunados": 89449,
+          "Fallecidos": 119,
+          "vac_roll": 78719.71428571429,
+          "falle_roll": 114.28571428571429
+        },
+        {
+          "Fecha": "2021-03-20",
+          "Vacunados": 37895,
+          "Fallecidos": 128,
+          "vac_roll": 81429.28571428571,
+          "falle_roll": 116.42857142857143
+        },
+        {
+          "Fecha": "2021-03-21",
+          "Vacunados": 18247,
+          "Fallecidos": 89,
+          "vac_roll": 82908,
+          "falle_roll": 113.71428571428571
+        },
+        {
+          "Fecha": "2021-03-22",
+          "Vacunados": 69659,
+          "Fallecidos": 142,
+          "vac_roll": 77417.57142857143,
+          "falle_roll": 115.71428571428571
+        },
+        {
+          "Fecha": "2021-03-23",
+          "Vacunados": 93187,
+          "Fallecidos": 137,
+          "vac_roll": 74858.14285714286,
+          "falle_roll": 120.71428571428571
+        },
+        {
+          "Fecha": "2021-03-24",
+          "Vacunados": 35932,
+          "Fallecidos": 148,
+          "vac_roll": 62762.28571428572,
+          "falle_roll": 125
+        },
+        {
+          "Fecha": "2021-03-25",
+          "Vacunados": 87184,
+          "Fallecidos": 132,
+          "vac_roll": 61650.42857142857,
+          "falle_roll": 127.85714285714286
+        },
+        {
+          "Fecha": "2021-03-26",
+          "Vacunados": 82547,
+          "Fallecidos": 130,
+          "vac_roll": 60664.42857142857,
+          "falle_roll": 129.42857142857142
+        },
+        {
+          "Fecha": "2021-03-27",
+          "Vacunados": 51643,
+          "Fallecidos": 119,
+          "vac_roll": 62628.42857142857,
+          "falle_roll": 128.14285714285714
+        },
+        {
+          "Fecha": "2021-03-28",
+          "Vacunados": 20571,
+          "Fallecidos": 135,
+          "vac_roll": 62960.42857142857,
+          "falle_roll": 134.71428571428572
+        },
+        {
+          "Fecha": "2021-03-29",
+          "Vacunados": 114491,
+          "Fallecidos": 159,
+          "vac_roll": 69365,
+          "falle_roll": 137.14285714285714
+        },
+        {
+          "Fecha": "2021-03-30",
+          "Vacunados": 156245,
+          "Fallecidos": 144,
+          "vac_roll": 78373.28571428571,
+          "falle_roll": 138.14285714285714
+        },
+        {
+          "Fecha": "2021-03-31",
+          "Vacunados": 168379,
+          "Fallecidos": 157,
+          "vac_roll": 97294.28571428571,
+          "falle_roll": 139.42857142857142
+        },
+        {
+          "Fecha": "2021-04-01",
+          "Vacunados": 114294,
+          "Fallecidos": 133,
+          "vac_roll": 101167.14285714286,
+          "falle_roll": 139.57142857142858
+        },
+        {
+          "Fecha": "2021-04-02",
+          "Vacunados": 66786,
+          "Fallecidos": 173,
+          "vac_roll": 98915.57142857143,
+          "falle_roll": 145.71428571428572
+        },
+        {
+          "Fecha": "2021-04-03",
+          "Vacunados": 73566,
+          "Fallecidos": 178,
+          "vac_roll": 102047.42857142857,
+          "falle_roll": 154.14285714285714
+        },
+        {
+          "Fecha": "2021-04-04",
+          "Vacunados": 48063,
+          "Fallecidos": 185,
+          "vac_roll": 105974.85714285714,
+          "falle_roll": 161.28571428571428
+        },
+        {
+          "Fecha": "2021-04-05",
+          "Vacunados": 154992,
+          "Fallecidos": 188,
+          "vac_roll": 111760.71428571429,
+          "falle_roll": 165.42857142857142
+        },
+        {
+          "Fecha": "2021-04-06",
+          "Vacunados": 184516,
+          "Fallecidos": 210,
+          "vac_roll": 115799.42857142857,
+          "falle_roll": 174.85714285714286
+        },
+        {
+          "Fecha": "2021-04-07",
+          "Vacunados": 230693,
+          "Fallecidos": 235,
+          "vac_roll": 124701.42857142857,
+          "falle_roll": 186
+        },
+        {
+          "Fecha": "2021-04-08",
+          "Vacunados": 229383,
+          "Fallecidos": 230,
+          "vac_roll": 141142.7142857143,
+          "falle_roll": 199.85714285714286
+        },
+        {
+          "Fecha": "2021-04-09",
+          "Vacunados": 226771,
+          "Fallecidos": 208,
+          "vac_roll": 163997.7142857143,
+          "falle_roll": 204.85714285714286
+        },
+        {
+          "Fecha": "2021-04-10",
+          "Vacunados": 86987,
+          "Fallecidos": 264,
+          "vac_roll": 165915,
+          "falle_roll": 217.14285714285714
+        },
+        {
+          "Fecha": "2021-04-11",
+          "Vacunados": 46581,
+          "Fallecidos": 205,
+          "vac_roll": 165703.2857142857,
+          "falle_roll": 220
+        },
+        {
+          "Fecha": "2021-04-12",
+          "Vacunados": 171025,
+          "Fallecidos": 257,
+          "vac_roll": 167993.7142857143,
+          "falle_roll": 229.85714285714286
+        },
+        {
+          "Fecha": "2021-04-13",
+          "Vacunados": 160401,
+          "Fallecidos": 294,
+          "vac_roll": 164548.7142857143,
+          "falle_roll": 241.85714285714286
+        },
+        {
+          "Fecha": "2021-04-14",
+          "Vacunados": 155606,
+          "Fallecidos": 285,
+          "vac_roll": 153822,
+          "falle_roll": 249
+        },
+        {
+          "Fecha": "2021-04-15",
+          "Vacunados": 128626,
+          "Fallecidos": 304,
+          "vac_roll": 139428.14285714287,
+          "falle_roll": 259.57142857142856
+        },
+        {
+          "Fecha": "2021-04-16",
+          "Vacunados": 114445,
+          "Fallecidos": 345,
+          "vac_roll": 123381.57142857143,
+          "falle_roll": 279.14285714285717
+        },
+        {
+          "Fecha": "2021-04-17",
+          "Vacunados": 39966,
+          "Fallecidos": 344,
+          "vac_roll": 116664.28571428571,
+          "falle_roll": 290.57142857142856
+        },
+        {
+          "Fecha": "2021-04-18",
+          "Vacunados": 19644,
+          "Fallecidos": 374,
+          "vac_roll": 112816.14285714286,
+          "falle_roll": 314.7142857142857
+        },
+        {
+          "Fecha": "2021-04-19",
+          "Vacunados": 75383,
+          "Fallecidos": 406,
+          "vac_roll": 99153,
+          "falle_roll": 336
+        },
+        {
+          "Fecha": "2021-04-20",
+          "Vacunados": 105606,
+          "Fallecidos": 365,
+          "vac_roll": 91325.14285714286,
+          "falle_roll": 346.14285714285717
+        },
+        {
+          "Fecha": "2021-04-21",
+          "Vacunados": 157243,
+          "Fallecidos": 424,
+          "vac_roll": 91559,
+          "falle_roll": 366
+        },
+        {
+          "Fecha": "2021-04-22",
+          "Vacunados": 163107,
+          "Fallecidos": 418,
+          "vac_roll": 96484.85714285714,
+          "falle_roll": 382.2857142857143
+        },
+        {
+          "Fecha": "2021-04-23",
+          "Vacunados": 180798,
+          "Fallecidos": 450,
+          "vac_roll": 105963.85714285714,
+          "falle_roll": 397.2857142857143
+        },
+        {
+          "Fecha": "2021-04-24",
+          "Vacunados": 90389,
+          "Fallecidos": 392,
+          "vac_roll": 113167.14285714286,
+          "falle_roll": 404.14285714285717
+        },
+        {
+          "Fecha": "2021-04-25",
+          "Vacunados": 48924,
+          "Fallecidos": 405,
+          "vac_roll": 117350,
+          "falle_roll": 408.57142857142856
+        },
+        {
+          "Fecha": "2021-04-26",
+          "Vacunados": 164749,
+          "Fallecidos": 461,
+          "vac_roll": 130116.57142857143,
+          "falle_roll": 416.42857142857144
+        },
+        {
+          "Fecha": "2021-04-27",
+          "Vacunados": 147157,
+          "Fallecidos": 459,
+          "vac_roll": 136052.42857142858,
+          "falle_roll": 429.85714285714283
+        },
+        {
+          "Fecha": "2021-04-28",
+          "Vacunados": 133887,
+          "Fallecidos": 438,
+          "vac_roll": 132715.85714285713,
+          "falle_roll": 431.85714285714283
+        },
+        {
+          "Fecha": "2021-04-29",
+          "Vacunados": 121443,
+          "Fallecidos": 446,
+          "vac_roll": 126763.85714285714,
+          "falle_roll": 435.85714285714283
+        },
+        {
+          "Fecha": "2021-04-30",
+          "Vacunados": 81254,
+          "Fallecidos": 457,
+          "vac_roll": 112543.28571428571,
+          "falle_roll": 436.85714285714283
+        },
+        {
+          "Fecha": "2021-05-01",
+          "Vacunados": 16591,
+          "Fallecidos": 489,
+          "vac_roll": 102000.71428571429,
+          "falle_roll": 450.7142857142857
+        },
+        {
+          "Fecha": "2021-05-02",
+          "Vacunados": 25999,
+          "Fallecidos": 454,
+          "vac_roll": 98725.71428571429,
+          "falle_roll": 457.7142857142857
+        },
+        {
+          "Fecha": "2021-05-03",
+          "Vacunados": 96429,
+          "Fallecidos": 474,
+          "vac_roll": 88965.71428571429,
+          "falle_roll": 459.57142857142856
+        },
+        {
+          "Fecha": "2021-05-04",
+          "Vacunados": 135010,
+          "Fallecidos": 406,
+          "vac_roll": 87230.42857142857,
+          "falle_roll": 452
+        },
+        {
+          "Fecha": "2021-05-05",
+          "Vacunados": 162086,
+          "Fallecidos": 415,
+          "vac_roll": 91258.85714285714,
+          "falle_roll": 448.7142857142857
+        },
+        {
+          "Fecha": "2021-05-06",
+          "Vacunados": 136760,
+          "Fallecidos": 453,
+          "vac_roll": 93447,
+          "falle_roll": 449.7142857142857
+        },
+        {
+          "Fecha": "2021-05-07",
+          "Vacunados": 107648,
+          "Fallecidos": 443,
+          "vac_roll": 97217.57142857143,
+          "falle_roll": 447.7142857142857
+        },
+        {
+          "Fecha": "2021-05-08",
+          "Vacunados": 31974,
+          "Fallecidos": 466,
+          "vac_roll": 99415.14285714286,
+          "falle_roll": 444.42857142857144
+        },
+        {
+          "Fecha": "2021-05-09",
+          "Vacunados": 15427,
+          "Fallecidos": 431,
+          "vac_roll": 97904.85714285714,
+          "falle_roll": 441.14285714285717
+        },
+        {
+          "Fecha": "2021-05-10",
+          "Vacunados": 76313,
+          "Fallecidos": 466,
+          "vac_roll": 95031.14285714286,
+          "falle_roll": 440
+        },
+        {
+          "Fecha": "2021-05-11",
+          "Vacunados": 74763,
+          "Fallecidos": 461,
+          "vac_roll": 86424.42857142857,
+          "falle_roll": 447.85714285714283
+        },
+        {
+          "Fecha": "2021-05-12",
+          "Vacunados": 51495,
+          "Fallecidos": 442,
+          "vac_roll": 70625.71428571429,
+          "falle_roll": 451.7142857142857
+        },
+        {
+          "Fecha": "2021-05-13",
+          "Vacunados": 36873,
+          "Fallecidos": 453,
+          "vac_roll": 56356.142857142855,
+          "falle_roll": 451.7142857142857
+        },
+        {
+          "Fecha": "2021-05-14",
+          "Vacunados": 39720,
+          "Fallecidos": 485,
+          "vac_roll": 46652.142857142855,
+          "falle_roll": 457.7142857142857
+        },
+        {
+          "Fecha": "2021-05-15",
+          "Vacunados": 44033,
+          "Fallecidos": 449,
+          "vac_roll": 48374.857142857145,
+          "falle_roll": 455.2857142857143
+        },
+        {
+          "Fecha": "2021-05-16",
+          "Vacunados": 23970,
+          "Fallecidos": 443,
+          "vac_roll": 49595.28571428572,
+          "falle_roll": 457
+        },
+        {
+          "Fecha": "2021-05-17",
+          "Vacunados": 88863,
+          "Fallecidos": 526,
+          "vac_roll": 51388.142857142855,
+          "falle_roll": 465.57142857142856
+        },
+        {
+          "Fecha": "2021-05-18",
+          "Vacunados": 152496,
+          "Fallecidos": 502,
+          "vac_roll": 62492.857142857145,
+          "falle_roll": 471.42857142857144
+        },
+        {
+          "Fecha": "2021-05-19",
+          "Vacunados": 129574,
+          "Fallecidos": 485,
+          "vac_roll": 73647,
+          "falle_roll": 477.57142857142856
+        },
+        {
+          "Fecha": "2021-05-20",
+          "Vacunados": 138305,
+          "Fallecidos": 526,
+          "vac_roll": 88137.28571428571,
+          "falle_roll": 488
+        },
+        {
+          "Fecha": "2021-05-21",
+          "Vacunados": 90238,
+          "Fallecidos": 506,
+          "vac_roll": 95354.14285714286,
+          "falle_roll": 491
+        },
+        {
+          "Fecha": "2021-05-22",
+          "Vacunados": 55998,
+          "Fallecidos": 496,
+          "vac_roll": 97063.42857142857,
+          "falle_roll": 497.7142857142857
+        },
+        {
+          "Fecha": "2021-05-23",
+          "Vacunados": 22196,
+          "Fallecidos": 552,
+          "vac_roll": 96810,
+          "falle_roll": 513.2857142857143
+        },
+        {
+          "Fecha": "2021-05-24",
+          "Vacunados": 67548,
+          "Fallecidos": 538,
+          "vac_roll": 93765,
+          "falle_roll": 515
+        },
+        {
+          "Fecha": "2021-05-25",
+          "Vacunados": 36322,
+          "Fallecidos": 561,
+          "vac_roll": 77168.71428571429,
+          "falle_roll": 523.4285714285714
+        },
+        {
+          "Fecha": "2021-05-26",
+          "Vacunados": 87501,
+          "Fallecidos": 599,
+          "vac_roll": 71158.28571428571,
+          "falle_roll": 539.7142857142857
+        },
+        {
+          "Fecha": "2021-05-27",
+          "Vacunados": 86288,
+          "Fallecidos": 608,
+          "vac_roll": 63727.28571428572,
+          "falle_roll": 551.4285714285714
+        },
+        {
+          "Fecha": "2021-05-28",
+          "Vacunados": 122191,
+          "Fallecidos": 580,
+          "vac_roll": 68292,
+          "falle_roll": 562
+        },
+        {
+          "Fecha": "2021-05-29",
+          "Vacunados": 163471,
+          "Fallecidos": 542,
+          "vac_roll": 83645.28571428571,
+          "falle_roll": 568.5714285714286
+        },
+        {
+          "Fecha": "2021-05-30",
+          "Vacunados": 110684,
+          "Fallecidos": 596,
+          "vac_roll": 96286.42857142857,
+          "falle_roll": 574.8571428571429
+        },
+        {
+          "Fecha": "2021-05-31",
+          "Vacunados": 233039,
+          "Fallecidos": 629,
+          "vac_roll": 119928,
+          "falle_roll": 587.8571428571429
+        },
+        {
+          "Fecha": "2021-06-01",
+          "Vacunados": 258801,
+          "Fallecidos": 571,
+          "vac_roll": 151710.7142857143,
+          "falle_roll": 589.2857142857143
+        },
+        {
+          "Fecha": "2021-06-02",
+          "Vacunados": 253959,
+          "Fallecidos": 609,
+          "vac_roll": 175490.42857142858,
+          "falle_roll": 590.7142857142857
+        },
+        {
+          "Fecha": "2021-06-03",
+          "Vacunados": 310358,
+          "Fallecidos": 620,
+          "vac_roll": 207500.42857142858,
+          "falle_roll": 592.4285714285714
+        },
+        {
+          "Fecha": "2021-06-04",
+          "Vacunados": 357243,
+          "Fallecidos": 565,
+          "vac_roll": 241079.2857142857,
+          "falle_roll": 590.2857142857143
+        },
+        {
+          "Fecha": "2021-06-05",
+          "Vacunados": 301941,
+          "Fallecidos": 567,
+          "vac_roll": 260860.7142857143,
+          "falle_roll": 593.8571428571429
+        },
+        {
+          "Fecha": "2021-06-06",
+          "Vacunados": 201661,
+          "Fallecidos": 572,
+          "vac_roll": 273857.4285714286,
+          "falle_roll": 590.4285714285714
+        },
+        {
+          "Fecha": "2021-06-07",
+          "Vacunados": 300172,
+          "Fallecidos": 595,
+          "vac_roll": 283447.85714285716,
+          "falle_roll": 585.5714285714286
+        },
+        {
+          "Fecha": "2021-06-08",
+          "Vacunados": 329827,
+          "Fallecidos": 594,
+          "vac_roll": 293594.4285714286,
+          "falle_roll": 588.8571428571429
+        },
+        {
+          "Fecha": "2021-06-09",
+          "Vacunados": 344329,
+          "Fallecidos": 545,
+          "vac_roll": 306504.4285714286,
+          "falle_roll": 579.7142857142857
+        },
+        {
+          "Fecha": "2021-06-10",
+          "Vacunados": 310420,
+          "Fallecidos": 505,
+          "vac_roll": 306513.28571428574,
+          "falle_roll": 563.2857142857143
+        },
+        {
+          "Fecha": "2021-06-11",
+          "Vacunados": 315591,
+          "Fallecidos": 568,
+          "vac_roll": 300563,
+          "falle_roll": 563.7142857142857
+        },
+        {
+          "Fecha": "2021-06-12",
+          "Vacunados": 102604,
+          "Fallecidos": 519,
+          "vac_roll": 272086.28571428574,
+          "falle_roll": 556.8571428571429
+        },
+        {
+          "Fecha": "2021-06-13",
+          "Vacunados": 37884,
+          "Fallecidos": 536,
+          "vac_roll": 248689.57142857142,
+          "falle_roll": 551.7142857142857
+        },
+        {
+          "Fecha": "2021-06-14",
+          "Vacunados": 150523,
+          "Fallecidos": 532,
+          "vac_roll": 227311.14285714287,
+          "falle_roll": 542.7142857142857
+        },
+        {
+          "Fecha": "2021-06-15",
+          "Vacunados": 169603,
+          "Fallecidos": 471,
+          "vac_roll": 204422,
+          "falle_roll": 525.1428571428571
+        },
+        {
+          "Fecha": "2021-06-16",
+          "Vacunados": 209764,
+          "Fallecidos": 470,
+          "vac_roll": 185198.42857142858,
+          "falle_roll": 514.4285714285714
+        },
+        {
+          "Fecha": "2021-06-17",
+          "Vacunados": 243612,
+          "Fallecidos": 496,
+          "vac_roll": 175654.42857142858,
+          "falle_roll": 513.1428571428571
+        },
+        {
+          "Fecha": "2021-06-18",
+          "Vacunados": 348315,
+          "Fallecidos": 486,
+          "vac_roll": 180329.2857142857,
+          "falle_roll": 501.42857142857144
+        },
+        {
+          "Fecha": "2021-06-19",
+          "Vacunados": 207755,
+          "Fallecidos": 462,
+          "vac_roll": 195350.85714285713,
+          "falle_roll": 493.2857142857143
+        },
+        {
+          "Fecha": "2021-06-20",
+          "Vacunados": 94481,
+          "Fallecidos": 401,
+          "vac_roll": 203436.14285714287,
+          "falle_roll": 474
+        },
+        {
+          "Fecha": "2021-06-21",
+          "Vacunados": 143089,
+          "Fallecidos": 428,
+          "vac_roll": 202374.14285714287,
+          "falle_roll": 459.14285714285717
+        },
+        {
+          "Fecha": "2021-06-22",
+          "Vacunados": 244761,
+          "Fallecidos": 439,
+          "vac_roll": 213111,
+          "falle_roll": 454.57142857142856
+        },
+        {
+          "Fecha": "2021-06-23",
+          "Vacunados": 229096,
+          "Fallecidos": 386,
+          "vac_roll": 215872.7142857143,
+          "falle_roll": 442.57142857142856
+        },
+        {
+          "Fecha": "2021-06-24",
+          "Vacunados": 264923,
+          "Fallecidos": 389,
+          "vac_roll": 218917.14285714287,
+          "falle_roll": 427.2857142857143
+        },
+        {
+          "Fecha": "2021-06-25",
+          "Vacunados": 298740,
+          "Fallecidos": 387,
+          "vac_roll": 211835,
+          "falle_roll": 413.14285714285717
+        },
+        {
+          "Fecha": "2021-06-26",
+          "Vacunados": 232037,
+          "Fallecidos": 356,
+          "vac_roll": 215303.85714285713,
+          "falle_roll": 398
+        },
+        {
+          "Fecha": "2021-06-27",
+          "Vacunados": 152256,
+          "Fallecidos": 323,
+          "vac_roll": 223557.42857142858,
+          "falle_roll": 386.85714285714283
+        },
+        {
+          "Fecha": "2021-06-28",
+          "Vacunados": 311826,
+          "Fallecidos": 359,
+          "vac_roll": 247662.7142857143,
+          "falle_roll": 377
+        },
+        {
+          "Fecha": "2021-06-29",
+          "Vacunados": 317611,
+          "Fallecidos": 363,
+          "vac_roll": 258069.85714285713,
+          "falle_roll": 366.14285714285717
+        },
+        {
+          "Fecha": "2021-06-30",
+          "Vacunados": 329662,
+          "Fallecidos": 371,
+          "vac_roll": 272436.4285714286,
+          "falle_roll": 364
+        },
+        {
+          "Fecha": "2021-07-01",
+          "Vacunados": 301330,
+          "Fallecidos": 313,
+          "vac_roll": 277637.4285714286,
+          "falle_roll": 353.14285714285717
+        },
+        {
+          "Fecha": "2021-07-02",
+          "Vacunados": 321268,
+          "Fallecidos": 353,
+          "vac_roll": 280855.71428571426,
+          "falle_roll": 348.2857142857143
+        },
+        {
+          "Fecha": "2021-07-03",
+          "Vacunados": 248437,
+          "Fallecidos": 327,
+          "vac_roll": 283198.5714285714,
+          "falle_roll": 344.14285714285717
+        },
+        {
+          "Fecha": "2021-07-04",
+          "Vacunados": 172569,
+          "Fallecidos": 316,
+          "vac_roll": 286100.4285714286,
+          "falle_roll": 343.14285714285717
+        },
+        {
+          "Fecha": "2021-07-05",
+          "Vacunados": 228677,
+          "Fallecidos": 348,
+          "vac_roll": 274222,
+          "falle_roll": 341.57142857142856
+        },
+        {
+          "Fecha": "2021-07-06",
+          "Vacunados": 263775,
+          "Fallecidos": 305,
+          "vac_roll": 266531.14285714284,
+          "falle_roll": 333.2857142857143
+        },
+        {
+          "Fecha": "2021-07-07",
+          "Vacunados": 278469,
+          "Fallecidos": 298,
+          "vac_roll": 259217.85714285713,
+          "falle_roll": 322.85714285714283
+        },
+        {
+          "Fecha": "2021-07-08",
+          "Vacunados": 357022,
+          "Fallecidos": 324,
+          "vac_roll": 267173.85714285716,
+          "falle_roll": 324.42857142857144
+        },
+        {
+          "Fecha": "2021-07-09",
+          "Vacunados": 246069,
+          "Fallecidos": 279,
+          "vac_roll": 256431.14285714287,
+          "falle_roll": 313.85714285714283
+        },
+        {
+          "Fecha": "2021-07-10",
+          "Vacunados": 293515,
+          "Fallecidos": 243,
+          "vac_roll": 262870.85714285716,
+          "falle_roll": 301.85714285714283
+        },
+        {
+          "Fecha": "2021-07-11",
+          "Vacunados": 153785,
+          "Fallecidos": 256,
+          "vac_roll": 260187.42857142858,
+          "falle_roll": 293.2857142857143
+        },
+        {
+          "Fecha": "2021-07-12",
+          "Vacunados": 342531,
+          "Fallecidos": 261,
+          "vac_roll": 276452.28571428574,
+          "falle_roll": 280.85714285714283
+        },
+        {
+          "Fecha": "2021-07-13",
+          "Vacunados": 351524,
+          "Fallecidos": 247,
+          "vac_roll": 288987.85714285716,
+          "falle_roll": 272.57142857142856
+        },
+        {
+          "Fecha": "2021-07-14",
+          "Vacunados": 346743,
+          "Fallecidos": 247,
+          "vac_roll": 298741.28571428574,
+          "falle_roll": 265.2857142857143
+        },
+        {
+          "Fecha": "2021-07-15",
+          "Vacunados": 324580,
+          "Fallecidos": 231,
+          "vac_roll": 294106.71428571426,
+          "falle_roll": 252
+        },
+        {
+          "Fecha": "2021-07-16",
+          "Vacunados": 331520,
+          "Fallecidos": 215,
+          "vac_roll": 306314,
+          "falle_roll": 242.85714285714286
+        },
+        {
+          "Fecha": "2021-07-17",
+          "Vacunados": 216258,
+          "Fallecidos": 181,
+          "vac_roll": 295277.28571428574,
+          "falle_roll": 234
+        },
+        {
+          "Fecha": "2021-07-18",
+          "Vacunados": 126993,
+          "Fallecidos": 147,
+          "vac_roll": 291449.85714285716,
+          "falle_roll": 218.42857142857142
+        },
+        {
+          "Fecha": "2021-07-19",
+          "Vacunados": 315099,
+          "Fallecidos": 136,
+          "vac_roll": 287531,
+          "falle_roll": 200.57142857142858
+        },
+        {
+          "Fecha": "2021-07-20",
+          "Vacunados": 216477,
+          "Fallecidos": 151,
+          "vac_roll": 268238.5714285714,
+          "falle_roll": 186.85714285714286
+        },
+        {
+          "Fecha": "2021-07-21",
+          "Vacunados": 299261,
+          "Fallecidos": 125,
+          "vac_roll": 261455.42857142858,
+          "falle_roll": 169.42857142857142
+        },
+        {
+          "Fecha": "2021-07-22",
+          "Vacunados": 290864,
+          "Fallecidos": 105,
+          "vac_roll": 256638.85714285713,
+          "falle_roll": 151.42857142857142
+        },
+        {
+          "Fecha": "2021-07-23",
+          "Vacunados": 281235,
+          "Fallecidos": 98,
+          "vac_roll": 249455.2857142857,
+          "falle_roll": 134.71428571428572
+        },
+        {
+          "Fecha": "2021-07-24",
+          "Vacunados": 171520,
+          "Fallecidos": 80,
+          "vac_roll": 243064.14285714287,
+          "falle_roll": 120.28571428571429
+        },
+        {
+          "Fecha": "2021-07-25",
+          "Vacunados": 119150,
+          "Fallecidos": 61,
+          "vac_roll": 241943.7142857143,
+          "falle_roll": 108
+        },
+        {
+          "Fecha": "2021-07-26",
+          "Vacunados": 197463,
+          "Fallecidos": 34,
+          "vac_roll": 225138.57142857142,
+          "falle_roll": 93.42857142857143
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-b6e6c156eb462f375d1f4d09bbaa5409",
+      "transform": [
+        {"type": "formula", "expr": "toDate(datum[\"Fecha\"])", "as": "Fecha"},
+        {"type": "formula", "expr": "'Muertes'", "as": "Muertes"},
+        {"type": "formula", "expr": "'Vacunas'", "as": "Vacunas"}
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "impute",
+          "field": "falle_roll",
+          "groupby": ["Muertes"],
+          "key": "Fecha",
+          "method": "value",
+          "value": 0
+        },
+        {
+          "type": "stack",
+          "groupby": ["Fecha"],
+          "field": "falle_roll",
+          "sort": {"field": ["Muertes"], "order": ["descending"]},
+          "as": ["falle_roll_start", "falle_roll_end"],
+          "offset": "zero"
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "impute",
+          "field": "vac_roll",
+          "groupby": ["Vacunas"],
+          "key": "Fecha",
+          "method": "value",
+          "value": 0
+        },
+        {
+          "type": "stack",
+          "groupby": ["Fecha"],
+          "field": "vac_roll",
+          "sort": {"field": ["Vacunas"], "order": ["descending"]},
+          "as": ["vac_roll_start", "vac_roll_end"],
+          "offset": "zero"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_pathgroup",
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "faceted_path_layer_0_main",
+          "data": "data_1",
+          "groupby": ["Muertes"]
+        }
+      },
+      "encode": {
+        "update": {
+          "width": {"field": {"group": "width"}},
+          "height": {"field": {"group": "height"}}
+        }
+      },
+      "marks": [
+        {
+          "name": "layer_0_marks",
+          "type": "area",
+          "style": ["area"],
+          "sort": {"field": "datum[\"Fecha\"]"},
+          "from": {"data": "faceted_path_layer_0_main"},
+          "encode": {
+            "update": {
+              "opacity": {"value": 0.25},
+              "orient": {"value": "vertical"},
+              "fill": {"scale": "color", "field": "Muertes"},
+              "tooltip": {
+                "signal": "{\"Fecha\": timeFormat(datum[\"Fecha\"], '%b %d, %Y'), \"Fallecidos\": format(datum[\"Fallecidos\"], \"\"), \"Vacunados\": format(datum[\"Vacunados\"], \"\")}"
+              },
+              "x": {"scale": "x", "field": "Fecha"},
+              "y": {"scale": "layer_0_y", "field": "falle_roll_end"},
+              "y2": {"scale": "layer_0_y", "field": "falle_roll_start"},
+              "defined": {
+                "signal": "isValid(datum[\"Fecha\"]) && isFinite(+datum[\"Fecha\"]) && isValid(datum[\"falle_roll\"]) && isFinite(+datum[\"falle_roll\"])"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "layer_1_pathgroup",
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "faceted_path_layer_1_main",
+          "data": "data_2",
+          "groupby": ["Vacunas"]
+        }
+      },
+      "encode": {
+        "update": {
+          "width": {"field": {"group": "width"}},
+          "height": {"field": {"group": "height"}}
+        }
+      },
+      "marks": [
+        {
+          "name": "layer_1_marks",
+          "type": "area",
+          "style": ["area"],
+          "sort": {"field": "datum[\"Fecha\"]"},
+          "from": {"data": "faceted_path_layer_1_main"},
+          "encode": {
+            "update": {
+              "opacity": {"value": 0.45},
+              "orient": {"value": "vertical"},
+              "fill": {"scale": "color", "field": "Vacunas"},
+              "tooltip": {
+                "signal": "{\"Fecha\": timeFormat(datum[\"Fecha\"], '%b %d, %Y'), \"Fallecidos\": format(datum[\"Fallecidos\"], \"\"), \"Vacunados\": format(datum[\"Vacunados\"], \"\")}"
+              },
+              "x": {"scale": "x", "field": "Fecha"},
+              "y": {"scale": "layer_1_y", "field": "vac_roll_end"},
+              "y2": {"scale": "layer_1_y", "field": "vac_roll_start"},
+              "defined": {
+                "signal": "isValid(datum[\"Fecha\"]) && isFinite(+datum[\"Fecha\"]) && isValid(datum[\"vac_roll\"]) && isFinite(+datum[\"vac_roll\"])"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {
+        "fields": [
+          {"data": "data_1", "field": "Fecha"},
+          {"data": "data_2", "field": "Fecha"}
+        ]
+      },
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["Muertes", "Vacunas"],
+      "range": ["red", "#026b83"]
+    },
+    {
+      "name": "layer_0_y",
+      "type": "linear",
+      "domain": [0, 1000],
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "layer_1_y",
+      "type": "linear",
+      "domain": {
+        "data": "data_2",
+        "fields": ["vac_roll_start", "vac_roll_end"]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "layer_0_y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "layer_0_y",
+      "orient": "left",
+      "grid": false,
+      "title": "Fallecidos por día",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "layer_1_y",
+      "orient": "right",
+      "grid": false,
+      "title": "Vacunas por día",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "symbolType": "circle",
+      "encode": {"symbols": {"update": {"opacity": {"value": 0.25}}}}
+    }
+  ]
+}
